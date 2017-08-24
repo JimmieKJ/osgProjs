@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtMultimediaWidgets">
+    <examples>
+        <example name="Camera Example" docUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/qtmultimediawidgets-camera-example.html" projectPath="multimediawidgets/camera/camera.pro" imageUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/images/camera-example.png">
+            <description><![CDATA[The Camera Example shows how to use the API to capture a still image or video.]]></description>
+            <tags>camera,multimedia,widgets</tags>
+            <fileToOpen>multimediawidgets/camera/main.cpp</fileToOpen>
+            <fileToOpen>multimediawidgets/camera/camera.h</fileToOpen>
+            <fileToOpen mainFile="true">multimediawidgets/camera/camera.cpp</fileToOpen>
+        </example>
+        <example name="Media Player Example" docUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/qtmultimediawidgets-player-example.html" projectPath="multimediawidgets/player/player.pro" imageUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/images/mediaplayerex.jpg">
+            <description><![CDATA[Playing audio and video.]]></description>
+            <tags>media,multimedia,widgets,player</tags>
+            <fileToOpen>multimediawidgets/player/main.cpp</fileToOpen>
+            <fileToOpen>multimediawidgets/player/player.h</fileToOpen>
+            <fileToOpen mainFile="true">multimediawidgets/player/player.cpp</fileToOpen>
+        </example>
+        <example name="Video Graphics Item Example" docUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/qtmultimediawidgets-videographicsitem-example.html" projectPath="multimediawidgets/videographicsitem/videographicsitem.pro" imageUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/images/video-videographicsitem.png">
+            <description><![CDATA[Streaming video on a graphics scene.]]></description>
+            <tags>multimedia,widgets,video,item,graphics</tags>
+            <fileToOpen mainFile="true">multimediawidgets/videographicsitem/main.cpp</fileToOpen>
+        </example>
+        <example name="Video Widget Example" docUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/qtmultimediawidgets-videowidget-example.html" projectPath="multimediawidgets/videowidget/videowidget.pro" imageUrl="qthelp://org.qt-project.qtmultimediawidgets.551/qtmultimediawidgets/images/video-videowidget.png">
+            <description><![CDATA[Implementing a video player widget.]]></description>
+            <tags>multimedia,widgets,widget,video</tags>
+            <fileToOpen mainFile="true">multimediawidgets/videowidget/main.cpp</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

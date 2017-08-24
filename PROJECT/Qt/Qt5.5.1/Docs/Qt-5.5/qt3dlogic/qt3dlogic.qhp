@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qt3dlogic.551</namespace>
+    <virtualFolder>qt3dlogic</virtualFolder>
+    <customFilter name="Qt3DLogic 5.5.1">
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qt3dlogic</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qt3dlogic</filterAttribute>
+        <toc>
+            <section ref="index.html" title="Qt3D Module">
+                <section ref="" title="C++ Classes"/>
+                <section ref="" title="QML Types">
+                    <section ref="qml-configuration.html" title="Configuration Type Reference">
+                        <section ref="qml-configuration-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-entity.html" title="Entity Type Reference">
+                        <section ref="qml-entity-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-entityloader.html" title="EntityLoader Type Reference">
+                        <section ref="qml-entityloader-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-keyevent.html" title="KeyEvent Type Reference">
+                        <section ref="qml-keyevent-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-keyboardcontroller.html" title="KeyboardController Type Reference">
+                        <section ref="qml-keyboardcontroller-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-keyboardinput.html" title="KeyboardInput Type Reference">
+                        <section ref="qml-keyboardinput-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-logiccomponent.html" title="LogicComponent Type Reference">
+                        <section ref="qml-logiccomponent-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-node.html" title="Node Type Reference">
+                        <section ref="qml-node-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-nodeinstantiator.html" title="NodeInstantiator Type Reference">
+                        <section ref="qml-nodeinstantiator-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-transform.html" title="Transform Type Reference">
+                        <section ref="qml-transform-members.html" title="List of all members"/>
+                    </section>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Configuration" id="QML.Configuration" ref="qml-configuration.html"/>
+            <keyword name="controlledCamera" id="Configuration::controlledCamera" ref="qml-configuration.html#controlledCamera-prop"/>
+            <keyword name="Entity" id="QML.Entity" ref="qml-entity.html"/>
+            <keyword name="components" id="Entity::components" ref="qml-entity.html#components-prop"/>
+            <keyword name="EntityLoader" id="QML.EntityLoader" ref="qml-entityloader.html"/>
+            <keyword name="entity" id="EntityLoader::entity" ref="qml-entityloader.html#entity-prop"/>
+            <keyword name="source" id="EntityLoader::source" ref="qml-entityloader.html#source-prop"/>
+            <keyword name="KeyEvent" id="QML.KeyEvent" ref="qml-keyevent.html"/>
+            <keyword name="accepted" id="KeyEvent::accepted" ref="qml-keyevent.html#accepted-prop"/>
+            <keyword name="count" id="KeyEvent::count" ref="qml-keyevent.html#count-prop"/>
+            <keyword name="isAutoRepeat" id="KeyEvent::isAutoRepeat" ref="qml-keyevent.html#isAutoRepeat-prop"/>
+            <keyword name="key" id="KeyEvent::key" ref="qml-keyevent.html#key-prop"/>
+            <keyword name="matches" id="KeyEvent::matches" ref="qml-keyevent.html#matches-method"/>
+            <keyword name="modifiers" id="KeyEvent::modifiers" ref="qml-keyevent.html#modifiers-prop"/>
+            <keyword name="nativeScanCodei" id="KeyEvent::nativeScanCodei" ref="qml-keyevent.html#nativeScanCodei-prop"/>
+            <keyword name="text" id="KeyEvent::text" ref="qml-keyevent.html#text-prop"/>
+            <keyword name="KeyboardController" id="QML.KeyboardController" ref="qml-keyboardcontroller.html"/>
+            <keyword name="activeInput" id="KeyboardController::activeInput" ref="qml-keyboardcontroller.html#activeInput-prop"/>
+            <keyword name="KeyboardInput" id="QML.KeyboardInput" ref="qml-keyboardinput.html"/>
+            <keyword name="asteriskPressed" id="KeyboardInput::asteriskPressed" ref="qml-keyboardinput.html#asteriskPressed-signal"/>
+            <keyword name="backtabPressed" id="KeyboardInput::backtabPressed" ref="qml-keyboardinput.html#backtabPressed-signal"/>
+            <keyword name="controller" id="KeyboardInput::controller" ref="qml-keyboardinput.html#controller-prop"/>
+            <keyword name="digit0Pressed" id="KeyboardInput::digit0Pressed" ref="qml-keyboardinput.html#digit0Pressed-signal"/>
+            <keyword name="digit1Pressed" id="KeyboardInput::digit1Pressed" ref="qml-keyboardinput.html#digit1Pressed-signal"/>
+            <keyword name="digit2Pressed" id="KeyboardInput::digit2Pressed" ref="qml-keyboardinput.html#digit2Pressed-signal"/>
+            <keyword name="digit3Pressed" id="KeyboardInput::digit3Pressed" ref="qml-keyboardinput.html#digit3Pressed-signal"/>
+            <keyword name="digit4Pressed" id="KeyboardInput::digit4Pressed" ref="qml-keyboardinput.html#digit4Pressed-signal"/>
+            <keyword name="digit5Pressed" id="KeyboardInput::digit5Pressed" ref="qml-keyboardinput.html#digit5Pressed-signal"/>
+            <keyword name="digit6Pressed" id="KeyboardInput::digit6Pressed" ref="qml-keyboardinput.html#digit6Pressed-signal"/>
+            <keyword name="digit7Pressed" id="KeyboardInput::digit7Pressed" ref="qml-keyboardinput.html#digit7Pressed-signal"/>
+            <keyword name="digit8Pressed" id="KeyboardInput::digit8Pressed" ref="qml-keyboardinput.html#digit8Pressed-signal"/>
+            <keyword name="digit9Pressed" id="KeyboardInput::digit9Pressed" ref="qml-keyboardinput.html#digit9Pressed-signal"/>
+            <keyword name="downPressed" id="KeyboardInput::downPressed" ref="qml-keyboardinput.html#downPressed-signal"/>
+            <keyword name="focus" id="KeyboardInput::focus" ref="qml-keyboardinput.html#focus-prop"/>
+            <keyword name="leftPressed" id="KeyboardInput::leftPressed" ref="qml-keyboardinput.html#leftPressed-signal"/>
+            <keyword name="numberSignPressed" id="KeyboardInput::numberSignPressed" ref="qml-keyboardinput.html#numberSignPressed-signal"/>
+            <keyword name="rightPressed" id="KeyboardInput::rightPressed" ref="qml-keyboardinput.html#rightPressed-signal"/>
+            <keyword name="tabPressed" id="KeyboardInput::tabPressed" ref="qml-keyboardinput.html#tabPressed-signal"/>
+            <keyword name="upPressed" id="KeyboardInput::upPressed" ref="qml-keyboardinput.html#upPressed-signal"/>
+            <keyword name="LogicComponent" id="QML.LogicComponent" ref="qml-logiccomponent.html"/>
+            <keyword name="Node" id="QML.Node" ref="qml-node.html"/>
+            <keyword name="childNodes" id="Node::childNodes" ref="qml-node.html#childNodes-prop"/>
+            <keyword name="data" id="Node::data" ref="qml-node.html#data-prop"/>
+            <keyword name="NodeInstantiator" id="QML.NodeInstantiator" ref="qml-nodeinstantiator.html"/>
+            <keyword name="active" id="NodeInstantiator::active" ref="qml-nodeinstantiator.html#active-prop"/>
+            <keyword name="asynchronous" id="NodeInstantiator::asynchronous" ref="qml-nodeinstantiator.html#asynchronous-prop"/>
+            <keyword name="count" id="NodeInstantiator::count" ref="qml-nodeinstantiator.html#count-prop"/>
+            <keyword name="delegate" id="NodeInstantiator::delegate" ref="qml-nodeinstantiator.html#delegate-prop"/>
+            <keyword name="model" id="NodeInstantiator::model" ref="qml-nodeinstantiator.html#model-prop"/>
+            <keyword name="object" id="NodeInstantiator::object" ref="qml-nodeinstantiator.html#object-prop"/>
+            <keyword name="objectAdded" id="NodeInstantiator::objectAdded" ref="qml-nodeinstantiator.html#objectAdded-signal"/>
+            <keyword name="objectRemoved" id="NodeInstantiator::objectRemoved" ref="qml-nodeinstantiator.html#objectRemoved-signal"/>
+            <keyword name="Transform" id="QML.Transform" ref="qml-transform.html"/>
+            <keyword name="matrix" id="Transform::matrix" ref="qml-transform.html#matrix-prop"/>
+            <keyword name="transforms" id="Transform::transforms" ref="qml-transform.html#transforms-prop"/>
+        </keywords>
+        <files>
+            <file>qml-nodeinstantiator.html</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qml-keyboardcontroller-members.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/ico_note.png</file>
+            <file>qml-entity.html</file>
+            <file>style/offline.css</file>
+            <file>images/btn_prev.png</file>
+            <file>qml-keyboardcontroller.html</file>
+            <file>qml-keyboardinput.html</file>
+            <file>qml-nodeinstantiator-members.html</file>
+            <file>qml-configuration.html</file>
+            <file>qml-keyevent.html</file>
+            <file>qml-configuration-members.html</file>
+            <file>qml-entityloader.html</file>
+            <file>qml-keyboardinput-members.html</file>
+            <file>images/home.png</file>
+            <file>qml-logiccomponent-members.html</file>
+            <file>qml-node.html</file>
+            <file>qml-transform.html</file>
+            <file>qml-keyevent-members.html</file>
+            <file>images/btn_next.png</file>
+            <file>images/logo.png</file>
+            <file>images/bgrContent.png</file>
+            <file>qml-entity-members.html</file>
+            <file>qml-transform-members.html</file>
+            <file>qml-logiccomponent.html</file>
+            <file>images/ico_out.png</file>
+            <file>qml-entityloader-members.html</file>
+            <file>images/bullet_sq.png</file>
+            <file>images/arrow_bc.png</file>
+            <file>qml-node-members.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

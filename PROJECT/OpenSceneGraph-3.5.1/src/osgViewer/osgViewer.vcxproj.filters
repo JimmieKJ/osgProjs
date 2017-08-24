@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="config\AcrossAllScreens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\PanoramicSphericalDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\SingleScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\SingleWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\SphericalDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\WoWVxDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keystone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenCaptureHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewerBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewerEventHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsWindowWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelBufferWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgViewer\CompositeViewer">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\GraphicsWindow">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Keystone">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Renderer">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Scene">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Version">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\View">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\Viewer">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\ViewerBase">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\ViewerEventHandlers">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\api\Win32\GraphicsHandleWin32">
+      <Filter>Header Files\api</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\api\Win32\GraphicsWindowWin32">
+      <Filter>Header Files\api</Filter>
+    </None>
+    <None Include="..\..\include\osgViewer\api\Win32\PixelBufferWin32">
+      <Filter>Header Files\api</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\api">
+      <UniqueIdentifier>{4271BE8F-F2CE-303E-921D-D1ADFC08389B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

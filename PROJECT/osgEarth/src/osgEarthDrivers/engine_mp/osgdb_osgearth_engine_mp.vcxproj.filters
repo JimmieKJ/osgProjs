@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="HeightFieldCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyNodeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPTerrainEngineNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPTerrainEngineDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleKeyNodeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileModelCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNodeRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileModelFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePagedLOD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MPShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\..\CMakeFiles\8fb87c35be798ed2f88ab014d51f5fab\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="DynamicLODScaleCallback">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="HeightFieldCache">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="FileLocationCallback">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KeyNodeFactory">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPGeometry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPShaders">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPTerrainEngineNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPTerrainEngineOptions">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="QuickReleaseGLObjects">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="SingleKeyNodeFactory">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TerrainNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileGroup">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileModel">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileModelCompiler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileNodeRegistry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileModelFactory">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TilePagedLOD">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPEngine.vert.model.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="MPEngine.vert.view.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="MPEngine.frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="MPEngine.NormalMap.vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="MPEngine.NormalMap.frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BE15C700-A519-3E5E-98A9-B6B7D57C75F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{12D85F95-0BC2-3F72-8B67-A8463B4E2310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

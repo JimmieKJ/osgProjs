@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtQuickDialogs">
+    <examples>
+        <example name="Qt Quick System Dialog Examples" docUrl="qthelp://org.qt-project.qtquickdialogs.551/qtquickdialogs/qtquickdialogs-systemdialogs-example.html" projectPath="quick/dialogs/systemdialogs/systemdialogs.pro" imageUrl="qthelp://org.qt-project.qtquickdialogs.551/qtquickdialogs/images/systemdialogs-example.jpg" isHighlighted="true">
+            <description><![CDATA[This example demonstrates the system dialog types in QML]]></description>
+            <tags>dialog,system,quick,dialogs</tags>
+            <fileToOpen>quick/dialogs/systemdialogs/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">quick/dialogs/systemdialogs/systemdialogs.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

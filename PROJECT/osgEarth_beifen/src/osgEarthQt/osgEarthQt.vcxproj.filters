@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="qrc_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ui_LOSCreationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_CollapsiblePairWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_LayerManagerWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_LOSControlWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_LOSCreationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_MapCatalogWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_TerrainProfileGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_TerrainProfileWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ViewerWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollapsiblePairWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManagerWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LOSControlWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LOSCreationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCatalogWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainProfileGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainProfileWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewerWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_LOSCreationDialog.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui\LOSCreationDialog.ui">
+      <Filter>Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images.qrc">
+      <Filter>Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_ui_LOSCreationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_CollapsiblePairWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_DataManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_LayerManagerWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_LOSControlWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_LOSCreationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_MapCatalogWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_TerrainProfileGraph.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_TerrainProfileWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\3799e821d03ebe83a9a16a469ce6089f\moc_ViewerWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Actions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CollapsiblePairWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DataManager">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GuiActions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LayerManagerWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LOSControlWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LOSCreationDialog">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapCatalogWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainProfileGraph">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainProfileWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ViewWidget">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ViewerWidget">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

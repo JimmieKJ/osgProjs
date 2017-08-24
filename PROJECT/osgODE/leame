@@ -1,0 +1,11 @@
+Para compilar apropiadamente la libreria, cambia la linea en Makefile que dice:
+INC_DIR= /home/jp/local/include
+
+a
+
+INC_DIR= -I/usr/local/include
+
+o donde hayas instalado las librerias de ode y openscenegraph
+
+Tarde o temprano se va hacer este paquete con autotools, asi que por el momento es temporal el Makefile
+-jp

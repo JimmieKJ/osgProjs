@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtCanvas3D">
+    <examples>
+        <example name="Framebuffer Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-framebuffer-example.html" projectPath="canvas3d/canvas3d/framebuffer/framebuffer.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/framebuffer-example.png">
+            <description><![CDATA[Render into a framebuffer and use it as a texture]]></description>
+            <tags>framebuffer,canvas3d</tags>
+            <fileToOpen>canvas3d/canvas3d/framebuffer/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/framebuffer/qml/framebuffer/main.qml</fileToOpen>
+        </example>
+        <example name="Interaction Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-interaction-example.html" projectPath="canvas3d/canvas3d/interaction/interaction.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/interaction-example.png">
+            <description><![CDATA[Interact with an object in canvas using Qt Quick Controls]]></description>
+            <tags>interaction,canvas3d</tags>
+            <fileToOpen>canvas3d/canvas3d/interaction/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/interaction/qml/interaction/main.qml</fileToOpen>
+        </example>
+        <example name="JSON Models Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-jsonmodels-example.html" projectPath="canvas3d/canvas3d/jsonmodels/jsonmodels.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/jsonmodels-example.png">
+            <description><![CDATA[Load and display several JSON models]]></description>
+            <tags>canvas3d,json,models</tags>
+            <fileToOpen>canvas3d/canvas3d/jsonmodels/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/jsonmodels/qml/jsonmodels/jsonmodels.qml</fileToOpen>
+        </example>
+        <example name="Lit and Textured Cube Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-textureandlight-example.html" projectPath="canvas3d/canvas3d/textureandlight/textureandlight.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/textureandlight-example.png">
+            <description><![CDATA[A simple cube with texturing and lighting]]></description>
+            <tags>cube,textured,canvas3d,lit</tags>
+            <fileToOpen>canvas3d/canvas3d/textureandlight/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/textureandlight/qml/textureandlight/main.qml</fileToOpen>
+        </example>
+        <example name="One Qt Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-threejs-oneqt-example.html" projectPath="canvas3d/canvas3d/threejs/oneqt/oneqt.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/oneqt-example.png">
+            <description><![CDATA[Demonstrates combining Qt Quick and three.js rendering.]]></description>
+            <tags>canvas3d,one</tags>
+            <fileToOpen>canvas3d/canvas3d/threejs/oneqt/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/threejs/oneqt/oneqt.qml</fileToOpen>
+        </example>
+        <example name="Planets Example" docUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/qtcanvas3d-canvas3d-threejs-planets-example.html" projectPath="canvas3d/canvas3d/threejs/planets/planets.pro" imageUrl="qthelp://org.qt-project.qtcanvas3d.100/qtcanvas3d/images/planets-example.jpg" isHighlighted="true">
+            <description><![CDATA[Demonstrates combining Qt Quick and three.js rendering.]]></description>
+            <tags>canvas3d,planets</tags>
+            <fileToOpen>canvas3d/canvas3d/threejs/planets/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">canvas3d/canvas3d/threejs/planets/planets.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

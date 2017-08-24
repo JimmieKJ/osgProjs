@@ -1,0 +1,16 @@
+D:/PROJECT/geos-3.5.0/CMakeFiles/NightlyMemoryCheck.dir
+D:/PROJECT/geos-3.5.0/tests/bigtest/CMakeFiles/TestSweepLineSpeed.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/uninstall.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/check.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/Experimental.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/Nightly.dir
+D:/PROJECT/geos-3.5.0/src/CMakeFiles/geos.dir
+D:/PROJECT/geos-3.5.0/src/CMakeFiles/geos-static.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/Continuous.dir
+D:/PROJECT/geos-3.5.0/tests/bigtest/CMakeFiles/bug234.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/geos-3.5.0/capi/CMakeFiles/geos_c.dir
+D:/PROJECT/geos-3.5.0/tests/xmltester/CMakeFiles/xmltester.dir
+D:/PROJECT/geos-3.5.0/tests/unit/CMakeFiles/geos_unit.dir
+D:/PROJECT/geos-3.5.0/CMakeFiles/ZERO_CHECK.dir
+D:/PROJECT/geos-3.5.0/tests/xmltester/CMakeFiles/simplewkttester.dir

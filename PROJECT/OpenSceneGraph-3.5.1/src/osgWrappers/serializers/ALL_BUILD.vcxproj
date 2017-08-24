@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D0D04538-364F-377C-A7D6-20C358012418}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgWrappers\serializers\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/3dc/osgdb_3dc.vcxproj">
+      <Project>B2A3B649-9741-3C38-83A0-7ED4DAA0BF29</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/3ds/osgdb_3ds.vcxproj">
+      <Project>962AD316-A84F-313D-B83D-FA8DFE4C0FC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/ac/osgdb_ac.vcxproj">
+      <Project>63324114-CEDB-3DCA-8590-DEF8BB8926CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/bmp/osgdb_bmp.vcxproj">
+      <Project>95A7194C-C8E9-3428-9512-278543741326</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/bsp/osgdb_bsp.vcxproj">
+      <Project>8FB7055A-498E-3992-95C2-AE252706ECFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/bvh/osgdb_bvh.vcxproj">
+      <Project>13451E7A-21C8-384C-B205-872CA815E4B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/cfg/osgdb_cfg.vcxproj">
+      <Project>8DE4642B-B4C1-38AC-A72E-6649A6FDE24D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/curl/osgdb_curl.vcxproj">
+      <Project>3F106920-48A1-3785-8739-FF543E146BBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/dds/osgdb_dds.vcxproj">
+      <Project>3466A577-2F25-327E-AC8C-2162F133D4EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osg/osgdb_deprecated_osg.vcxproj">
+      <Project>B1BB8E77-8797-3E4B-ADB3-04BC2FF7EE39</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgAnimation/osgdb_deprecated_osganimation.vcxproj">
+      <Project>036EA7EC-29C8-3F93-8418-5DC1563890EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgFX/osgdb_deprecated_osgfx.vcxproj">
+      <Project>755D6736-9A6A-39B7-829D-916D5B68F4EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgParticle/osgdb_deprecated_osgparticle.vcxproj">
+      <Project>FEA5A762-FC3F-32C1-98E5-C1E5BABBA3A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgShadow/osgdb_deprecated_osgshadow.vcxproj">
+      <Project>5BB68870-AAE3-34E3-8779-DC31F77749DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgSim/osgdb_deprecated_osgsim.vcxproj">
+      <Project>86635EFD-2447-3CAC-867B-AE88631D2A55</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgTerrain/osgdb_deprecated_osgterrain.vcxproj">
+      <Project>21FF4EB4-0B79-3070-ACCE-A010460A2D22</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgText/osgdb_deprecated_osgtext.vcxproj">
+      <Project>3B97EA33-D5D0-37BC-9B67-2D9089388203</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgViewer/osgdb_deprecated_osgviewer.vcxproj">
+      <Project>610CE8B1-0C07-3A1D-91F4-AFB0EAB357B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgVolume/osgdb_deprecated_osgvolume.vcxproj">
+      <Project>260D0920-4871-33BF-B8F4-C980A2FA1C77</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/deprecated-dotosg/osgWidget/osgdb_deprecated_osgwidget.vcxproj">
+      <Project>7EADDB24-6B1B-32A8-9091-CAEDDAEDC699</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/dot/osgdb_dot.vcxproj">
+      <Project>8AF296E9-5418-3C2A-9210-8E5066E760F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/dw/osgdb_dw.vcxproj">
+      <Project>114BED9E-8E67-3891-B1A4-EAC72AD584CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/dxf/osgdb_dxf.vcxproj">
+      <Project>7E0A19EE-8243-3E52-A811-0184E14B2EDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/freetype/osgdb_freetype.vcxproj">
+      <Project>578F107D-99C9-3B64-A407-87D22EF06DFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/gdal/osgdb_gdal.vcxproj">
+      <Project>29320A1E-E369-3AD5-8EB0-AB193186CC18</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/gif/osgdb_gif.vcxproj">
+      <Project>F17B9717-68D1-3B13-BC11-F051E0480EED</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/gles/osgdb_gles.vcxproj">
+      <Project>02F4F82C-7889-3D4C-99BF-A0AA9001F271</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/glsl/osgdb_glsl.vcxproj">
+      <Project>E3F4AB72-BDDA-385C-A164-924B1F2669D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/gz/osgdb_gz.vcxproj">
+      <Project>1638302D-6274-320F-A00D-B7D4DF90870A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/hdr/osgdb_hdr.vcxproj">
+      <Project>C901EEFC-5979-3A60-AC82-8C89FFC2558E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/ive/osgdb_ive.vcxproj">
+      <Project>DAF61EAD-0E77-3911-BEE6-72BE637C8579</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/jpeg/osgdb_jpeg.vcxproj">
+      <Project>EDA08775-7538-31A9-983C-D4F7CD123C83</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/ktx/osgdb_ktx.vcxproj">
+      <Project>5DE0F1AF-E8E1-3082-9526-979BBD1B34A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/logo/osgdb_logo.vcxproj">
+      <Project>254632F7-2684-3797-8F48-AD5AFB5D670F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/lua/osgdb_lua.vcxproj">
+      <Project>70D16ED5-03D3-3F29-9C38-026EC4645886</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/lwo/osgdb_lwo.vcxproj">
+      <Project>C197E021-D5B9-3CBB-BF2F-4E58E8510D74</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/lws/osgdb_lws.vcxproj">
+      <Project>C65447FD-30E1-32F0-AB38-E89D9116F4A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/md2/osgdb_md2.vcxproj">
+      <Project>B82F76A3-9E6E-3F6F-9B6C-579A17700687</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/mdl/osgdb_mdl.vcxproj">
+      <Project>7D37B49E-FDB5-382E-AF24-85FFECFD1DB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/normals/osgdb_normals.vcxproj">
+      <Project>B2D1642A-E094-3EB5-B4E3-37FBC165CBD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/obj/osgdb_obj.vcxproj">
+      <Project>05392134-18AD-3D41-A090-C5CCD4097CD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/ogr/osgdb_ogr.vcxproj">
+      <Project>21B5E5D0-2757-381E-B4D0-DFA1CE069C2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/OpenFlight/osgdb_openflight.vcxproj">
+      <Project>F6C23DA2-485C-38A7-949A-92E146C0C3A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/osc/osgdb_osc.vcxproj">
+      <Project>ACAAE3C4-3A87-3BD4-B715-4FC5CA8FAE0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/osg/osgdb_osg.vcxproj">
+      <Project>639EA084-25F3-37D2-82B3-117C5E0570F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/osga/osgdb_osga.vcxproj">
+      <Project>BDDFE689-CD5C-382A-9962-FF2D6B297277</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/osgjs/osgdb_osgjs.vcxproj">
+      <Project>9794798A-B211-3F19-B836-7D4AFEB7B698</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/shadow/osgdb_osgshadow.vcxproj">
+      <Project>326BBB31-C024-384E-8DEE-B3D59FACCC72</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/terrain/osgdb_osgterrain.vcxproj">
+      <Project>CA2A77A5-16F8-3AD9-8D40-E91B3AD2F430</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/osgtgz/osgdb_osgtgz.vcxproj">
+      <Project>AC9AB9B3-787C-3FBB-B00D-DAA50E3B1D04</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/view/osgdb_osgviewer.vcxproj">
+      <Project>DDBFC009-B283-36C1-BB03-54F4CCA047C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/p3d/osgdb_p3d.vcxproj">
+      <Project>985CC40C-AC36-308A-B6E4-DBEEADEFAA02</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/pic/osgdb_pic.vcxproj">
+      <Project>FA9226B4-F86E-3E83-ACCF-1F35F8E8CCA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/ply/osgdb_ply.vcxproj">
+      <Project>408A1B79-32C7-3337-9CA5-321EFCD0C7BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/png/osgdb_png.vcxproj">
+      <Project>60C85D60-AC35-346A-914C-18F07BD17092</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/pnm/osgdb_pnm.vcxproj">
+      <Project>CF877BC0-7C57-306F-BED8-DC1E67D5845D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/pov/osgdb_pov.vcxproj">
+      <Project>33800542-D5F1-376F-B759-066A76C3807D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/pvr/osgdb_pvr.vcxproj">
+      <Project>25BB6AF5-31DD-3CEB-8ABF-375DFEB7C5B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/revisions/osgdb_revisions.vcxproj">
+      <Project>9E1C555B-A829-3F61-89B5-0A07A2DDB175</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/rgb/osgdb_rgb.vcxproj">
+      <Project>6E097D26-3FEF-3132-B1E0-564D93544A96</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/rot/osgdb_rot.vcxproj">
+      <Project>0E045B0A-0E0B-3831-AE0C-12547F998E86</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/scale/osgdb_scale.vcxproj">
+      <Project>D29997A4-3005-3497-B7B5-93756987CA24</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osg/osgdb_serializers_osg.vcxproj">
+      <Project>04809963-5A94-3ED2-81DE-DED19D64BD45</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgAnimation/osgdb_serializers_osganimation.vcxproj">
+      <Project>198BCA20-3707-3146-8950-5C007FAD96F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgFX/osgdb_serializers_osgfx.vcxproj">
+      <Project>AFF8CF52-37AB-3D8A-921C-8032D1012EB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgGA/osgdb_serializers_osgga.vcxproj">
+      <Project>B52DD108-257B-3F94-84C4-0F8DCA4CA080</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgManipulator/osgdb_serializers_osgmanipulator.vcxproj">
+      <Project>18687989-71A8-3733-9B2C-12E542659E7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgParticle/osgdb_serializers_osgparticle.vcxproj">
+      <Project>17F465E7-6AB0-3056-9149-B8C87C4BFE5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgShadow/osgdb_serializers_osgshadow.vcxproj">
+      <Project>51E0076E-A7AF-353E-8439-8BD70CC93739</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgSim/osgdb_serializers_osgsim.vcxproj">
+      <Project>2D7F48D8-450B-3510-9778-42C983DAEB90</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgTerrain/osgdb_serializers_osgterrain.vcxproj">
+      <Project>3F479716-DD63-3DA1-8774-441EC0855E44</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgText/osgdb_serializers_osgtext.vcxproj">
+      <Project>47F9353F-971C-3C7E-921B-0515A4092BFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgUI/osgdb_serializers_osgui.vcxproj">
+      <Project>14A24FD8-8563-38FC-94DC-15087FAC9727</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgUtil/osgdb_serializers_osgutil.vcxproj">
+      <Project>64CA45BB-EC27-3F7E-B0DB-E94DAC3ADAC0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgViewer/osgdb_serializers_osgviewer.vcxproj">
+      <Project>F36AC406-FFB3-3F4C-B47E-CA00190D8762</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgWrappers/serializers/osgVolume/osgdb_serializers_osgvolume.vcxproj">
+      <Project>66C164B1-7F62-353C-9C1C-9F80C12B9622</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/shp/osgdb_shp.vcxproj">
+      <Project>A2BAFDA6-817F-3F85-9E2D-BEF002F4FDE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/stl/osgdb_stl.vcxproj">
+      <Project>C7273793-82DF-3A6C-B879-BD2B7A1BE6DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/tf/osgdb_tf.vcxproj">
+      <Project>38D25AD9-F570-3259-A0DC-63D8F0768527</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/tga/osgdb_tga.vcxproj">
+      <Project>3FB70CDD-60DF-3CA4-B15E-8CB5439BE804</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/tgz/osgdb_tgz.vcxproj">
+      <Project>5EBB32A1-C337-3309-B6A9-A0BF5054877E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/tiff/osgdb_tiff.vcxproj">
+      <Project>12390CBF-593C-3BA2-98DF-DACDF0D0E99E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/trans/osgdb_trans.vcxproj">
+      <Project>DAE6B3BC-08CB-3038-BFAC-DF0AFE817B95</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/trk/osgdb_trk.vcxproj">
+      <Project>B2787F8C-878C-3C62-9760-3A245E23B744</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/txf/osgdb_txf.vcxproj">
+      <Project>BD2C49B1-0785-3A32-8BE8-DD2AD27FD9C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/txp/osgdb_txp.vcxproj">
+      <Project>C099823E-519C-3234-A66B-74DDE18054BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/vtf/osgdb_vtf.vcxproj">
+      <Project>542B53A7-4B37-3383-BA22-883B2B360708</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/x/osgdb_x.vcxproj">
+      <Project>CF26FE7B-C98D-3DF9-A313-22E4DDF1EA4E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgPlugins/zip/osgdb_zip.vcxproj">
+      <Project>DAB6B6BE-172B-3298-ABD9-39F1D43764F9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

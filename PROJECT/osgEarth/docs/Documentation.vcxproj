@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{98CA66DF-B925-31CD-A77B-85BAEBE44170}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Documentation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/osgEarth/docs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/osgEarth/docs/CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/osgEarth/docs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/osgEarth/docs/CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/osgEarth/docs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/osgEarth/docs/CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/osgEarth/docs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/osgEarth/docs/CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;D:\PROJECT\osgEarth\docs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\osgEarth\docs\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\about.rst" />
+    <None Include="source\data.rst" />
+    <None Include="source\faq.rst" />
+    <None Include="source\howtos.rst" />
+    <None Include="source\index.rst" />
+    <None Include="source\install.rst" />
+    <None Include="source\ios.rst" />
+    <None Include="source\releasenotes.rst" />
+    <None Include="source\startup.rst" />
+    <None Include="source\developer\coordinate_systems.rst" />
+    <None Include="source\developer\custom_driver.rst" />
+    <None Include="source\developer\index.rst" />
+    <None Include="source\developer\maps.rst" />
+    <None Include="source\developer\qt_integration.rst" />
+    <None Include="source\developer\shader_composition.rst" />
+    <None Include="source\developer\utilities.rst" />
+    <None Include="source\references\colorfilters.rst" />
+    <None Include="source\references\earthfile.rst" />
+    <None Include="source\references\envvars.rst" />
+    <None Include="source\references\index.rst" />
+    <None Include="source\references\symbology.rst" />
+    <None Include="source\references\drivers\feature\index.rst" />
+    <None Include="source\references\drivers\feature\ogr.rst" />
+    <None Include="source\references\drivers\feature\tfs.rst" />
+    <None Include="source\references\drivers\feature\wfs.rst" />
+    <None Include="source\references\drivers\loaders\index.rst" />
+    <None Include="source\references\drivers\model\feature_geom.rst" />
+    <None Include="source\references\drivers\model\feature_model_shared_blocks.rst" />
+    <None Include="source\references\drivers\model\feature_model_shared_props.rst" />
+    <None Include="source\references\drivers\model\feature_stencil.rst" />
+    <None Include="source\references\drivers\model\index.rst" />
+    <None Include="source\references\drivers\model\simple.rst" />
+    <None Include="source\references\drivers\terrain\index.rst" />
+    <None Include="source\references\drivers\terrain\mp.rst" />
+    <None Include="source\references\drivers\terrain\terrain_options_shared.rst" />
+    <None Include="source\references\drivers\tile\agglite.rst" />
+    <None Include="source\references\drivers\tile\arcgis.rst" />
+    <None Include="source\references\drivers\tile\debug.rst" />
+    <None Include="source\references\drivers\tile\gdal.rst" />
+    <None Include="source\references\drivers\tile\index.rst" />
+    <None Include="source\references\drivers\tile\noise.rst" />
+    <None Include="source\references\drivers\tile\osg.rst" />
+    <None Include="source\references\drivers\tile\tilecache.rst" />
+    <None Include="source\references\drivers\tile\tileservice.rst" />
+    <None Include="source\references\drivers\tile\tms.rst" />
+    <None Include="source\references\drivers\tile\vpb.rst" />
+    <None Include="source\references\drivers\tile\wcs.rst" />
+    <None Include="source\references\drivers\tile\wms.rst" />
+    <None Include="source\references\drivers\tile\xyz.rst" />
+    <None Include="source\user\annotations.rst" />
+    <None Include="source\user\caching.rst" />
+    <None Include="source\user\earthfiles.rst" />
+    <None Include="source\user\elevation.rst" />
+    <None Include="source\user\features.rst" />
+    <None Include="source\user\imagery.rst" />
+    <None Include="source\user\index.rst" />
+    <None Include="source\user\maps.rst" />
+    <None Include="source\user\profile.rst" />
+    <None Include="source\user\spatialreference.rst" />
+    <None Include="source\user\tools.rst" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/osgEarth/ZERO_CHECK.vcxproj">
+      <Project>2C021F33-37F8-31A7-85FA-48FB2F4BDFB0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

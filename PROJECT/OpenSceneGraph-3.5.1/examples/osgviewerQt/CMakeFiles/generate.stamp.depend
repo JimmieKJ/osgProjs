@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/PROJECT/OpenSceneGraph-3.5.1/examples/osgviewerQt/CMakeLists.txt
+D:/PROJECT/Qt/Qt5.5.1/5.5/msvc2010/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+D:/PROJECT/Qt/Qt5.5.1/5.5/msvc2010/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake

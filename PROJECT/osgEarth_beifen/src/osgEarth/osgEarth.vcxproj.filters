@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoScale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheEstimator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CachePolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheSeed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Capabilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clamping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClampableNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClampingTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CullingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTimeRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decluttering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPLineSegmentIntersector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrapeableNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrapingCullSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrapingTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawInstanced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECEF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationLOD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geoid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryClamper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightFieldUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Horizon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMosaic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageToHeightFieldConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Locators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalTangentPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapNodeOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MimeTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Notify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongLightingEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveIntersector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Revisioning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadowing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSetCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSetLOD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainEngineNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTileModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTileModelFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCompositor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePatchCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TraversalData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Units.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="URI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalDatum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinystr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\8ffc7b5eba794ee9fa18f91e5895a2f3\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlphaEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AutoScale">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Bounds">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Cache">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CacheEstimator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CacheBin">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CachePolicy">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CacheSeed">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Capabilities">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Clamping">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ClampableNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ClampingTechnique">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ColorFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CompositeTileSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Config">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Containers">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Cube">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CullingUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DateTime">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DateTimeRange">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Decluttering">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DepthOffset">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DPLineSegmentIntersector">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DrapeableNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DrapingCullSet">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DrapingTechnique">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DrawInstanced">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ECEF">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ElevationField">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ElevationLayer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ElevationLOD">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ElevationQuery">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Export">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Extension">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FadeEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FileUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoCommon">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoData">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Geoid">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoMath">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoTransform">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeometryClamper">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="HeightFieldUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Horizon">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="HTTPClient">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageLayer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageMosaic">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageToHeightFieldConverter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="IOTypes">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="JsonUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Layer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LineFunctor">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Locators">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LocalTangentPlane">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Map">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapCallback">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapFrame">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapInfo">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapModelChange">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapNodeObserver">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapNodeOptions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MapOptions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MaskLayer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MaskNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MaskSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Memory">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MemCache">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ModelLayer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ModelSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="NativeProgramAdapter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="NodeUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Notify">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="optional">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ObjectIndex">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="OverlayDecorator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="OverlayNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PhongLightingEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Picker">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="IntersectionPicker">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PrimitiveIntersector">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Profile">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Profiler">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Progress">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="QuadTree">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Random">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Registry">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Revisioning">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Shaders">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ShaderFactory">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ShaderGenerator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ShaderLoader">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ShaderUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Shadowing">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SharedSARepo">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SpatialReference">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StateSetCache">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StateSetLOD">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StringUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TaskService">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Terrain">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainLayer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainOptions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainEngineNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainEngineRequirements">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainTileModel">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainTileModelFactory">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainTileNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileKeyDataStore">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TilePatchCallback">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Tessellator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TextureCompositor">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileKey">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileHandler">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileVisitor">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TimeControl">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TraversalData">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ThreadingUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Units">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="URI">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Utils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Version">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="VerticalDatum">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Viewpoint">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="VirtualProgram">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="XmlUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AlphaEffect.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DepthOffset.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Draping.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Draping.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GPUClamping.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GPUClamping.vert.lib.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GPUClamping.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Instancing.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{BE0D1460-02A8-3B22-A2AD-A036F2D3FFBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

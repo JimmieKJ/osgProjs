@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_mapnikvectortiles/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindProtobuf.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake

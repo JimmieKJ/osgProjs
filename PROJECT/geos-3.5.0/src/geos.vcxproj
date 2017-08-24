@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1F602F4D-D0B8-3ADB-89BF-A06A7557FE6D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>geos</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\geos-3.5.0\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">geos.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">geos_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\geos-3.5.0\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">geos.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">geos_r</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\geos-3.5.0\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">geos.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\geos-3.5.0\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">geos.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="Debug";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"Debug\";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/Debug/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/Debug/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="Release";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"Release\";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/Release/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/Release/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="MinSizeRel";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"MinSizeRel\";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/MinSizeRel/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/MinSizeRel/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="RelWithDebInfo";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"RelWithDebInfo\";GEOS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/RelWithDebInfo/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/RelWithDebInfo/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/geos-3.5.0/src/CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/geos-3.5.0/src/CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/geos-3.5.0/src/CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/geos-3.5.0/src/CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;D:\PROJECT\geos-3.5.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\geos-3.5.0\src\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\geos\algorithm\Angle.h" />
+    <ClInclude Include="..\include\geos\algorithm\BoundaryNodeRule.h" />
+    <ClInclude Include="..\include\geos\algorithm\CentralEndpointIntersector.h" />
+    <ClInclude Include="..\include\geos\algorithm\Centroid.h" />
+    <ClInclude Include="..\include\geos\algorithm\CentroidArea.h" />
+    <ClInclude Include="..\include\geos\algorithm\CentroidLine.h" />
+    <ClInclude Include="..\include\geos\algorithm\CentroidPoint.h" />
+    <ClInclude Include="..\include\geos\algorithm\CGAlgorithms.h" />
+    <ClInclude Include="..\include\geos\algorithm\ConvexHull.h" />
+    <ClInclude Include="..\include\geos\algorithm\distance\DiscreteHausdorffDistance.h" />
+    <ClInclude Include="..\include\geos\algorithm\distance\DistanceToPoint.h" />
+    <ClInclude Include="..\include\geos\algorithm\distance\PointPairDistance.h" />
+    <ClInclude Include="..\include\geos\algorithm\HCoordinate.h" />
+    <ClInclude Include="..\include\geos\algorithm\InteriorPointArea.h" />
+    <ClInclude Include="..\include\geos\algorithm\InteriorPointLine.h" />
+    <ClInclude Include="..\include\geos\algorithm\InteriorPointPoint.h" />
+    <ClInclude Include="..\include\geos\algorithm\LineIntersector.h" />
+    <ClInclude Include="..\include\geos\algorithm\locate\IndexedPointInAreaLocator.h" />
+    <ClInclude Include="..\include\geos\algorithm\locate\PointOnGeometryLocator.h" />
+    <ClInclude Include="..\include\geos\algorithm\locate\SimplePointInAreaLocator.h" />
+    <ClInclude Include="..\include\geos\algorithm\MCPointInRing.h" />
+    <ClInclude Include="..\include\geos\algorithm\MinimumDiameter.h" />
+    <ClInclude Include="..\include\geos\algorithm\NotRepresentableException.h" />
+    <ClInclude Include="..\include\geos\algorithm\PointInRing.h" />
+    <ClInclude Include="..\include\geos\algorithm\PointLocator.h" />
+    <ClInclude Include="..\include\geos\algorithm\RayCrossingCounter.h" />
+    <ClInclude Include="..\include\geos\algorithm\RobustDeterminant.h" />
+    <ClInclude Include="..\include\geos\algorithm\SimplePointInRing.h" />
+    <ClInclude Include="..\include\geos\algorithm\SIRtreePointInRing.h" />
+    <ClInclude Include="..\include\geos\export.h" />
+    <ClInclude Include="..\include\geos\geom\BinaryOp.h" />
+    <ClInclude Include="..\include\geos\geom\Coordinate.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateArraySequence.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateArraySequenceFactory.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateFilter.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateList.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateSequence.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateSequenceFactory.h" />
+    <ClInclude Include="..\include\geos\geom\CoordinateSequenceFilter.h" />
+    <ClInclude Include="..\include\geos\geom\Dimension.h" />
+    <ClInclude Include="..\include\geos\geom\Envelope.h" />
+    <ClInclude Include="..\include\geos\geom\Geometry.h" />
+    <ClInclude Include="..\include\geos\geom\GeometryCollection.h" />
+    <ClInclude Include="..\include\geos\geom\GeometryComponentFilter.h" />
+    <ClInclude Include="..\include\geos\geom\GeometryFactory.h" />
+    <ClInclude Include="..\include\geos\geom\GeometryFilter.h" />
+    <ClInclude Include="..\include\geos\geom\GeometryList.h" />
+    <ClInclude Include="..\include\geos\geom\IntersectionMatrix.h" />
+    <ClInclude Include="..\include\geos\geom\Lineal.h" />
+    <ClInclude Include="..\include\geos\geom\LinearRing.h" />
+    <ClInclude Include="..\include\geos\geom\LineSegment.h" />
+    <ClInclude Include="..\include\geos\geom\LineString.h" />
+    <ClInclude Include="..\include\geos\geom\Location.h" />
+    <ClInclude Include="..\include\geos\geom\MultiLineString.h" />
+    <ClInclude Include="..\include\geos\geom\MultiPoint.h" />
+    <ClInclude Include="..\include\geos\geom\MultiPolygon.h" />
+    <ClInclude Include="..\include\geos\geom\Point.h" />
+    <ClInclude Include="..\include\geos\geom\Polygon.h" />
+    <ClInclude Include="..\include\geos\geom\Polygonal.h" />
+    <ClInclude Include="..\include\geos\geom\PrecisionModel.h" />
+    <ClInclude Include="..\include\geos\geom\prep\AbstractPreparedPolygonContains.h" />
+    <ClInclude Include="..\include\geos\geom\prep\BasicPreparedGeometry.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedGeometry.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedGeometryFactory.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedLineString.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedLineStringIntersects.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPoint.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygon.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygonContains.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygonContainsProperly.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygonCovers.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygonIntersects.h" />
+    <ClInclude Include="..\include\geos\geom\prep\PreparedPolygonPredicate.h" />
+    <ClInclude Include="..\include\geos\geom\Puntal.h" />
+    <ClInclude Include="..\include\geos\geom\Triangle.h" />
+    <ClInclude Include="..\include\geos\geom\util\ComponentCoordinateExtracter.h" />
+    <ClInclude Include="..\include\geos\geom\util\CoordinateOperation.h" />
+    <ClInclude Include="..\include\geos\geom\util\GeometryCombiner.h" />
+    <ClInclude Include="..\include\geos\geom\util\GeometryEditor.h" />
+    <ClInclude Include="..\include\geos\geom\util\GeometryEditorOperation.h" />
+    <ClInclude Include="..\include\geos\geom\util\GeometryExtracter.h" />
+    <ClInclude Include="..\include\geos\geom\util\GeometryTransformer.h" />
+    <ClInclude Include="..\include\geos\geom\util\LinearComponentExtracter.h" />
+    <ClInclude Include="..\include\geos\geom\util\PointExtracter.h" />
+    <ClInclude Include="..\include\geos\geom\util\PolygonExtracter.h" />
+    <ClInclude Include="..\include\geos\geom\util\ShortCircuitedGeometryVisitor.h" />
+    <ClInclude Include="..\include\geos\geom\util\SineStarFactory.h" />
+    <ClInclude Include="..\include\geos\geom.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Depth.h" />
+    <ClInclude Include="..\include\geos\geomgraph\DirectedEdge.h" />
+    <ClInclude Include="..\include\geos\geomgraph\DirectedEdgeStar.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Edge.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeEnd.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeEndStar.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeIntersection.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeIntersectionList.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeList.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeNodingValidator.h" />
+    <ClInclude Include="..\include\geos\geomgraph\EdgeRing.h" />
+    <ClInclude Include="..\include\geos\geomgraph\GeometryGraph.h" />
+    <ClInclude Include="..\include\geos\geomgraph\GraphComponent.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\EdgeSetIntersector.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\MonotoneChain.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\MonotoneChainEdge.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\MonotoneChainIndexer.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SegmentIntersector.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SimpleEdgeSetIntersector.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SimpleMCSweepLineIntersector.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SimpleSweepLineIntersector.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SweepLineEvent.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SweepLineEventObj.h" />
+    <ClInclude Include="..\include\geos\geomgraph\index\SweepLineSegment.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Label.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Node.h" />
+    <ClInclude Include="..\include\geos\geomgraph\NodeFactory.h" />
+    <ClInclude Include="..\include\geos\geomgraph\NodeMap.h" />
+    <ClInclude Include="..\include\geos\geomgraph\PlanarGraph.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Position.h" />
+    <ClInclude Include="..\include\geos\geomgraph\Quadrant.h" />
+    <ClInclude Include="..\include\geos\geomgraph\TopologyLocation.h" />
+    <ClInclude Include="..\include\geos\geomgraph.h" />
+    <ClInclude Include="..\include\geos\geomgraphindex.h" />
+    <ClInclude Include="..\include\geos\geomUtil.h" />
+    <ClInclude Include="..\include\geos\geosAlgorithm.h" />
+    <ClInclude Include="..\include\geos\index\bintree\Bintree.h" />
+    <ClInclude Include="..\include\geos\index\bintree\Interval.h" />
+    <ClInclude Include="..\include\geos\index\bintree\Key.h" />
+    <ClInclude Include="..\include\geos\index\bintree\Node.h" />
+    <ClInclude Include="..\include\geos\index\bintree\NodeBase.h" />
+    <ClInclude Include="..\include\geos\index\bintree\Root.h" />
+    <ClInclude Include="..\include\geos\index\chain\MonotoneChain.h" />
+    <ClInclude Include="..\include\geos\index\chain\MonotoneChainBuilder.h" />
+    <ClInclude Include="..\include\geos\index\chain\MonotoneChainOverlapAction.h" />
+    <ClInclude Include="..\include\geos\index\chain\MonotoneChainSelectAction.h" />
+    <ClInclude Include="..\include\geos\index\intervalrtree\IntervalRTreeBranchNode.h" />
+    <ClInclude Include="..\include\geos\index\intervalrtree\IntervalRTreeLeafNode.h" />
+    <ClInclude Include="..\include\geos\index\intervalrtree\IntervalRTreeNode.h" />
+    <ClInclude Include="..\include\geos\index\intervalrtree\SortedPackedIntervalRTree.h" />
+    <ClInclude Include="..\include\geos\index\ItemVisitor.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\DoubleBits.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\IntervalSize.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\Key.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\Node.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\NodeBase.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\Quadtree.h" />
+    <ClInclude Include="..\include\geos\index\quadtree\Root.h" />
+    <ClInclude Include="..\include\geos\index\SpatialIndex.h" />
+    <ClInclude Include="..\include\geos\index\strtree\AbstractNode.h" />
+    <ClInclude Include="..\include\geos\index\strtree\AbstractSTRtree.h" />
+    <ClInclude Include="..\include\geos\index\strtree\Boundable.h" />
+    <ClInclude Include="..\include\geos\index\strtree\Interval.h" />
+    <ClInclude Include="..\include\geos\index\strtree\ItemBoundable.h" />
+    <ClInclude Include="..\include\geos\index\strtree\SIRtree.h" />
+    <ClInclude Include="..\include\geos\index\strtree\STRtree.h" />
+    <ClInclude Include="..\include\geos\index\sweepline\SweepLineEvent.h" />
+    <ClInclude Include="..\include\geos\index\sweepline\SweepLineIndex.h" />
+    <ClInclude Include="..\include\geos\index\sweepline\SweepLineInterval.h" />
+    <ClInclude Include="..\include\geos\index\sweepline\SweepLineOverlapAction.h" />
+    <ClInclude Include="..\include\geos\indexBintree.h" />
+    <ClInclude Include="..\include\geos\indexChain.h" />
+    <ClInclude Include="..\include\geos\indexQuadtree.h" />
+    <ClInclude Include="..\include\geos\indexStrtree.h" />
+    <ClInclude Include="..\include\geos\indexSweepline.h" />
+    <ClInclude Include="..\include\geos\inline.h" />
+    <ClInclude Include="..\include\geos\io\ByteOrderDataInStream.h" />
+    <ClInclude Include="..\include\geos\io\ByteOrderValues.h" />
+    <ClInclude Include="..\include\geos\io\CLocalizer.h" />
+    <ClInclude Include="..\include\geos\io\ParseException.h" />
+    <ClInclude Include="..\include\geos\io\StringTokenizer.h" />
+    <ClInclude Include="..\include\geos\io\WKBConstants.h" />
+    <ClInclude Include="..\include\geos\io\WKBReader.h" />
+    <ClInclude Include="..\include\geos\io\WKBWriter.h" />
+    <ClInclude Include="..\include\geos\io\WKTReader.h" />
+    <ClInclude Include="..\include\geos\io\WKTWriter.h" />
+    <ClInclude Include="..\include\geos\io\Writer.h" />
+    <ClInclude Include="..\include\geos\io.h" />
+    <ClInclude Include="..\include\geos\linearref\ExtractLineByLocation.h" />
+    <ClInclude Include="..\include\geos\linearref\LengthIndexedLine.h" />
+    <ClInclude Include="..\include\geos\linearref\LengthIndexOfPoint.h" />
+    <ClInclude Include="..\include\geos\linearref\LengthLocationMap.h" />
+    <ClInclude Include="..\include\geos\linearref\LinearGeometryBuilder.h" />
+    <ClInclude Include="..\include\geos\linearref\LinearIterator.h" />
+    <ClInclude Include="..\include\geos\linearref\LinearLocation.h" />
+    <ClInclude Include="..\include\geos\linearref\LocationIndexedLine.h" />
+    <ClInclude Include="..\include\geos\linearref\LocationIndexOfLine.h" />
+    <ClInclude Include="..\include\geos\linearref\LocationIndexOfPoint.h" />
+    <ClInclude Include="..\include\geos\noding\BasicSegmentString.h" />
+    <ClInclude Include="..\include\geos\noding\FastNodingValidator.h" />
+    <ClInclude Include="..\include\geos\noding\FastSegmentSetIntersectionFinder.h" />
+    <ClInclude Include="..\include\geos\noding\GeometryNoder.h" />
+    <ClInclude Include="..\include\geos\noding\IntersectionAdder.h" />
+    <ClInclude Include="..\include\geos\noding\IntersectionFinderAdder.h" />
+    <ClInclude Include="..\include\geos\noding\IteratedNoder.h" />
+    <ClInclude Include="..\include\geos\noding\MCIndexNoder.h" />
+    <ClInclude Include="..\include\geos\noding\MCIndexSegmentSetMutualIntersector.h" />
+    <ClInclude Include="..\include\geos\noding\NodableSegmentString.h" />
+    <ClInclude Include="..\include\geos\noding\NodedSegmentString.h" />
+    <ClInclude Include="..\include\geos\noding\Noder.h" />
+    <ClInclude Include="..\include\geos\noding\NodingValidator.h" />
+    <ClInclude Include="..\include\geos\noding\Octant.h" />
+    <ClInclude Include="..\include\geos\noding\OrientedCoordinateArray.h" />
+    <ClInclude Include="..\include\geos\noding\ScaledNoder.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentIntersectionDetector.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentIntersector.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentNode.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentNodeList.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentPointComparator.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentSetMutualIntersector.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentString.h" />
+    <ClInclude Include="..\include\geos\noding\SegmentStringUtil.h" />
+    <ClInclude Include="..\include\geos\noding\SimpleNoder.h" />
+    <ClInclude Include="..\include\geos\noding\SingleInteriorIntersectionFinder.h" />
+    <ClInclude Include="..\include\geos\noding\SinglePassNoder.h" />
+    <ClInclude Include="..\include\geos\noding\snapround\HotPixel.h" />
+    <ClInclude Include="..\include\geos\noding\snapround\MCIndexPointSnapper.h" />
+    <ClInclude Include="..\include\geos\noding\snapround\MCIndexSnapRounder.h" />
+    <ClInclude Include="..\include\geos\noding\snapround\SimpleSnapRounder.h" />
+    <ClInclude Include="..\include\geos\noding.h" />
+    <ClInclude Include="..\include\geos\nodingSnapround.h" />
+    <ClInclude Include="..\include\geos\opBuffer.h" />
+    <ClInclude Include="..\include\geos\opDistance.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\BufferBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\BufferInputLineSimplifier.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\BufferOp.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\BufferParameters.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\BufferSubgraph.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\OffsetCurveBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\OffsetCurveSetBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\OffsetSegmentGenerator.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\OffsetSegmentString.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\RightmostEdgeFinder.h" />
+    <ClInclude Include="..\include\geos\operation\buffer\SubgraphDepthLocater.h" />
+    <ClInclude Include="..\include\geos\operation\distance\ConnectedElementLocationFilter.h" />
+    <ClInclude Include="..\include\geos\operation\distance\ConnectedElementPointFilter.h" />
+    <ClInclude Include="..\include\geos\operation\distance\DistanceOp.h" />
+    <ClInclude Include="..\include\geos\operation\distance\GeometryLocation.h" />
+    <ClInclude Include="..\include\geos\operation\GeometryGraphOperation.h" />
+    <ClInclude Include="..\include\geos\operation\intersection\Rectangle.h" />
+    <ClInclude Include="..\include\geos\operation\intersection\RectangleIntersection.h" />
+    <ClInclude Include="..\include\geos\operation\intersection\RectangleIntersectionBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\IsSimpleOp.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\EdgeString.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\LineMergeDirectedEdge.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\LineMergeEdge.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\LineMergeGraph.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\LineMerger.h" />
+    <ClInclude Include="..\include\geos\operation\linemerge\LineSequencer.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\EdgeSetNoder.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\ElevationMatrix.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\ElevationMatrixCell.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\LineBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\MaximalEdgeRing.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\MinimalEdgeRing.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\OverlayNodeFactory.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\OverlayOp.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\PointBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\PolygonBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\snap\GeometrySnapper.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\snap\LineStringSnapper.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\snap\SnapIfNeededOverlayOp.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\snap\SnapOverlayOp.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\validate\FuzzyPointLocator.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\validate\OffsetPointGenerator.h" />
+    <ClInclude Include="..\include\geos\operation\overlay\validate\OverlayResultValidator.h" />
+    <ClInclude Include="..\include\geos\operation\polygonize\EdgeRing.h" />
+    <ClInclude Include="..\include\geos\operation\polygonize\PolygonizeDirectedEdge.h" />
+    <ClInclude Include="..\include\geos\operation\polygonize\PolygonizeEdge.h" />
+    <ClInclude Include="..\include\geos\operation\polygonize\PolygonizeGraph.h" />
+    <ClInclude Include="..\include\geos\operation\polygonize\Polygonizer.h" />
+    <ClInclude Include="..\include\geos\operation\predicate\RectangleContains.h" />
+    <ClInclude Include="..\include\geos\operation\predicate\RectangleIntersects.h" />
+    <ClInclude Include="..\include\geos\operation\predicate\SegmentIntersectionTester.h" />
+    <ClInclude Include="..\include\geos\operation\relate\EdgeEndBuilder.h" />
+    <ClInclude Include="..\include\geos\operation\relate\EdgeEndBundle.h" />
+    <ClInclude Include="..\include\geos\operation\relate\EdgeEndBundleStar.h" />
+    <ClInclude Include="..\include\geos\operation\relate\RelateComputer.h" />
+    <ClInclude Include="..\include\geos\operation\relate\RelateNode.h" />
+    <ClInclude Include="..\include\geos\operation\relate\RelateNodeFactory.h" />
+    <ClInclude Include="..\include\geos\operation\relate\RelateNodeGraph.h" />
+    <ClInclude Include="..\include\geos\operation\relate\RelateOp.h" />
+    <ClInclude Include="..\include\geos\operation\sharedpaths\SharedPathsOp.h" />
+    <ClInclude Include="..\include\geos\operation\union\CascadedPolygonUnion.h" />
+    <ClInclude Include="..\include\geos\operation\union\CascadedUnion.h" />
+    <ClInclude Include="..\include\geos\operation\union\GeometryListHolder.h" />
+    <ClInclude Include="..\include\geos\operation\union\PointGeometryUnion.h" />
+    <ClInclude Include="..\include\geos\operation\union\UnaryUnionOp.h" />
+    <ClInclude Include="..\include\geos\operation\valid\ConnectedInteriorTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\ConsistentAreaTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\IsValidOp.h" />
+    <ClInclude Include="..\include\geos\operation\valid\QuadtreeNestedRingTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\RepeatedPointTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\SimpleNestedRingTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\SweeplineNestedRingTester.h" />
+    <ClInclude Include="..\include\geos\operation\valid\TopologyValidationError.h" />
+    <ClInclude Include="..\include\geos\operation.h" />
+    <ClInclude Include="..\include\geos\opLinemerge.h" />
+    <ClInclude Include="..\include\geos\opOverlay.h" />
+    <ClInclude Include="..\include\geos\opPolygonize.h" />
+    <ClInclude Include="..\include\geos\opPredicate.h" />
+    <ClInclude Include="..\include\geos\opRelate.h" />
+    <ClInclude Include="..\include\geos\opValid.h" />
+    <ClInclude Include="..\include\geos\planargraph\algorithm\ConnectedSubgraphFinder.h" />
+    <ClInclude Include="..\include\geos\planargraph\DirectedEdge.h" />
+    <ClInclude Include="..\include\geos\planargraph\DirectedEdgeStar.h" />
+    <ClInclude Include="..\include\geos\planargraph\Edge.h" />
+    <ClInclude Include="..\include\geos\planargraph\GraphComponent.h" />
+    <ClInclude Include="..\include\geos\planargraph\Node.h" />
+    <ClInclude Include="..\include\geos\planargraph\NodeMap.h" />
+    <ClInclude Include="..\include\geos\planargraph\PlanarGraph.h" />
+    <ClInclude Include="..\include\geos\planargraph\Subgraph.h" />
+    <ClInclude Include="..\include\geos\planargraph.h" />
+    <ClInclude Include="..\include\geos\platform.h" />
+    <ClInclude Include="..\include\geos\precision\CommonBits.h" />
+    <ClInclude Include="..\include\geos\precision\CommonBitsOp.h" />
+    <ClInclude Include="..\include\geos\precision\CommonBitsRemover.h" />
+    <ClInclude Include="..\include\geos\precision\EnhancedPrecisionOp.h" />
+    <ClInclude Include="..\include\geos\precision\GeometryPrecisionReducer.h" />
+    <ClInclude Include="..\include\geos\precision\PrecisionReducerCoordinateOperation.h" />
+    <ClInclude Include="..\include\geos\precision\SimpleGeometryPrecisionReducer.h" />
+    <ClInclude Include="..\include\geos\precision.h" />
+    <ClInclude Include="..\include\geos\profiler.h" />
+    <ClInclude Include="..\include\geos\simplify\DouglasPeuckerLineSimplifier.h" />
+    <ClInclude Include="..\include\geos\simplify\DouglasPeuckerSimplifier.h" />
+    <ClInclude Include="..\include\geos\simplify\LineSegmentIndex.h" />
+    <ClInclude Include="..\include\geos\simplify\TaggedLineSegment.h" />
+    <ClInclude Include="..\include\geos\simplify\TaggedLinesSimplifier.h" />
+    <ClInclude Include="..\include\geos\simplify\TaggedLineString.h" />
+    <ClInclude Include="..\include\geos\simplify\TaggedLineStringSimplifier.h" />
+    <ClInclude Include="..\include\geos\simplify\TopologyPreservingSimplifier.h" />
+    <ClInclude Include="..\include\geos\spatialIndex.h" />
+    <ClInclude Include="..\include\geos\timeval.h" />
+    <ClInclude Include="..\include\geos\triangulate\DelaunayTriangulationBuilder.h" />
+    <ClInclude Include="..\include\geos\triangulate\IncrementalDelaunayTriangulator.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\LastFoundQuadEdgeLocator.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\LocateFailureException.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\QuadEdge.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\QuadEdgeLocator.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\QuadEdgeSubdivision.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\TrianglePredicate.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\TriangleVisitor.h" />
+    <ClInclude Include="..\include\geos\triangulate\quadedge\Vertex.h" />
+    <ClInclude Include="..\include\geos\triangulate\VoronoiDiagramBuilder.h" />
+    <ClInclude Include="..\include\geos\unload.h" />
+    <ClInclude Include="..\include\geos\util\Assert.h" />
+    <ClInclude Include="..\include\geos\util\AssertionFailedException.h" />
+    <ClInclude Include="..\include\geos\util\CoordinateArrayFilter.h" />
+    <ClInclude Include="..\include\geos\util\GeometricShapeFactory.h" />
+    <ClInclude Include="..\include\geos\util\GEOSException.h" />
+    <ClInclude Include="..\include\geos\util\IllegalArgumentException.h" />
+    <ClInclude Include="..\include\geos\util\IllegalStateException.h" />
+    <ClInclude Include="..\include\geos\util\Interrupt.h" />
+    <ClInclude Include="..\include\geos\util\Machine.h" />
+    <ClInclude Include="..\include\geos\util\math.h" />
+    <ClInclude Include="..\include\geos\util\TopologyException.h" />
+    <ClInclude Include="..\include\geos\util\UniqueCoordinateArrayFilter.h" />
+    <ClInclude Include="..\include\geos\util\UnsupportedOperationException.h" />
+    <ClInclude Include="..\include\geos\util.h" />
+    <ClInclude Include="..\include\geos\version.h" />
+    <ClInclude Include="..\include\geos.h" />
+    <ClCompile Include="algorithm\Angle.cpp" />
+    <ClCompile Include="algorithm\BoundaryNodeRule.cpp" />
+    <ClCompile Include="algorithm\Centroid.cpp" />
+    <ClCompile Include="algorithm\CentroidArea.cpp" />
+    <ClCompile Include="algorithm\CentroidLine.cpp" />
+    <ClCompile Include="algorithm\CentroidPoint.cpp" />
+    <ClCompile Include="algorithm\CGAlgorithms.cpp" />
+    <ClCompile Include="algorithm\ConvexHull.cpp" />
+    <ClCompile Include="algorithm\distance\DiscreteHausdorffDistance.cpp" />
+    <ClCompile Include="algorithm\distance\DistanceToPoint.cpp" />
+    <ClCompile Include="algorithm\HCoordinate.cpp" />
+    <ClCompile Include="algorithm\InteriorPointArea.cpp" />
+    <ClCompile Include="algorithm\InteriorPointLine.cpp" />
+    <ClCompile Include="algorithm\InteriorPointPoint.cpp" />
+    <ClCompile Include="algorithm\LineIntersector.cpp" />
+    <ClCompile Include="algorithm\locate\IndexedPointInAreaLocator.cpp" />
+    <ClCompile Include="algorithm\locate\PointOnGeometryLocator.cpp" />
+    <ClCompile Include="algorithm\locate\SimplePointInAreaLocator.cpp" />
+    <ClCompile Include="algorithm\MCPointInRing.cpp" />
+    <ClCompile Include="algorithm\MinimumDiameter.cpp" />
+    <ClCompile Include="algorithm\NotRepresentableException.cpp" />
+    <ClCompile Include="algorithm\PointLocator.cpp" />
+    <ClCompile Include="algorithm\RayCrossingCounter.cpp" />
+    <ClCompile Include="algorithm\RobustDeterminant.cpp" />
+    <ClCompile Include="algorithm\SimplePointInRing.cpp" />
+    <ClCompile Include="algorithm\SIRtreePointInRing.cpp" />
+    <ClCompile Include="geom\Coordinate.cpp" />
+    <ClCompile Include="geom\CoordinateArraySequence.cpp" />
+    <ClCompile Include="geom\CoordinateArraySequenceFactory.cpp" />
+    <ClCompile Include="geom\CoordinateSequence.cpp" />
+    <ClCompile Include="geom\CoordinateSequenceFactory.cpp" />
+    <ClCompile Include="geom\Dimension.cpp" />
+    <ClCompile Include="geom\Envelope.cpp" />
+    <ClCompile Include="geom\Geometry.cpp" />
+    <ClCompile Include="geom\GeometryCollection.cpp" />
+    <ClCompile Include="geom\GeometryComponentFilter.cpp" />
+    <ClCompile Include="geom\GeometryFactory.cpp" />
+    <ClCompile Include="geom\GeometryList.cpp" />
+    <ClCompile Include="geom\IntersectionMatrix.cpp" />
+    <ClCompile Include="geom\LinearRing.cpp" />
+    <ClCompile Include="geom\LineSegment.cpp" />
+    <ClCompile Include="geom\LineString.cpp" />
+    <ClCompile Include="geom\Location.cpp" />
+    <ClCompile Include="geom\MultiLineString.cpp" />
+    <ClCompile Include="geom\MultiPoint.cpp" />
+    <ClCompile Include="geom\MultiPolygon.cpp" />
+    <ClCompile Include="geom\Point.cpp" />
+    <ClCompile Include="geom\Polygon.cpp" />
+    <ClCompile Include="geom\PrecisionModel.cpp" />
+    <ClCompile Include="geom\prep\AbstractPreparedPolygonContains.cpp" />
+    <ClCompile Include="geom\prep\BasicPreparedGeometry.cpp" />
+    <ClCompile Include="geom\prep\PreparedGeometry.cpp" />
+    <ClCompile Include="geom\prep\PreparedGeometryFactory.cpp" />
+    <ClCompile Include="geom\prep\PreparedLineString.cpp" />
+    <ClCompile Include="geom\prep\PreparedLineStringIntersects.cpp" />
+    <ClCompile Include="geom\prep\PreparedPoint.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygon.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygonContains.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygonContainsProperly.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygonCovers.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygonIntersects.cpp" />
+    <ClCompile Include="geom\prep\PreparedPolygonPredicate.cpp" />
+    <ClCompile Include="geom\Triangle.cpp" />
+    <ClCompile Include="geom\util\ComponentCoordinateExtracter.cpp" />
+    <ClCompile Include="geom\util\CoordinateOperation.cpp" />
+    <ClCompile Include="geom\util\GeometryCombiner.cpp" />
+    <ClCompile Include="geom\util\GeometryEditor.cpp" />
+    <ClCompile Include="geom\util\GeometryTransformer.cpp" />
+    <ClCompile Include="geom\util\LinearComponentExtracter.cpp" />
+    <ClCompile Include="geom\util\PointExtracter.cpp" />
+    <ClCompile Include="geom\util\PolygonExtracter.cpp" />
+    <ClCompile Include="geom\util\ShortCircuitedGeometryVisitor.cpp" />
+    <ClCompile Include="geom\util\SineStarFactory.cpp" />
+    <ClCompile Include="geomgraph\Depth.cpp" />
+    <ClCompile Include="geomgraph\DirectedEdge.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/DirectedEdge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\DirectedEdgeStar.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/DirectedEdgeStar.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\Edge.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/Edge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\EdgeEnd.cpp" />
+    <ClCompile Include="geomgraph\EdgeEndStar.cpp" />
+    <ClCompile Include="geomgraph\EdgeIntersectionList.cpp" />
+    <ClCompile Include="geomgraph\EdgeList.cpp" />
+    <ClCompile Include="geomgraph\EdgeNodingValidator.cpp" />
+    <ClCompile Include="geomgraph\EdgeRing.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/EdgeRing.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\GeometryGraph.cpp" />
+    <ClCompile Include="geomgraph\GraphComponent.cpp" />
+    <ClCompile Include="geomgraph\index\MonotoneChainEdge.cpp" />
+    <ClCompile Include="geomgraph\index\MonotoneChainIndexer.cpp" />
+    <ClCompile Include="geomgraph\index\SegmentIntersector.cpp" />
+    <ClCompile Include="geomgraph\index\SimpleEdgeSetIntersector.cpp" />
+    <ClCompile Include="geomgraph\index\SimpleMCSweepLineIntersector.cpp" />
+    <ClCompile Include="geomgraph\index\SimpleSweepLineIntersector.cpp" />
+    <ClCompile Include="geomgraph\index\SweepLineEvent.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/index/SweepLineEvent.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\index\SweepLineSegment.cpp" />
+    <ClCompile Include="geomgraph\Label.cpp" />
+    <ClCompile Include="geomgraph\Node.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\NodeFactory.cpp" />
+    <ClCompile Include="geomgraph\NodeMap.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/NodeMap.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\PlanarGraph.cpp">
+      <ObjectFileName>$(IntDir)/geomgraph/PlanarGraph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="geomgraph\Position.cpp" />
+    <ClCompile Include="geomgraph\Quadrant.cpp" />
+    <ClCompile Include="geomgraph\TopologyLocation.cpp" />
+    <ClCompile Include="index\bintree\Bintree.cpp" />
+    <ClCompile Include="index\bintree\Interval.cpp">
+      <ObjectFileName>$(IntDir)/index/bintree/Interval.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\bintree\Key.cpp">
+      <ObjectFileName>$(IntDir)/index/bintree/Key.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\bintree\Node.cpp">
+      <ObjectFileName>$(IntDir)/index/bintree/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\bintree\NodeBase.cpp">
+      <ObjectFileName>$(IntDir)/index/bintree/NodeBase.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\bintree\Root.cpp">
+      <ObjectFileName>$(IntDir)/index/bintree/Root.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\chain\MonotoneChain.cpp" />
+    <ClCompile Include="index\chain\MonotoneChainBuilder.cpp" />
+    <ClCompile Include="index\chain\MonotoneChainOverlapAction.cpp" />
+    <ClCompile Include="index\chain\MonotoneChainSelectAction.cpp" />
+    <ClCompile Include="index\intervalrtree\IntervalRTreeBranchNode.cpp" />
+    <ClCompile Include="index\intervalrtree\IntervalRTreeLeafNode.cpp" />
+    <ClCompile Include="index\intervalrtree\IntervalRTreeNode.cpp" />
+    <ClCompile Include="index\intervalrtree\SortedPackedIntervalRTree.cpp" />
+    <ClCompile Include="index\quadtree\DoubleBits.cpp" />
+    <ClCompile Include="index\quadtree\IntervalSize.cpp" />
+    <ClCompile Include="index\quadtree\Key.cpp">
+      <ObjectFileName>$(IntDir)/index/quadtree/Key.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\quadtree\Node.cpp">
+      <ObjectFileName>$(IntDir)/index/quadtree/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\quadtree\NodeBase.cpp">
+      <ObjectFileName>$(IntDir)/index/quadtree/NodeBase.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\quadtree\Quadtree.cpp" />
+    <ClCompile Include="index\quadtree\Root.cpp">
+      <ObjectFileName>$(IntDir)/index/quadtree/Root.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\strtree\AbstractNode.cpp" />
+    <ClCompile Include="index\strtree\AbstractSTRtree.cpp" />
+    <ClCompile Include="index\strtree\Interval.cpp">
+      <ObjectFileName>$(IntDir)/index/strtree/Interval.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\strtree\ItemBoundable.cpp" />
+    <ClCompile Include="index\strtree\SIRtree.cpp" />
+    <ClCompile Include="index\strtree\STRtree.cpp" />
+    <ClCompile Include="index\sweepline\SweepLineEvent.cpp">
+      <ObjectFileName>$(IntDir)/index/sweepline/SweepLineEvent.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="index\sweepline\SweepLineIndex.cpp" />
+    <ClCompile Include="index\sweepline\SweepLineInterval.cpp" />
+    <ClCompile Include="inlines.cpp" />
+    <ClCompile Include="io\ByteOrderDataInStream.cpp" />
+    <ClCompile Include="io\ByteOrderValues.cpp" />
+    <ClCompile Include="io\CLocalizer.cpp" />
+    <ClCompile Include="io\ParseException.cpp" />
+    <ClCompile Include="io\StringTokenizer.cpp" />
+    <ClCompile Include="io\Unload.cpp" />
+    <ClCompile Include="io\WKBReader.cpp" />
+    <ClCompile Include="io\WKBWriter.cpp" />
+    <ClCompile Include="io\WKTReader.cpp" />
+    <ClCompile Include="io\WKTWriter.cpp" />
+    <ClCompile Include="io\Writer.cpp" />
+    <ClCompile Include="linearref\ExtractLineByLocation.cpp" />
+    <ClCompile Include="linearref\LengthIndexedLine.cpp" />
+    <ClCompile Include="linearref\LengthIndexOfPoint.cpp" />
+    <ClCompile Include="linearref\LengthLocationMap.cpp" />
+    <ClCompile Include="linearref\LinearGeometryBuilder.cpp" />
+    <ClCompile Include="linearref\LinearIterator.cpp" />
+    <ClCompile Include="linearref\LinearLocation.cpp" />
+    <ClCompile Include="linearref\LocationIndexOfLine.cpp" />
+    <ClCompile Include="linearref\LocationIndexOfPoint.cpp" />
+    <ClCompile Include="noding\BasicSegmentString.cpp" />
+    <ClCompile Include="noding\FastNodingValidator.cpp" />
+    <ClCompile Include="noding\FastSegmentSetIntersectionFinder.cpp" />
+    <ClCompile Include="noding\GeometryNoder.cpp" />
+    <ClCompile Include="noding\IntersectionAdder.cpp" />
+    <ClCompile Include="noding\IntersectionFinderAdder.cpp" />
+    <ClCompile Include="noding\IteratedNoder.cpp" />
+    <ClCompile Include="noding\MCIndexNoder.cpp" />
+    <ClCompile Include="noding\MCIndexSegmentSetMutualIntersector.cpp" />
+    <ClCompile Include="noding\NodedSegmentString.cpp" />
+    <ClCompile Include="noding\NodingValidator.cpp" />
+    <ClCompile Include="noding\Octant.cpp" />
+    <ClCompile Include="noding\OrientedCoordinateArray.cpp" />
+    <ClCompile Include="noding\ScaledNoder.cpp" />
+    <ClCompile Include="noding\SegmentIntersectionDetector.cpp" />
+    <ClCompile Include="noding\SegmentNode.cpp" />
+    <ClCompile Include="noding\SegmentNodeList.cpp" />
+    <ClCompile Include="noding\SegmentString.cpp" />
+    <ClCompile Include="noding\SegmentStringUtil.cpp" />
+    <ClCompile Include="noding\SimpleNoder.cpp" />
+    <ClCompile Include="noding\SingleInteriorIntersectionFinder.cpp" />
+    <ClCompile Include="noding\snapround\HotPixel.cpp" />
+    <ClCompile Include="noding\snapround\MCIndexPointSnapper.cpp" />
+    <ClCompile Include="noding\snapround\MCIndexSnapRounder.cpp" />
+    <ClCompile Include="noding\snapround\SimpleSnapRounder.cpp" />
+    <ClCompile Include="operation\buffer\BufferBuilder.cpp" />
+    <ClCompile Include="operation\buffer\BufferInputLineSimplifier.cpp" />
+    <ClCompile Include="operation\buffer\BufferOp.cpp" />
+    <ClCompile Include="operation\buffer\BufferParameters.cpp" />
+    <ClCompile Include="operation\buffer\BufferSubgraph.cpp" />
+    <ClCompile Include="operation\buffer\OffsetCurveBuilder.cpp" />
+    <ClCompile Include="operation\buffer\OffsetCurveSetBuilder.cpp" />
+    <ClCompile Include="operation\buffer\OffsetSegmentGenerator.cpp" />
+    <ClCompile Include="operation\buffer\RightmostEdgeFinder.cpp" />
+    <ClCompile Include="operation\buffer\SubgraphDepthLocater.cpp" />
+    <ClCompile Include="operation\distance\ConnectedElementLocationFilter.cpp" />
+    <ClCompile Include="operation\distance\ConnectedElementPointFilter.cpp" />
+    <ClCompile Include="operation\distance\DistanceOp.cpp" />
+    <ClCompile Include="operation\distance\GeometryLocation.cpp" />
+    <ClCompile Include="operation\GeometryGraphOperation.cpp" />
+    <ClCompile Include="operation\intersection\Rectangle.cpp" />
+    <ClCompile Include="operation\intersection\RectangleIntersection.cpp" />
+    <ClCompile Include="operation\intersection\RectangleIntersectionBuilder.cpp" />
+    <ClCompile Include="operation\IsSimpleOp.cpp" />
+    <ClCompile Include="operation\linemerge\EdgeString.cpp" />
+    <ClCompile Include="operation\linemerge\LineMergeDirectedEdge.cpp" />
+    <ClCompile Include="operation\linemerge\LineMergeEdge.cpp" />
+    <ClCompile Include="operation\linemerge\LineMergeGraph.cpp" />
+    <ClCompile Include="operation\linemerge\LineMerger.cpp" />
+    <ClCompile Include="operation\linemerge\LineSequencer.cpp" />
+    <ClCompile Include="operation\overlay\EdgeSetNoder.cpp" />
+    <ClCompile Include="operation\overlay\ElevationMatrix.cpp" />
+    <ClCompile Include="operation\overlay\ElevationMatrixCell.cpp" />
+    <ClCompile Include="operation\overlay\LineBuilder.cpp" />
+    <ClCompile Include="operation\overlay\MaximalEdgeRing.cpp" />
+    <ClCompile Include="operation\overlay\MinimalEdgeRing.cpp" />
+    <ClCompile Include="operation\overlay\OverlayNodeFactory.cpp" />
+    <ClCompile Include="operation\overlay\OverlayOp.cpp" />
+    <ClCompile Include="operation\overlay\PointBuilder.cpp" />
+    <ClCompile Include="operation\overlay\PolygonBuilder.cpp" />
+    <ClCompile Include="operation\overlay\snap\GeometrySnapper.cpp" />
+    <ClCompile Include="operation\overlay\snap\LineStringSnapper.cpp" />
+    <ClCompile Include="operation\overlay\snap\SnapIfNeededOverlayOp.cpp" />
+    <ClCompile Include="operation\overlay\snap\SnapOverlayOp.cpp" />
+    <ClCompile Include="operation\overlay\validate\FuzzyPointLocator.cpp" />
+    <ClCompile Include="operation\overlay\validate\OffsetPointGenerator.cpp" />
+    <ClCompile Include="operation\overlay\validate\OverlayResultValidator.cpp" />
+    <ClCompile Include="operation\polygonize\EdgeRing.cpp">
+      <ObjectFileName>$(IntDir)/operation/polygonize/EdgeRing.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="operation\polygonize\PolygonizeDirectedEdge.cpp" />
+    <ClCompile Include="operation\polygonize\PolygonizeEdge.cpp" />
+    <ClCompile Include="operation\polygonize\PolygonizeGraph.cpp" />
+    <ClCompile Include="operation\polygonize\Polygonizer.cpp" />
+    <ClCompile Include="operation\predicate\RectangleContains.cpp" />
+    <ClCompile Include="operation\predicate\RectangleIntersects.cpp" />
+    <ClCompile Include="operation\predicate\SegmentIntersectionTester.cpp" />
+    <ClCompile Include="operation\relate\EdgeEndBuilder.cpp" />
+    <ClCompile Include="operation\relate\EdgeEndBundle.cpp" />
+    <ClCompile Include="operation\relate\EdgeEndBundleStar.cpp" />
+    <ClCompile Include="operation\relate\RelateComputer.cpp" />
+    <ClCompile Include="operation\relate\RelateNode.cpp" />
+    <ClCompile Include="operation\relate\RelateNodeFactory.cpp" />
+    <ClCompile Include="operation\relate\RelateNodeGraph.cpp" />
+    <ClCompile Include="operation\relate\RelateOp.cpp" />
+    <ClCompile Include="operation\sharedpaths\SharedPathsOp.cpp" />
+    <ClCompile Include="operation\union\CascadedPolygonUnion.cpp" />
+    <ClCompile Include="operation\union\CascadedUnion.cpp" />
+    <ClCompile Include="operation\union\PointGeometryUnion.cpp" />
+    <ClCompile Include="operation\union\UnaryUnionOp.cpp" />
+    <ClCompile Include="operation\valid\ConnectedInteriorTester.cpp" />
+    <ClCompile Include="operation\valid\ConsistentAreaTester.cpp" />
+    <ClCompile Include="operation\valid\IndexedNestedRingTester.cpp" />
+    <ClCompile Include="operation\valid\IsValidOp.cpp" />
+    <ClCompile Include="operation\valid\QuadtreeNestedRingTester.cpp" />
+    <ClCompile Include="operation\valid\RepeatedPointTester.cpp" />
+    <ClCompile Include="operation\valid\SimpleNestedRingTester.cpp" />
+    <ClCompile Include="operation\valid\SweeplineNestedRingTester.cpp" />
+    <ClCompile Include="operation\valid\TopologyValidationError.cpp" />
+    <ClCompile Include="planargraph\algorithm\ConnectedSubgraphFinder.cpp" />
+    <ClCompile Include="planargraph\DirectedEdge.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/DirectedEdge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\DirectedEdgeStar.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/DirectedEdgeStar.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\Edge.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/Edge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\Node.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\NodeMap.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/NodeMap.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\PlanarGraph.cpp">
+      <ObjectFileName>$(IntDir)/planargraph/PlanarGraph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="planargraph\Subgraph.cpp" />
+    <ClCompile Include="precision\CommonBits.cpp" />
+    <ClCompile Include="precision\CommonBitsOp.cpp" />
+    <ClCompile Include="precision\CommonBitsRemover.cpp" />
+    <ClCompile Include="precision\EnhancedPrecisionOp.cpp" />
+    <ClCompile Include="precision\GeometryPrecisionReducer.cpp" />
+    <ClCompile Include="precision\PrecisionReducerCoordinateOperation.cpp" />
+    <ClCompile Include="precision\SimpleGeometryPrecisionReducer.cpp" />
+    <ClCompile Include="simplify\DouglasPeuckerLineSimplifier.cpp" />
+    <ClCompile Include="simplify\DouglasPeuckerSimplifier.cpp" />
+    <ClCompile Include="simplify\LineSegmentIndex.cpp" />
+    <ClCompile Include="simplify\TaggedLineSegment.cpp" />
+    <ClCompile Include="simplify\TaggedLinesSimplifier.cpp" />
+    <ClCompile Include="simplify\TaggedLineString.cpp" />
+    <ClCompile Include="simplify\TaggedLineStringSimplifier.cpp" />
+    <ClCompile Include="simplify\TopologyPreservingSimplifier.cpp" />
+    <ClCompile Include="triangulate\DelaunayTriangulationBuilder.cpp" />
+    <ClCompile Include="triangulate\IncrementalDelaunayTriangulator.cpp" />
+    <ClCompile Include="triangulate\quadedge\LastFoundQuadEdgeLocator.cpp" />
+    <ClCompile Include="triangulate\quadedge\LocateFailureException.cpp" />
+    <ClCompile Include="triangulate\quadedge\QuadEdge.cpp" />
+    <ClCompile Include="triangulate\quadedge\QuadEdgeLocator.cpp" />
+    <ClCompile Include="triangulate\quadedge\QuadEdgeSubdivision.cpp" />
+    <ClCompile Include="triangulate\quadedge\TrianglePredicate.cpp" />
+    <ClCompile Include="triangulate\quadedge\TriangleVisitor.cpp" />
+    <ClCompile Include="triangulate\quadedge\Vertex.cpp" />
+    <ClCompile Include="triangulate\VoronoiDiagramBuilder.cpp" />
+    <ClCompile Include="util\Assert.cpp" />
+    <ClCompile Include="util\GeometricShapeFactory.cpp" />
+    <ClCompile Include="util\Interrupt.cpp" />
+    <ClCompile Include="util\math.cpp" />
+    <ClCompile Include="util\Profiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/geos-3.5.0/ZERO_CHECK.vcxproj">
+      <Project>B8B14953-D615-3E66-863E-CFDE5D5E89DC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

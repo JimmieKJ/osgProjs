@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagfile>
+    <compound kind="class">
+        <name>Qt3D.Renderer.FrameGraph</name>
+        <filename>qml-qt3d-renderer-framegraph.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.FrameGraphNode</name>
+        <filename>qml-qt3d-renderer-framegraphnode.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.LayerFilter</name>
+        <filename>qml-qt3d-renderer-layerfilter.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QAbstractLight</name>
+        <filename>qml-qabstractlight.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.AbstractTextureImage</name>
+        <filename>qml-qt3d-renderer-abstracttextureimage.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.Annotation</name>
+        <filename>qml-qt3d-renderer-annotation.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.BlendState</name>
+        <filename>qml-qt3d-renderer-blendstate.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.BlendStateSeparate</name>
+        <filename>qml-qt3d-renderer-blendstateseparate.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.ClipPlane</name>
+        <filename>qml-qt3d-renderer-clipplane.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.Layer</name>
+        <filename>qml-qt3d-renderer-layer.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.OpenGLFilter</name>
+        <filename>qml-qt3d-renderer-openglfilter.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.ParameterMapping</name>
+        <filename>qml-qt3d-renderer-parametermapping.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.PointLight</name>
+        <filename>qml-qt3d-renderer-pointlight.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.SpotLight</name>
+        <filename>qml-qt3d-renderer-spotlight.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Qt3D.Renderer.TextureImage</name>
+        <filename>qml-qt3d-renderer-textureimage.html</filename>
+    </compound>
+</tagfile>

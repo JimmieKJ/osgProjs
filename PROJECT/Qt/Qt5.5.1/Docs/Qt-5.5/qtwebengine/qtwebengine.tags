@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagfile>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineCertificateError</name>
+        <filename>qml-qtwebengine-webenginecertificateerror.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineDownloadItem</name>
+        <filename>qml-qtwebengine-webenginedownloaditem.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineLoadRequest</name>
+        <filename>qml-qtwebengine-webengineloadrequest.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineNewViewRequest</name>
+        <filename>qml-qtwebengine-webenginenewviewrequest.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineProfile</name>
+        <filename>qml-qtwebengine-webengineprofile.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineSettings</name>
+        <filename>qml-qtwebengine-webenginesettings.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineView</name>
+        <filename>qml-qtwebengine-webengineview.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>QtWebEngine.WebEngineFullScreenRequest</name>
+        <filename>qml-qtwebengine-webenginefullscreenrequest.html</filename>
+    </compound>
+</tagfile>

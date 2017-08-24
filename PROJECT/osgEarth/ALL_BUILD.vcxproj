@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{20066662-5C24-3ED7-AD7C-4BB5C1B1799C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/osgEarth/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/osgEarth/CMakeLists.txt;D:\PROJECT\osgEarth\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindCURL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGDAL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGEOS.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSqlite3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindLevelDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindRocksDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSilverLining.cmake;D:\PROJECT\osgEarth\CMakeModules\FindTriton.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindProtobuf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindV8.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\PROJECT\osgEarth\CMakeModules\FindOSG.cmake;D:\PROJECT\osgEarth\CMakeModules\OsgEarthMacroUtils.cmake;D:\PROJECT\osgEarth\CMakeModules\cmake_uninstall.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\PROJECT\osgEarth\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\osgEarth\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/osgEarth/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/osgEarth/CMakeLists.txt;D:\PROJECT\osgEarth\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindCURL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGDAL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGEOS.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSqlite3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindLevelDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindRocksDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSilverLining.cmake;D:\PROJECT\osgEarth\CMakeModules\FindTriton.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindProtobuf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindV8.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\PROJECT\osgEarth\CMakeModules\FindOSG.cmake;D:\PROJECT\osgEarth\CMakeModules\OsgEarthMacroUtils.cmake;D:\PROJECT\osgEarth\CMakeModules\cmake_uninstall.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\PROJECT\osgEarth\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\osgEarth\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/osgEarth/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/osgEarth/CMakeLists.txt;D:\PROJECT\osgEarth\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindCURL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGDAL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGEOS.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSqlite3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindLevelDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindRocksDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSilverLining.cmake;D:\PROJECT\osgEarth\CMakeModules\FindTriton.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindProtobuf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindV8.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\PROJECT\osgEarth\CMakeModules\FindOSG.cmake;D:\PROJECT\osgEarth\CMakeModules\OsgEarthMacroUtils.cmake;D:\PROJECT\osgEarth\CMakeModules\cmake_uninstall.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\PROJECT\osgEarth\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\osgEarth\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/osgEarth/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/osgEarth/CMakeLists.txt;D:\PROJECT\osgEarth\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\PROJECT\osgEarth\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindCURL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGDAL.cmake;D:\PROJECT\osgEarth\CMakeModules\FindGEOS.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSqlite3.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindLevelDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindRocksDB.cmake;D:\PROJECT\osgEarth\CMakeModules\FindSilverLining.cmake;D:\PROJECT\osgEarth\CMakeModules\FindTriton.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindProtobuf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\osgEarth\CMakeModules\FindV8.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\PROJECT\osgEarth\CMakeModules\FindOSG.cmake;D:\PROJECT\osgEarth\CMakeModules\OsgEarthMacroUtils.cmake;D:\PROJECT\osgEarth\CMakeModules\cmake_uninstall.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;D:\PROJECT\osgEarth\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\osgEarth\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_3pv/application_osgearth_3pv.vcxproj">
+      <Project>7EBB0811-8978-3F4B-98B0-249E20155ECB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_annotation/application_osgearth_annotation.vcxproj">
+      <Project>1C712542-8A17-323F-935F-2D809ECB168C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_atlas/application_osgearth_atlas.vcxproj">
+      <Project>334735C0-7538-339C-8FEA-34366F22DCAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_boundarygen/application_osgearth_boundarygen.vcxproj">
+      <Project>C158549B-CE24-3E96-BACF-1A03994D1E19</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_seed/application_osgearth_cache.vcxproj">
+      <Project>A43FDA86-428A-323F-B6DA-362FE92B5B5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_cache_test/application_osgearth_cache_test.vcxproj">
+      <Project>DF613831-E37E-3B0E-8644-8601666FEC30</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_city/application_osgearth_city.vcxproj">
+      <Project>8BBCE801-C055-37B9-91E4-E6A432D96173</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_clamp/application_osgearth_clamp.vcxproj">
+      <Project>63F30928-431A-3936-A968-D22C188C015B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_clipplane/application_osgearth_clipplane.vcxproj">
+      <Project>F0B19019-57F9-34DD-8755-137DCFDF78D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_colorfilter/application_osgearth_colorfilter.vcxproj">
+      <Project>025B45A8-24FC-3334-972C-C2164A4ECEDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_computerangecallback/application_osgearth_computerangecallback.vcxproj">
+      <Project>95CF1D8F-DCCF-3F0C-A3AB-01DA6F56D65F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_controls/application_osgearth_controls.vcxproj">
+      <Project>A19A9556-62AA-3A80-ABFD-AA1AF95F7A01</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_conv/application_osgearth_conv.vcxproj">
+      <Project>5A5DBD93-C212-3F31-8DDF-8FC8439698A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_createtile/application_osgearth_createtile.vcxproj">
+      <Project>9D6D6EE0-1311-3B65-A358-8730ECCB4EAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_datetime/application_osgearth_datetime.vcxproj">
+      <Project>2C23923A-432E-37AE-9FFA-8F90B647CC55</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_elevation/application_osgearth_elevation.vcxproj">
+      <Project>10487549-169D-35CA-8D77-A67059609AD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_ephemeris/application_osgearth_ephemeris.vcxproj">
+      <Project>E89A1B47-A969-36AF-857E-4042A2B94524</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_featureeditor/application_osgearth_featureeditor.vcxproj">
+      <Project>3B929E2D-C526-3340-962A-E467743EFCF9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_featurefilter/application_osgearth_featurefilter.vcxproj">
+      <Project>26979D80-1571-37BB-989F-1119E278DE3B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_featureinfo/application_osgearth_featureinfo.vcxproj">
+      <Project>0EC7D369-402A-307B-9E80-57783C5ABC5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_featurequery/application_osgearth_featurequery.vcxproj">
+      <Project>C9EF4607-0F36-33E8-A30E-9854F2671A23</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_features/application_osgearth_features.vcxproj">
+      <Project>CC4B23AA-9BF4-340A-8896-1A41D14A5A2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_fog/application_osgearth_fog.vcxproj">
+      <Project>11C918C2-E4B2-313F-A21C-534D85BCB0D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_graticule/application_osgearth_graticule.vcxproj">
+      <Project>53DB255C-EB5A-3304-93B5-C24DFCD845D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_horizon/application_osgearth_horizon.vcxproj">
+      <Project>447E618A-FE48-331C-B0C8-B61FFCF5F641</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_http/application_osgearth_http.vcxproj">
+      <Project>F89EF019-77C7-3D8F-A39E-7FB6DE4AA980</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_imageoverlay/application_osgearth_imageoverlay.vcxproj">
+      <Project>3AAF48FD-9878-30BE-AF81-AECF6DA95FC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_los/application_osgearth_los.vcxproj">
+      <Project>018AC9D7-3932-38DD-A261-8387DF19E7CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_manip/application_osgearth_manip.vcxproj">
+      <Project>1CFFDCFE-2BC5-341A-AE4C-24DA04EE70D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_map/application_osgearth_map.vcxproj">
+      <Project>10B7C183-FFFC-3F2E-B677-D1F101F49721</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_measure/application_osgearth_measure.vcxproj">
+      <Project>FFDB5549-B6C7-37E4-980C-C39A09B4FE0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_minimap/application_osgearth_minimap.vcxproj">
+      <Project>F2327806-7ACD-3180-8E57-98E5906F8D38</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_mrt/application_osgearth_mrt.vcxproj">
+      <Project>CECE2609-3583-3FEA-85B5-67B30CF8D292</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_occlusionculling/application_osgearth_occlusionculling.vcxproj">
+      <Project>93BA8493-4BCE-3F92-B552-2BF9EF5570B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_overlayviewer/application_osgearth_overlayviewer.vcxproj">
+      <Project>3F6006EF-963A-37F3-917F-FBCC2E2B73D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_package/application_osgearth_package.vcxproj">
+      <Project>158FFAF9-5600-35FD-9193-ED8FE066DD63</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_package_qt/application_osgearth_package_qt.vcxproj">
+      <Project>A1CA2D27-6A3E-3E02-86DE-E3427AE703D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_pagingtest/application_osgearth_pagingtest.vcxproj">
+      <Project>8673C6B5-877A-3DBE-A915-28A01EB8E35A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_pick/application_osgearth_pick.vcxproj">
+      <Project>D7C267A9-BAA0-364B-84AD-AD6418D7B1A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_qt/application_osgearth_qt.vcxproj">
+      <Project>6FB9864A-6825-3BB8-B107-6ABBBCFE594A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_qt_simple/application_osgearth_qt_simple.vcxproj">
+      <Project>F56D51FE-92C1-3341-92E5-6554666B4D7E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_qt_windows/application_osgearth_qt_windows.vcxproj">
+      <Project>4935EBA1-F984-323C-AEA3-909DFC9D7670</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_sequencecontrol/application_osgearth_sequencecontrol.vcxproj">
+      <Project>30E116CD-31FF-3F23-B23A-2CFB9494F463</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_server/application_osgearth_server.vcxproj">
+      <Project>3EAA2B1C-DD59-3DCA-95FF-66A3CB5469BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_shadercomp/application_osgearth_shadercomp.vcxproj">
+      <Project>6F0AECC0-BF23-34D9-801B-0F8DE9610C50</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_shadergen/application_osgearth_shadergen.vcxproj">
+      <Project>C4202576-5BBD-3ECB-AF0A-007484E08199</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_sharedlayer/application_osgearth_sharedlayer.vcxproj">
+      <Project>53968529-3B14-34EB-80B2-AEE8FEAB2AFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_skyview/application_osgearth_skyview.vcxproj">
+      <Project>411BCF9E-85F1-370A-953F-C1822F933272</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_splat/application_osgearth_splat.vcxproj">
+      <Project>CB2D9E94-4D0B-376C-8113-9C3F2565C5D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_terrainprofile/application_osgearth_terrainprofile.vcxproj">
+      <Project>1693A978-9FD6-3F3D-9F55-31B7856FE151</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_tfs/application_osgearth_tfs.vcxproj">
+      <Project>C2827EBD-354E-39BE-A108-216A73AC1F2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_tileindex/application_osgearth_tileindex.vcxproj">
+      <Project>BDE2BFE4-ED75-34AE-A4E2-02A82F334BFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_tilesource/application_osgearth_tilesource.vcxproj">
+      <Project>DE8A16F9-741A-3F90-8493-C2940EB5DD94</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_toc/application_osgearth_toc.vcxproj">
+      <Project>B1722908-E720-377D-94C9-F9D8CAF02FCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_tracks/application_osgearth_tracks.vcxproj">
+      <Project>36AA1FCD-87D4-3142-9C65-A3924168BEA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_transform/application_osgearth_transform.vcxproj">
+      <Project>A588F5A2-818A-39DC-812F-89F9FE8E229D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_version/application_osgearth_version.vcxproj">
+      <Project>B2911E43-0B54-382B-B820-538EDD48FBF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_viewer/application_osgearth_viewer.vcxproj">
+      <Project>11B8B036-0375-3F97-93AB-FE6AA452C2BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_wfs/application_osgearth_wfs.vcxproj">
+      <Project>CF9708E0-502C-3634-BD54-CAC22B7B6782</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/applications/osgearth_xfbtest/application_osgearth_xfbtest.vcxproj">
+      <Project>30E17C05-21B8-3B04-8B63-226AAD098FD0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarth/osgEarth.vcxproj">
+      <Project>907A1861-EF0A-3B0A-A1C4-FB88CD587692</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthAnnotation/osgEarthAnnotation.vcxproj">
+      <Project>8700FDCC-E30E-3A50-AE89-0BBC8776F219</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthFeatures/osgEarthFeatures.vcxproj">
+      <Project>2C359AD6-DC44-35BA-8025-10E4F95E4EFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthQt/osgEarthQt.vcxproj">
+      <Project>607F0F0F-2ADC-31CF-9605-C82841BC262A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthSplat/osgEarthSplat.vcxproj">
+      <Project>3ECDAB6D-3DAF-32A5-B569-CA5D6A2EE9C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthSymbology/osgEarthSymbology.vcxproj">
+      <Project>B55E87F9-9B6F-3DBD-9F6F-45F1C20A5736</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthUtil/osgEarthUtil.vcxproj">
+      <Project>07232FA1-89EF-3265-9975-723ED647E9EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/earth/osgdb_earth.vcxproj">
+      <Project>BD640690-0BB1-3D70-B6A3-491E46C00F06</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/kml/osgdb_kml.vcxproj">
+      <Project>957E7615-4D98-3CB6-8DEA-D80FA5E9032F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/agglite/osgdb_osgearth_agglite.vcxproj">
+      <Project>F3F21C87-9739-343D-82BE-A213A63267BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/arcgis/osgdb_osgearth_arcgis.vcxproj">
+      <Project>9527C968-EA9B-3785-B9D1-F3EA37D0B224</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/arcgis_map_cache/osgdb_osgearth_arcgis_map_cache.vcxproj">
+      <Project>F9D448C9-0898-326D-B049-02B424265985</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/bing/osgdb_osgearth_bing.vcxproj">
+      <Project>FF111457-5A1F-3C06-87B0-54B863CD44AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/bumpmap/osgdb_osgearth_bumpmap.vcxproj">
+      <Project>AA5D7E3A-6B62-3994-82F5-1980265E52A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/cache_filesystem/osgdb_osgearth_cache_filesystem.vcxproj">
+      <Project>48606748-E81E-3597-8468-A1D0DF359CB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/colorramp/osgdb_osgearth_colorramp.vcxproj">
+      <Project>54F2EB38-494C-30A1-BDD3-080D12FD2574</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/debug/osgdb_osgearth_debug.vcxproj">
+      <Project>F4D0F2E6-F3E2-3A7B-A6C1-4A14383DE793</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/engine_byo/osgdb_osgearth_engine_byo.vcxproj">
+      <Project>F8A8EAA5-ED96-3060-A8E3-AAAC452B5CA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/engine_mp/osgdb_osgearth_engine_mp.vcxproj">
+      <Project>BF3D6EA7-A52D-39B5-BC9B-485BB3D36722</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/engine_rex/osgdb_osgearth_engine_rex.vcxproj">
+      <Project>857AA472-78BC-39BB-AF90-824ECA28036A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_elevation/osgdb_osgearth_feature_elevation.vcxproj">
+      <Project>F68C4C8C-D0A2-3E05-B292-D694D2DBA0D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_ogr/osgdb_osgearth_feature_ogr.vcxproj">
+      <Project>54D3E8B7-13B1-366A-BBDE-E3E6D15336CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_raster/osgdb_osgearth_feature_raster.vcxproj">
+      <Project>54DAEA7E-7CC6-3EAF-8611-B32ED1C9ACB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_tfs/osgdb_osgearth_feature_tfs.vcxproj">
+      <Project>759A2043-D1FC-33E0-9284-9FC2817DDD76</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/feature_wfs/osgdb_osgearth_feature_wfs.vcxproj">
+      <Project>D87ABDB6-A721-390D-9ADA-79E501A688CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/featurefilter_intersect/osgdb_osgearth_featurefilter_intersect.vcxproj">
+      <Project>78F5B4A4-1524-3E3D-96CE-BD07BB1BE82D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/gdal/osgdb_osgearth_gdal.vcxproj">
+      <Project>B46A26D4-F22D-31F1-B879-3923ACEFAF6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/google/osgdb_osgearth_google.vcxproj">
+      <Project>76C5D4FA-455F-3891-8958-2DB0A084AB2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/label_annotation/osgdb_osgearth_label_annotation.vcxproj">
+      <Project>804FE949-C6A0-3D5A-8CEE-2D858ED9F118</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/mapinspector/osgdb_osgearth_mapinspector.vcxproj">
+      <Project>6842A0F0-E1C7-3416-916A-C8C3FCABD9A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/mask_feature/osgdb_osgearth_mask_feature.vcxproj">
+      <Project>2BA6725A-E996-3E86-9C3D-22ABB36DF0B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/model_feature_geom/osgdb_osgearth_model_feature_geom.vcxproj">
+      <Project>A5483BDB-9751-3BC0-826B-1ED74577CC4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/model_feature_stencil/osgdb_osgearth_model_feature_stencil.vcxproj">
+      <Project>9334B3BB-A219-3179-858C-A230F99A2A49</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/model_simple/osgdb_osgearth_model_simple.vcxproj">
+      <Project>0D6CF941-A6F9-3AD0-93A5-1DC91F94B6FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/noise/osgdb_osgearth_noise.vcxproj">
+      <Project>1F2D778F-6442-36B7-BAFD-155BB7E5AABC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/ocean_simple/osgdb_osgearth_ocean_simple.vcxproj">
+      <Project>E5696837-0011-3A1E-8F5B-030A953D5D70</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/osg/osgdb_osgearth_osg.vcxproj">
+      <Project>5152973E-CAA2-38EE-AA54-5297FD24F20D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/quadkey/osgdb_osgearth_quadkey.vcxproj">
+      <Project>5F7D98BA-163A-3157-971D-5F6EF2394AB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/refresh/osgdb_osgearth_refresh.vcxproj">
+      <Project>AAB0BB2F-B002-3AD2-8687-5D70EC0E7712</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/script_engine_duktape/osgdb_osgearth_scriptengine_javascript.vcxproj">
+      <Project>96E2E23B-7712-365A-9BAB-A5EF3D838F3A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/sky_gl/osgdb_osgearth_sky_gl.vcxproj">
+      <Project>63B29DDF-C20A-3062-AC96-B0711BBFE007</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/sky_simple/osgdb_osgearth_sky_simple.vcxproj">
+      <Project>E61758FD-D8CC-39C2-97C0-79BDA5D5E2DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/skyview/osgdb_osgearth_skyview.vcxproj">
+      <Project>9C59EC4A-309C-3144-94AA-063C98AE7012</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/splat_mask/osgdb_osgearth_splat_mask.vcxproj">
+      <Project>D8D2BF01-B439-38A2-BE9A-397F910AF81F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/template_matclass/osgdb_osgearth_template_matclass.vcxproj">
+      <Project>C7B148EB-112D-3A68-BF0B-1EB0A054CF73</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/terrainshader/osgdb_osgearth_terrainshader.vcxproj">
+      <Project>9914141F-91B5-3263-91CA-CA235ACCCBD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/tilecache/osgdb_osgearth_tilecache.vcxproj">
+      <Project>FBF26F98-53E2-31C4-A7CA-66E410E3EC02</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/osgdb_osgearth_tileindex.vcxproj">
+      <Project>B1727C2F-CD0E-3DC3-8858-CF19025EF2B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/tileservice/osgdb_osgearth_tileservice.vcxproj">
+      <Project>9717B8B6-46CA-3341-ADCA-47C0D8C7A19C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/tms/osgdb_osgearth_tms.vcxproj">
+      <Project>6D150881-2E54-34B0-BA2F-68022A80ABE8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/vdatum_egm2008/osgdb_osgearth_vdatum_egm2008.vcxproj">
+      <Project>EED91903-CDD6-3D19-BBE6-3B5AC900BA44</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/vdatum_egm84/osgdb_osgearth_vdatum_egm84.vcxproj">
+      <Project>A214536E-F1B4-315A-97AB-2CF969CA56C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/vdatum_egm96/osgdb_osgearth_vdatum_egm96.vcxproj">
+      <Project>9C742432-8E6C-372D-845D-F2810F85743C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/viewpoints/osgdb_osgearth_viewpoints.vcxproj">
+      <Project>81870985-7236-31C4-B225-D85EE17C9735</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/vpb/osgdb_osgearth_vpb.vcxproj">
+      <Project>025B5835-3E71-3874-A6DB-367C31AECED3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/wcs/osgdb_osgearth_wcs.vcxproj">
+      <Project>6B45816C-AA17-315E-89B8-297D4BFD51F0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/wms/osgdb_osgearth_wms.vcxproj">
+      <Project>399A0E29-7684-38AB-92D4-4D38CCFBE025</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/xyz/osgdb_osgearth_xyz.vcxproj">
+      <Project>9994AADC-22F7-3C1C-AA11-94241DFF4D7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/yahoo/osgdb_osgearth_yahoo.vcxproj">
+      <Project>3D535481-498C-39E2-BCA8-0FA7E6FAD4E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthDrivers/template/osgdb_template.vcxproj">
+      <Project>08B7C3A3-2E2F-3311-B06F-99D8AB0ED6B3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

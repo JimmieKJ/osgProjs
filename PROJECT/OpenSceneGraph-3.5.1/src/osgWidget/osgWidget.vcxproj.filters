@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PdfReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VncClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Python.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewerEventHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgWidget\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Box">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Browser">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\PdfReader">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\VncClient">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Canvas">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\EventInterface">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Frame">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Input">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Label">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Lua">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Python">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\ScriptEngine">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\StyleInterface">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\StyleManager">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Table">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Types">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\UIObjectParent">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Util">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Version">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\ViewerEventHandlers">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Widget">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\Window">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgWidget\WindowManager">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

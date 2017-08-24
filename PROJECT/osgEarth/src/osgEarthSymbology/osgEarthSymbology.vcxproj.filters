@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AltitudeSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoverageSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CssUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtrusionSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GEOS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryRasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IconResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IconSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkerResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkerSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshConsolidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFlattener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshSubdivider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StencilVolumeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AGG.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AltitudeSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BillboardResource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BillboardSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Color">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CoverageSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CssUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Expression">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ExtrusionSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Fill">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Geometry">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeometryFactory">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GEOS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeometryRasterizer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="IconResource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="IconSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="InstanceResource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="InstanceSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LineSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MarkerResource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MarkerSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MeshConsolidator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MeshFlattener">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MeshSubdivider">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ModelResource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ModelSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PointSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PolygonSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Query">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="RenderSymbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Resource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ResourceCache">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ResourceLibrary">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Skins">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StencilVolumeNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Stroke">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Style">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StyleSelector">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StyleSheet">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Symbol">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Tags">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TextSymbol">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

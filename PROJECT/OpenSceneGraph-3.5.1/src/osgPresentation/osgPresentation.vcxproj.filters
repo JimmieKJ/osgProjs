@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompileSlideCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PickEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideShowConstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timeout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgPresentation\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\Cursor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\AnimationMaterial">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\CompileSlideCallback">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\PickEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\PropertyManager">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\KeyEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\SlideEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\SlideShowConstructor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgPresentation\Timeout">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

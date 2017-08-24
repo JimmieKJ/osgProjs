@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProfiles>
+<!-- Written by sdktool , 2016-04-06T16:40:59. -->
+<qtcreator>
+ <data>
+  <variable>Profile.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">true</value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <value type="QString" key="PE.Profile.DeviceType">Desktop</value>
+    <value type="QString" key="PE.Profile.ToolChain">x86-windows-msvc2010-pe-32bit</value>
+    <value type="QString" key="QtSupport.QtInformation">SDK.qt.55.win32_msvc2010</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.Icon">:///DESKTOP///</value>
+   <value type="QString" key="PE.Profile.Id">qt.55.win32_msvc2010_kit</value>
+   <value type="QString" key="PE.Profile.Name">Desktop Qt %{Qt:Version} MSVC2010 32bit</value>
+   <value type="bool" key="PE.Profile.SDK">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.Count</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>Profile.Default</variable>
+  <value type="QString">qt.55.win32_msvc2010_kit</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>

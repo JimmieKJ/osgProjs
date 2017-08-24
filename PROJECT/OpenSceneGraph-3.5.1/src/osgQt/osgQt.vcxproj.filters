@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GraphicsWindowQt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QFontImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QGraphicsViewAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QWidgetImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="__\__\include\osgQt\moc_QGraphicsViewAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\72fc1b37f91de00dfc2d1ee06b01dcea\moc_QGraphicsViewAdapter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgQt\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\GraphicsWindowQt">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\QFontImplementation">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\QGraphicsViewAdapter">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\QWidgetImage">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\QWebViewImage">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgQt\Version">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1240FA1B-B762-3AF4-9623-3EE35ABDF151}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

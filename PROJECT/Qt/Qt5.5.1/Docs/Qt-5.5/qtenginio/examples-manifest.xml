@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtEnginio">
+    <examples>
+        <example name="Enginio C++ Examples - Cloud Address Book" docUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/enginio-qt-cloudaddressbook-example.html" projectPath="enginio/widgets/cloudaddressbook/cloudaddressbook.pro" imageUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/images/cloudaddressbook-example.png">
+            <description><![CDATA[The Cloud Address Book demonstrates how to use sorting, filtering, and the full text search functionality.]]></description>
+            <tags>c++,book,cloud,address,enginio</tags>
+            <fileToOpen mainFile="true">enginio/widgets/cloudaddressbook/main.cpp</fileToOpen>
+        </example>
+        <example name="Enginio C++ Examples - Image Gallery" docUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/enginio-qt-image-gallery-cpp-example.html" projectPath="enginio/widgets/image-gallery-cpp/image-gallery-cpp.pro" imageUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/images/gallery-example.png">
+            <description><![CDATA[This is an example that demonstrates uploading and downloading of files in Enginio.]]></description>
+            <tags>c++,image,gallery,enginio</tags>
+            <fileToOpen mainFile="true">enginio/widgets/image-gallery-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Enginio C++ Examples - Todos" docUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/enginio-qt-todos-cpp-example.html" projectPath="enginio/widgets/todos-cpp/todos-cpp.pro" imageUrl="qthelp://org.qt-project.qtenginio.121/qtenginio/images/todo-example.png">
+            <description><![CDATA[The Todo example shows how to use the EnginioModel with Qt Widgets.]]></description>
+            <tags>c++,enginio,todos</tags>
+            <fileToOpen mainFile="true">enginio/widgets/todos-cpp/main.cpp</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

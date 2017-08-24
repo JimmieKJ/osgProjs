@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Coverage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LandCover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LandCoverTerrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LandCoverTilePatchCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LandUseTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseTextureFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplatPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplatExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplatCatalog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplatTerrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplatCoverageLegend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SplatShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\4726b558b89fc619f5449e1c7047706a\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Coverage">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Export">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LandCover">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LandCoverTerrainEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LandCoverTilePatchCallback">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LandUseTileSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="NoiseTextureFactory">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatCoverageLegend">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatCatalog">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatExtension">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatOptions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatShaders">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SplatTerrainEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Surface">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Zone">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Splat.types.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.Noise.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.vert.model.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.vert.view.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.frag.common.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.frag.getRenderInfo.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Splat.util.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LandCover.TCS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LandCover.TES.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LandCover.GS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LandCover.FS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{BE0D1460-02A8-3B22-A2AD-A036F2D3FFBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

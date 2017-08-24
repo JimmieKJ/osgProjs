@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="Qt3DRenderer">
+    <examples>
+        <example name="Qt3D: Basic Shapes C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-basicshapes-cpp-example.html" projectPath="qt3d/basicshapes-cpp/basicshapes-cpp.pro" imageUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/images/basicshapes-cpp-example.jpg">
+            <description><![CDATA[Shows four basic shapes that Qt3D offers and sets up a mesh for each of them.]]></description>
+            <tags>qt3d,basic,renderer,c++,shapes</tags>
+            <fileToOpen mainFile="true">qt3d/basicshapes-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Big Model QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-bigmodel-qml-example.html" projectPath="qt3d/bigmodel-qml/bigmodel-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,big,renderer,model,qml</tags>
+            <fileToOpen>qt3d/bigmodel-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/bigmodel-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Big Scene C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-bigscene-cpp-example.html" projectPath="qt3d/bigscene-cpp/bigscene-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,big,renderer,c++,scene</tags>
+            <fileToOpen mainFile="true">qt3d/bigscene-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-cpp-example-example.html" projectPath="qt3d/cpp_example/cpp_example.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,c++</tags>
+            <fileToOpen mainFile="true">qt3d/cpp_example/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Cylinder C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-cylinder-cpp-example.html" projectPath="qt3d/cylinder-cpp/cylinder-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,c++,cylinder</tags>
+            <fileToOpen mainFile="true">qt3d/cylinder-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Cylinder QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-cylinder-qml-example.html" projectPath="qt3d/cylinder-qml/cylinder-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,cylinder,qml</tags>
+            <fileToOpen>qt3d/cylinder-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/cylinder-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Deferred Renderer C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-deferred-renderer-cpp-example.html" projectPath="qt3d/deferred-renderer-cpp/deferred-renderer-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,c++,deferred</tags>
+            <fileToOpen mainFile="true">qt3d/deferred-renderer-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Deferred Renderer QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-deferred-renderer-qml-example.html" projectPath="qt3d/deferred-renderer-qml/deferred-renderer-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,qml,deferred</tags>
+            <fileToOpen>qt3d/deferred-renderer-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/deferred-renderer-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Dynamic Scene C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-dynamicscene-cpp-example.html" projectPath="qt3d/dynamicscene-cpp/dynamicscene-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,c++,dynamic,scene</tags>
+            <fileToOpen mainFile="true">qt3d/dynamicscene-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Enabled QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-enabled-qml-example.html" projectPath="qt3d/enabled-qml/enabled-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,enabled,renderer,qml</tags>
+            <fileToOpen>qt3d/enabled-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/enabled-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Keyboard Input QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-keyboardinput-qml-example.html" projectPath="qt3d/keyboardinput-qml/keyboardinput-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,input,qml,keyboard</tags>
+            <fileToOpen>qt3d/keyboardinput-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/keyboardinput-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Loader QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-loader-qml-example.html" projectPath="qt3d/loader-qml/loader-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,qml,loader</tags>
+            <fileToOpen>qt3d/loader-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/loader-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Materials C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-materials-cpp-example.html" projectPath="qt3d/materials-cpp/materials-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,c++,materials</tags>
+            <fileToOpen mainFile="true">qt3d/materials-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Materials QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-materials-example.html" projectPath="qt3d/materials/materials.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,materials,qml</tags>
+            <fileToOpen>qt3d/materials/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/materials/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Multi Viewport QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-multiviewport-example.html" projectPath="qt3d/multiviewport/multiviewport.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,viewport,qml,multi</tags>
+            <fileToOpen>qt3d/multiviewport/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/multiviewport/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Planets QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-planets-qml-example.html" projectPath="qt3d/planets-qml/planets-qml.pro" imageUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/images/planets-qml-example.jpg">
+            <description><![CDATA[Demonstrates combining Qt 3D rendering and Qt Quick 2 elements.]]></description>
+            <tags>qt3d,renderer,planets,qml</tags>
+            <fileToOpen>qt3d/planets-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/planets-qml/PlanetsMain.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Playground QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-playground-qml-example.html" projectPath="qt3d/playground-qml/playground-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,qml,playground</tags>
+            <fileToOpen>qt3d/playground-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/playground-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Scene3D QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-scene3d-example.html" projectPath="qt3d/scene3d/scene3d.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,qml,scene3d</tags>
+            <fileToOpen>qt3d/scene3d/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/scene3d/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Shadow Map QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-shadow-map-qml-example.html" projectPath="qt3d/shadow-map-qml/shadow-map-qml.pro" imageUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/images/shadowmapping-qt3d.png">
+            <description><![CDATA[A Qt3D QML application that illustrates how to render a scene in Qt3D with shadows.]]></description>
+            <tags>qt3d,renderer,shadow,map,qml</tags>
+            <fileToOpen>qt3d/shadow-map-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/shadow-map-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Simple C++ Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-simple-cpp-example.html" projectPath="qt3d/simple-cpp/simple-cpp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,simple,c++</tags>
+            <fileToOpen mainFile="true">qt3d/simple-cpp/main.cpp</fileToOpen>
+        </example>
+        <example name="Qt3D: Simple QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-simple-qml-example.html" projectPath="qt3d/simple-qml/simple-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,simple,qml</tags>
+            <fileToOpen>qt3d/simple-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/simple-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Skybox QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-skybox-example.html" projectPath="qt3d/skybox/skybox.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,qml,skybox</tags>
+            <fileToOpen>qt3d/skybox/main.cpp</fileToOpen>
+            <fileToOpen>qt3d/skybox/main.qml</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/skybox/Skybox.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Tessellation Modes QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-tessellation-modes-example.html" projectPath="qt3d/tessellation-modes/tessellation-modes.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,modes,qml,tessellation</tags>
+            <fileToOpen>qt3d/tessellation-modes/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/tessellation-modes/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Torus QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-torus-qml-example.html" projectPath="qt3d/torus-qml/torus-qml.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,torus,qml</tags>
+            <fileToOpen>qt3d/torus-qml/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/torus-qml/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Wave QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-wave-example.html" projectPath="qt3d/wave/wave.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,wave,qml</tags>
+            <fileToOpen>qt3d/wave/main.cpp</fileToOpen>
+            <fileToOpen>qt3d/wave/main.qml</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/wave/Wave.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: Wireframe QML Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-wireframe-example.html" projectPath="qt3d/wireframe/wireframe.pro" imageUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/images/qt3d-wireframe-rendering.png">
+            <description><![CDATA[A Qt3D QML application that implements a single-pass wireframe rendering method.]]></description>
+            <tags>qt3d,renderer,wireframe,qml</tags>
+            <fileToOpen>qt3d/wireframe/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/wireframe/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: assimp Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-assimp-example.html" projectPath="qt3d/assimp/assimp.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,assimp</tags>
+            <fileToOpen>qt3d/assimp/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/assimp/main.qml</fileToOpen>
+        </example>
+        <example name="Qt3D: glTF Assets Example" docUrl="qthelp://org.qt-project.qt3drenderer.551/qt3drenderer/qt3drenderer-gltf-example.html" projectPath="qt3d/gltf/gltf.pro">
+            <description><![CDATA[No description available]]></description>
+            <tags>qt3d,renderer,assets,gltf</tags>
+            <fileToOpen>qt3d/gltf/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">qt3d/gltf/main.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

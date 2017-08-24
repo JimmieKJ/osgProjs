@@ -1,0 +1,4 @@
+OSG_FILE_PATH D:\PROJECT\OpenSceneGraph-Data
+OSG_WINDOW 100 100 960 540
+
+D:\PROJECT\3rdParty\bin;D:\PROJECT\Qt\Qt5.5.1\5.5\msvc2010\bin;D:\PROJECT\OpenSceneGraph-3.5.1\bin;D:\PROJECT\osgEarth\lib\Debug;

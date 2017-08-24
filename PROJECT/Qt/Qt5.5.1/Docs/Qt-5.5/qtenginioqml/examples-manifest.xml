@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtEnginioQml">
+    <examples>
+        <example name="Enginio QML Examples - Image Gallery" docUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/enginio-qml-image-gallery-example.html" projectPath="enginio/quick/image-gallery/image-gallery.pro" imageUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/images/image-gallery.png">
+            <description><![CDATA[This is an example that demonstrates uploading and downloading of files in Enginio.]]></description>
+            <tags>enginio,gallery,image,qml</tags>
+            <fileToOpen mainFile="true">enginio/quick/image-gallery/image-gallery.qml</fileToOpen>
+        </example>
+        <example name="Enginio QML Examples - Social Todos" docUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/enginio-qml-socialtodos-example.html" projectPath="enginio/quick/socialtodos/socialtodos.pro" imageUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/images/socialtodo-example.png">
+            <description><![CDATA[Social Todos is a todo list application with a social twist, demonstrating the user management and access control features of Enginio.]]></description>
+            <tags>todos,enginio,social,qml</tags>
+            <fileToOpen mainFile="true">enginio/quick/socialtodos/socialtodos.qml</fileToOpen>
+        </example>
+        <example name="Enginio QML Examples - Todos" docUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/enginio-qml-todos-example.html" projectPath="enginio/quick/todos/todos.pro" imageUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/images/todolist.png" isHighlighted="true">
+            <description><![CDATA[The Todo example shows the EnginioModel usage in Qt Quick.]]></description>
+            <tags>todos,enginio,qml</tags>
+        </example>
+        <example name="Enginio QML Examples - Users" docUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/enginio-qml-users-example.html" projectPath="enginio/quick/users/users.pro" imageUrl="qthelp://org.qt-project.qtenginioqml.121/qtenginioqml/images/users-example.png">
+            <description><![CDATA[The Users example introduces user registration, authentication, and browsing.]]></description>
+            <tags>enginio,users,qml</tags>
+            <fileToOpen mainFile="true">enginio/quick/users/users.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

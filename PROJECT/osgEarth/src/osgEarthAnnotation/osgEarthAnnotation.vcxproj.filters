@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AnnotationEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decoration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draggers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPositionNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPositionNodeAutoScaler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalGeometryNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HighlightDecoration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageOverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageOverlayEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AnnotationSettings">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationEditing">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationExtension">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationData">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationRegistry">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CircleNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Decoration">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Draggers">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="EllipseNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Export">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureEditing">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoPositionNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeoPositionNodeAutoScaler">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LocalGeometryNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="HighlightDecoration">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageOverlay">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ImageOverlayEditor">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LabelNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ModelNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PlaceNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="RectangleNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ScaleDecoration">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TrackNode">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

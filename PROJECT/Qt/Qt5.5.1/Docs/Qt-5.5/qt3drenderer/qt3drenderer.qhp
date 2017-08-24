@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qt3drenderer.551</namespace>
+    <virtualFolder>qt3drenderer</virtualFolder>
+    <customFilter name="Qt3DRenderer 5.5.1">
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qt3drenderer</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qt3drenderer</filterAttribute>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <toc>
+            <section ref="index.html" title="Qt3D Renderer C++ Classes">
+                <section ref="qt3drenderer-module.html" title="C++ Classes"/>
+                <section ref="qt3d-examples.html" title="Examples">
+                    <section ref="qt3drenderer-basicshapes-cpp-example.html" title="Qt3D: Basic Shapes C++ Example"/>
+                    <section ref="qt3drenderer-bigmodel-qml-example.html" title="Qt3D: Big Model QML Example"/>
+                    <section ref="qt3drenderer-bigscene-cpp-example.html" title="Qt3D: Big Scene C++ Example"/>
+                    <section ref="qt3drenderer-cpp-example-example.html" title="Qt3D: C++ Example"/>
+                    <section ref="qt3drenderer-cylinder-cpp-example.html" title="Qt3D: Cylinder C++ Example"/>
+                    <section ref="qt3drenderer-cylinder-qml-example.html" title="Qt3D: Cylinder QML Example"/>
+                    <section ref="qt3drenderer-deferred-renderer-cpp-example.html" title="Qt3D: Deferred Renderer C++ Example"/>
+                    <section ref="qt3drenderer-deferred-renderer-qml-example.html" title="Qt3D: Deferred Renderer QML Example"/>
+                    <section ref="qt3drenderer-dynamicscene-cpp-example.html" title="Qt3D: Dynamic Scene C++ Example"/>
+                    <section ref="qt3drenderer-enabled-qml-example.html" title="Qt3D: Enabled QML Example"/>
+                    <section ref="qt3drenderer-keyboardinput-qml-example.html" title="Qt3D: Keyboard Input QML Example"/>
+                    <section ref="qt3drenderer-loader-qml-example.html" title="Qt3D: Loader QML Example"/>
+                    <section ref="qt3drenderer-materials-cpp-example.html" title="Qt3D: Materials C++ Example"/>
+                    <section ref="qt3drenderer-materials-example.html" title="Qt3D: Materials QML Example"/>
+                    <section ref="qt3drenderer-multiviewport-example.html" title="Qt3D: Multi Viewport QML Example"/>
+                    <section ref="qt3drenderer-planets-qml-example.html" title="Qt3D: Planets QML Example"/>
+                    <section ref="qt3drenderer-playground-qml-example.html" title="Qt3D: Playground QML Example"/>
+                    <section ref="qt3drenderer-scene3d-example.html" title="Qt3D: Scene3D QML Example"/>
+                    <section ref="qt3drenderer-shadow-map-qml-example.html" title="Qt3D: Shadow Map QML Example"/>
+                    <section ref="qt3drenderer-simple-cpp-example.html" title="Qt3D: Simple C++ Example"/>
+                    <section ref="qt3drenderer-simple-qml-example.html" title="Qt3D: Simple QML Example"/>
+                    <section ref="qt3drenderer-skybox-example.html" title="Qt3D: Skybox QML Example"/>
+                    <section ref="qt3drenderer-tessellation-modes-example.html" title="Qt3D: Tessellation Modes QML Example"/>
+                    <section ref="qt3drenderer-torus-qml-example.html" title="Qt3D: Torus QML Example"/>
+                    <section ref="qt3drenderer-wave-example.html" title="Qt3D: Wave QML Example"/>
+                    <section ref="qt3drenderer-wireframe-example.html" title="Qt3D: Wireframe QML Example"/>
+                    <section ref="qt3drenderer-assimp-example.html" title="Qt3D: assimp Example"/>
+                    <section ref="qt3drenderer-gltf-example.html" title="Qt3D: glTF Assets Example"/>
+                </section>
+                <section ref="qt3d-renderer-qmlmodule.html" title="QML Types">
+                    <section ref="qml-qabstractlight.html" title="QAbstractLight Type Reference">
+                        <section ref="qml-qabstractlight-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-abstracttextureimage.html" title="AbstractTextureImage Type Reference">
+                        <section ref="qml-qt3d-renderer-abstracttextureimage-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-annotation.html" title="Annotation Type Reference">
+                        <section ref="qml-qt3d-renderer-annotation-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-blendstate.html" title="BlendState Type Reference">
+                        <section ref="qml-qt3d-renderer-blendstate-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-blendstateseparate.html" title="BlendStateSeparate Type Reference">
+                        <section ref="qml-qt3d-renderer-blendstateseparate-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-clipplane.html" title="ClipPlane Type Reference">
+                        <section ref="qml-qt3d-renderer-clipplane-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-framegraph.html" title="FrameGraph Type Reference">
+                        <section ref="qml-qt3d-renderer-framegraph-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-framegraphnode.html" title="FrameGraphNode Type Reference">
+                        <section ref="qml-qt3d-renderer-framegraphnode-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-layer.html" title="Layer Type Reference">
+                        <section ref="qml-qt3d-renderer-layer-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-layerfilter.html" title="LayerFilter Type Reference">
+                        <section ref="qml-qt3d-renderer-layerfilter-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-openglfilter.html" title="OpenGLFilter Type Reference">
+                        <section ref="qml-qt3d-renderer-openglfilter-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-parametermapping.html" title="ParameterMapping Type Reference">
+                        <section ref="qml-qt3d-renderer-parametermapping-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-pointlight.html" title="PointLight Type Reference">
+                        <section ref="qml-qt3d-renderer-pointlight-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-spotlight.html" title="SpotLight Type Reference">
+                        <section ref="qml-qt3d-renderer-spotlight-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-renderer-textureimage.html" title="TextureImage Type Reference">
+                        <section ref="qml-qt3d-renderer-textureimage-members.html" title="List of all members"/>
+                    </section>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="QAbstractLight" id="QML.QAbstractLight" ref="qml-qabstractlight.html"/>
+            <keyword name="Qt3D Examples" id="Qt3D Examples" ref="qt3d-examples.html"/>
+            <keyword name="Qt3D Renderer Framegraph" id="Qt3D Renderer Framegraph" ref="qt3drenderer-framegraph.html"/>
+            <keyword name="Qt3D.Renderer" id="Qt3D.Renderer" ref="qt3d-renderer-qmlmodule.html"/>
+            <keyword name="AbstractTextureImage" id="QML.AbstractTextureImage" ref="qml-qt3d-renderer-abstracttextureimage.html"/>
+            <keyword name="cubeMapFace" id="AbstractTextureImage::cubeMapFace" ref="qml-qt3d-renderer-abstracttextureimage.html#cubeMapFace-prop"/>
+            <keyword name="layer" id="AbstractTextureImage::layer" ref="qml-qt3d-renderer-abstracttextureimage.html#layer-prop"/>
+            <keyword name="mipmapLevel" id="AbstractTextureImage::mipmapLevel" ref="qml-qt3d-renderer-abstracttextureimage.html#mipmapLevel-prop"/>
+            <keyword name="Annotation" id="QML.Annotation" ref="qml-qt3d-renderer-annotation.html"/>
+            <keyword name="name" id="Annotation::name" ref="qml-qt3d-renderer-annotation.html#name-prop"/>
+            <keyword name="value" id="Annotation::value" ref="qml-qt3d-renderer-annotation.html#value-prop"/>
+            <keyword name="BlendState" id="QML.BlendState" ref="qml-qt3d-renderer-blendstate.html"/>
+            <keyword name="dstAlpha" id="BlendState::dstAlpha" ref="qml-qt3d-renderer-blendstate.html#dstAlpha-prop"/>
+            <keyword name="dstRGB" id="BlendState::dstRGB" ref="qml-qt3d-renderer-blendstate.html#dstRGB-prop"/>
+            <keyword name="srcAlpha" id="BlendState::srcAlpha" ref="qml-qt3d-renderer-blendstate.html#srcAlpha-prop"/>
+            <keyword name="srcRGB" id="BlendState::srcRGB" ref="qml-qt3d-renderer-blendstate.html#srcRGB-prop"/>
+            <keyword name="BlendStateSeparate" id="QML.BlendStateSeparate" ref="qml-qt3d-renderer-blendstateseparate.html"/>
+            <keyword name="ClipPlane" id="QML.ClipPlane" ref="qml-qt3d-renderer-clipplane.html"/>
+            <keyword name="FrameGraph" id="QML.FrameGraph" ref="qml-qt3d-renderer-framegraph.html"/>
+            <keyword name="activeFrameGraph" id="FrameGraph::activeFrameGraph" ref="qml-qt3d-renderer-framegraph.html#activeFrameGraph-prop"/>
+            <keyword name="FrameGraphNode" id="QML.FrameGraphNode" ref="qml-qt3d-renderer-framegraphnode.html"/>
+            <keyword name="enabled" id="FrameGraphNode::enabled" ref="qml-qt3d-renderer-framegraphnode.html#enabled-prop"/>
+            <keyword name="Layer" id="QML.Layer" ref="qml-qt3d-renderer-layer.html"/>
+            <keyword name="names" id="Layer::names" ref="qml-qt3d-renderer-layer.html#names-prop"/>
+            <keyword name="LayerFilter" id="QML.LayerFilter" ref="qml-qt3d-renderer-layerfilter.html"/>
+            <keyword name="layers" id="LayerFilter::layers" ref="qml-qt3d-renderer-layerfilter.html#layers-prop"/>
+            <keyword name="OpenGLFilter" id="QML.OpenGLFilter" ref="qml-qt3d-renderer-openglfilter.html"/>
+            <keyword name="api" id="OpenGLFilter::api" ref="qml-qt3d-renderer-openglfilter.html#api-prop"/>
+            <keyword name="extensions" id="OpenGLFilter::extensions" ref="qml-qt3d-renderer-openglfilter.html#extensions-prop"/>
+            <keyword name="majorVersion" id="OpenGLFilter::majorVersion" ref="qml-qt3d-renderer-openglfilter.html#majorVersion-prop"/>
+            <keyword name="minorVersion" id="OpenGLFilter::minorVersion" ref="qml-qt3d-renderer-openglfilter.html#minorVersion-prop"/>
+            <keyword name="profile" id="OpenGLFilter::profile" ref="qml-qt3d-renderer-openglfilter.html#profile-prop"/>
+            <keyword name="vendor" id="OpenGLFilter::vendor" ref="qml-qt3d-renderer-openglfilter.html#vendor-prop"/>
+            <keyword name="ParameterMapping" id="QML.ParameterMapping" ref="qml-qt3d-renderer-parametermapping.html"/>
+            <keyword name="bindingType" id="ParameterMapping::bindingType" ref="qml-qt3d-renderer-parametermapping.html#bindingType-prop"/>
+            <keyword name="parameterName" id="ParameterMapping::parameterName" ref="qml-qt3d-renderer-parametermapping.html#parameterName-prop"/>
+            <keyword name="shaderVariableName" id="ParameterMapping::shaderVariableName" ref="qml-qt3d-renderer-parametermapping.html#shaderVariableName-prop"/>
+            <keyword name="PointLight" id="QML.PointLight" ref="qml-qt3d-renderer-pointlight.html"/>
+            <keyword name="SpotLight" id="QML.SpotLight" ref="qml-qt3d-renderer-spotlight.html"/>
+            <keyword name="cutOffAngle" id="SpotLight::cutOffAngle" ref="qml-qt3d-renderer-spotlight.html#cutOffAngle-prop"/>
+            <keyword name="direction" id="SpotLight::direction" ref="qml-qt3d-renderer-spotlight.html#direction-prop"/>
+            <keyword name="TextureImage" id="QML.TextureImage" ref="qml-qt3d-renderer-textureimage.html"/>
+            <keyword name="source" id="TextureImage::source" ref="qml-qt3d-renderer-textureimage.html#source-prop"/>
+            <keyword name="Qt3D: Basic Shapes C++ Example" id="Qt3D: Basic Shapes C++ Example" ref="qt3drenderer-basicshapes-cpp-example.html"/>
+            <keyword name="Qt3D: Big Model QML Example" id="Qt3D: Big Model QML Example" ref="qt3drenderer-bigmodel-qml-example.html"/>
+            <keyword name="Qt3D: Big Scene C++ Example" id="Qt3D: Big Scene C++ Example" ref="qt3drenderer-bigscene-cpp-example.html"/>
+            <keyword name="Qt3D: C++ Example" id="Qt3D: C++ Example" ref="qt3drenderer-cpp-example-example.html"/>
+            <keyword name="Qt3D: Cylinder C++ Example" id="Qt3D: Cylinder C++ Example" ref="qt3drenderer-cylinder-cpp-example.html"/>
+            <keyword name="Qt3D: Cylinder QML Example" id="Qt3D: Cylinder QML Example" ref="qt3drenderer-cylinder-qml-example.html"/>
+            <keyword name="Qt3D: Deferred Renderer C++ Example" id="Qt3D: Deferred Renderer C++ Example" ref="qt3drenderer-deferred-renderer-cpp-example.html"/>
+            <keyword name="Qt3D: Deferred Renderer QML Example" id="Qt3D: Deferred Renderer QML Example" ref="qt3drenderer-deferred-renderer-qml-example.html"/>
+            <keyword name="Qt3D: Dynamic Scene C++ Example" id="Qt3D: Dynamic Scene C++ Example" ref="qt3drenderer-dynamicscene-cpp-example.html"/>
+            <keyword name="Qt3D: Enabled QML Example" id="Qt3D: Enabled QML Example" ref="qt3drenderer-enabled-qml-example.html"/>
+            <keyword name="Qt3D: Keyboard Input QML Example" id="Qt3D: Keyboard Input QML Example" ref="qt3drenderer-keyboardinput-qml-example.html"/>
+            <keyword name="Qt3D: Loader QML Example" id="Qt3D: Loader QML Example" ref="qt3drenderer-loader-qml-example.html"/>
+            <keyword name="Qt3D: Materials C++ Example" id="Qt3D: Materials C++ Example" ref="qt3drenderer-materials-cpp-example.html"/>
+            <keyword name="Qt3D: Materials QML Example" id="Qt3D: Materials QML Example" ref="qt3drenderer-materials-example.html"/>
+            <keyword name="Qt3D: Multi Viewport QML Example" id="Qt3D: Multi Viewport QML Example" ref="qt3drenderer-multiviewport-example.html"/>
+            <keyword name="Qt3D: Planets QML Example" id="Qt3D: Planets QML Example" ref="qt3drenderer-planets-qml-example.html"/>
+            <keyword name="Qt3D: Playground QML Example" id="Qt3D: Playground QML Example" ref="qt3drenderer-playground-qml-example.html"/>
+            <keyword name="Qt3D: Scene3D QML Example" id="Qt3D: Scene3D QML Example" ref="qt3drenderer-scene3d-example.html"/>
+            <keyword name="Qt3D: Shadow Map QML Example" id="Qt3D: Shadow Map QML Example" ref="qt3drenderer-shadow-map-qml-example.html"/>
+            <keyword name="Qt3D: Simple C++ Example" id="Qt3D: Simple C++ Example" ref="qt3drenderer-simple-cpp-example.html"/>
+            <keyword name="Qt3D: Simple QML Example" id="Qt3D: Simple QML Example" ref="qt3drenderer-simple-qml-example.html"/>
+            <keyword name="Qt3D: Skybox QML Example" id="Qt3D: Skybox QML Example" ref="qt3drenderer-skybox-example.html"/>
+            <keyword name="Qt3D: Tessellation Modes QML Example" id="Qt3D: Tessellation Modes QML Example" ref="qt3drenderer-tessellation-modes-example.html"/>
+            <keyword name="Qt3D: Torus QML Example" id="Qt3D: Torus QML Example" ref="qt3drenderer-torus-qml-example.html"/>
+            <keyword name="Qt3D: Wave QML Example" id="Qt3D: Wave QML Example" ref="qt3drenderer-wave-example.html"/>
+            <keyword name="Qt3D: Wireframe QML Example" id="Qt3D: Wireframe QML Example" ref="qt3drenderer-wireframe-example.html"/>
+            <keyword name="Qt3D: assimp Example" id="Qt3D: assimp Example" ref="qt3drenderer-assimp-example.html"/>
+            <keyword name="Qt3D: glTF Assets Example" id="Qt3D: glTF Assets Example" ref="qt3drenderer-gltf-example.html"/>
+            <keyword name="Qt3DRenderer" id="Qt3DRenderer" ref="qt3drenderer-module.html"/>
+        </keywords>
+        <files>
+            <file>qt3d-examples.html</file>
+            <file>qt3drenderer-cylinder-cpp-example.html</file>
+            <file>qt3drenderer-enabled-qml-enabled-qml-qrc.html</file>
+            <file>qt3drenderer-shadow-map-qml-example.html</file>
+            <file>qt3drenderer-scene3d-scene3d-qrc.html</file>
+            <file>qt3drenderer-playground-qml-detailview-qml.html</file>
+            <file>qt3drenderer-materials-cpp-trefoilknot-h.html</file>
+            <file>images/used-in-examples/planets-qml/images/earthnormal1k.jpg</file>
+            <file>qml-qt3d-renderer-annotation.html</file>
+            <file>images/used-in-examples/planets-qml/images/sunmap.jpg</file>
+            <file>qt3drenderer-tessellation-modes-basiccamera-qml.html</file>
+            <file>qt3drenderer-shadow-map-qml-trefoil-qml.html</file>
+            <file>qt3drenderer-skybox-example.html</file>
+            <file>qt3drenderer-materials-cpp-houseplant-cpp.html</file>
+            <file>images/used-in-examples/planets-qml/images/moonnormal1k.jpg</file>
+            <file>qt3drenderer-planets-qml-planeteffectdb-qml.html</file>
+            <file>qt3drenderer-playground-qml-adseffect-qml.html</file>
+            <file>qt3drenderer-scene3d-animatedentity-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-deferred-renderer-qml-qrc.html</file>
+            <file>qt3drenderer-shadow-map-qml-adsmaterial-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-deferred-renderer-cpp-qrc.html</file>
+            <file>qt3drenderer-playground-qml-animateddiffusematerial-qml.html</file>
+            <file>qt3drenderer-cylinder-qml-cylinder-qml-pro.html</file>
+            <file>qt3drenderer-materials-cpp-rotatingtrefoilknot-h.html</file>
+            <file>qt3drenderer-skybox-skybox-qml.html</file>
+            <file>qt3drenderer-bigscene-cpp-main-cpp.html</file>
+            <file>qt3drenderer-bigmodel-qml-bigmodel-qml-qrc.html</file>
+            <file>qt3drenderer-skybox-skybox-qrc.html</file>
+            <file>qt3drenderer-assimp-assimp-pro.html</file>
+            <file>images/basicshapes-cpp-example.jpg</file>
+            <file>qt3drenderer-framegraph.html</file>
+            <file>qt3drenderer-shadow-map-qml-shadow-map-qml-qrc.html</file>
+            <file>qt3drenderer-tessellation-modes-main-cpp.html</file>
+            <file>qt3drenderer-materials-cpp-houseplant-h.html</file>
+            <file>qt3drenderer-materials-cpp-renderableentity-cpp.html</file>
+            <file>qt3drenderer-simple-qml-example.html</file>
+            <file>qt3drenderer-materials-houseplant-qml.html</file>
+            <file>qt3drenderer-materials-renderableentity-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/mercurymap.jpg</file>
+            <file>qml-qt3d-renderer-layer-members.html</file>
+            <file>qt3drenderer-multiviewport-multiviewport-qrc.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellatedquadmesh-cpp.html</file>
+            <file>qt3drenderer-enabled-qml-example.html</file>
+            <file>images/used-in-examples/planets-qml/images/earthspec1k.jpg</file>
+            <file>qt3drenderer-materials-cpp-materials-cpp-pro.html</file>
+            <file>qml-qt3d-renderer-blendstate.html</file>
+            <file>qt3drenderer-planets-qml-shaders-es2-planetdb-vert.html</file>
+            <file>qt3drenderer-loader-qml-main-cpp.html</file>
+            <file>qt3drenderer-planets-qml-planeteffectdsb-qml.html</file>
+            <file>qt3drenderer-shadow-map-qml-light-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-deferredrenderer-h.html</file>
+            <file>qml-qt3d-renderer-blendstate-members.html</file>
+            <file>qt3drenderer-wireframe-wireframematerial-qml.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-examplescene-cpp.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-examplescene-h.html</file>
+            <file>qt3drenderer-planets-qml-shaders-gl3-shadowmap-vert.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellation-modes-pro.html</file>
+            <file>qml-qt3d-renderer-blendstateseparate.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-main-cpp.html</file>
+            <file>images/used-in-examples/planets-qml/images/saturnmap.jpg</file>
+            <file>qt3drenderer-keyboardinput-qml-sphereentity-qml.html</file>
+            <file>qt3drenderer-simple-cpp-example.html</file>
+            <file>qt3drenderer-skybox-main-cpp.html</file>
+            <file>images/btn_prev.png</file>
+            <file>qt3drenderer-planets-qml-planetframegraph-qml.html</file>
+            <file>qml-qt3d-renderer-parametermapping.html</file>
+            <file>qt3drenderer-playground-qml-mainview-qml.html</file>
+            <file>qt3drenderer-simple-qml-main-cpp.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-example.html</file>
+            <file>qt3drenderer-shadow-map-qml-groundplane-qml.html</file>
+            <file>qt3drenderer-playground-qml-playground-qml-qrc.html</file>
+            <file>qt3drenderer-assimp-main-cpp.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-dynamicscene-cpp-pro.html</file>
+            <file>qml-qt3d-renderer-openglfilter-members.html</file>
+            <file>qt3drenderer-tessellation-modes-shaders-robustwireframe-geom.html</file>
+            <file>qt3drenderer-wireframe-shaders-robustwireframe-vert.html</file>
+            <file>qml-qt3d-renderer-layerfilter-members.html</file>
+            <file>qt3drenderer-playground-qml-myforwardrenderer-qml.html</file>
+            <file>qt3drenderer-planets-qml-styledslider-qml.html</file>
+            <file>qt3drenderer-assimp-assimp-qrc.html</file>
+            <file>qt3drenderer-wave-shaders-background-vert.html</file>
+            <file>images/ico_out.png</file>
+            <file>qt3drenderer-gltf-gltf-example-qrc.html</file>
+            <file>images/used-in-examples/planets-qml/images/jupitermap.jpg</file>
+            <file>qml-qt3d-renderer-openglfilter.html</file>
+            <file>qt3drenderer-planets-qml-fpsdisplay-qml.html</file>
+            <file>qt3drenderer-planets-qml-planeteffectd-qml.html</file>
+            <file>images/btn_next.png</file>
+            <file>qt3drenderer-cpp-example-main-cpp.html</file>
+            <file>images/multiviewport-2.png</file>
+            <file>qml-qt3d-renderer-clipplane.html</file>
+            <file>qt3drenderer-assimp-main-qml.html</file>
+            <file>qt3drenderer-materials-barrel-qml.html</file>
+            <file>qt3drenderer-loader-qml-loader-qml-pro.html</file>
+            <file>images/ico_note.png</file>
+            <file>qt3drenderer-deferred-renderer-cpp-main-cpp.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-boxentity-h.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellatedquad-qml.html</file>
+            <file>qt3drenderer-keyboardinput-qml-keyboardinput-qml-pro.html</file>
+            <file>images/used-in-examples/planets-qml/images/venus.png</file>
+            <file>images/simple-framegraph.png</file>
+            <file>qt3drenderer-deferred-renderer-cpp-gbuffer-cpp.html</file>
+            <file>qt3drenderer-planets-qml-infosheet-qml.html</file>
+            <file>qt3drenderer-planets-qml-ring-qml.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellation-modes-qrc.html</file>
+            <file>qt3drenderer-planets-qml-planets-js.html</file>
+            <file>qt3drenderer-simple-cpp-simple-cpp-pro.html</file>
+            <file>qml-qt3d-renderer-pointlight-members.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-pointlightblock-h.html</file>
+            <file>qt3drenderer-multiviewport-main-qml.html</file>
+            <file>qml-qt3d-renderer-layerfilter.html</file>
+            <file>images/framegraph-parallel-build.png</file>
+            <file>qt3drenderer-cylinder-qml-example.html</file>
+            <file>qt3drenderer-planets-qml-planet-qml.html</file>
+            <file>qt3drenderer-basicshapes-cpp-scenemodifier-h.html</file>
+            <file>qt3drenderer-materials-cpp-planeentity-cpp.html</file>
+            <file>qt3drenderer-simple-cpp-main-cpp.html</file>
+            <file>qt3drenderer-wave-basiccamera-qml.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-forwardrenderer-cpp.html</file>
+            <file>qt3drenderer-basicshapes-cpp-basicshapes-cpp-pro.html</file>
+            <file>qt3drenderer-gltf-gltf-pro.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellatedwireframeeffect-qml.html</file>
+            <file>qt3drenderer-cylinder-qml-main-cpp.html</file>
+            <file>qt3drenderer-cylinder-qml-cylinder-qml-qrc.html</file>
+            <file>qt3drenderer-loader-qml-cuboidentity-qml.html</file>
+            <file>qt3drenderer-wireframe-wireframeeffect-qml.html</file>
+            <file>qt3drenderer-assimp-example.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-sceneeffect-h.html</file>
+            <file>qt3drenderer-cpp-example-example.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-gbuffer-h.html</file>
+            <file>qt3drenderer-cylinder-qml-main-qml.html</file>
+            <file>qt3drenderer-wireframe-wireframe-pro.html</file>
+            <file>qt3drenderer-gltf-main-qml.html</file>
+            <file>qml-qt3d-renderer-abstracttextureimage.html</file>
+            <file>images/used-in-examples/planets-qml/images/sun.png</file>
+            <file>qt3drenderer-deferred-renderer-qml-main-qml.html</file>
+            <file>qt3drenderer-planets-qml-planets-qml-images-qrc.html</file>
+            <file>qt3drenderer-torus-qml-main-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-deferred-renderer-qml-pro.html</file>
+            <file>qt3drenderer-enabled-qml-main-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/venusmap.jpg</file>
+            <file>images/used-in-examples/planets-qml/images/mercurynormal.jpg</file>
+            <file>qt3drenderer-wave-wave-pro.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/used-in-examples/planets-qml/images/uranus.png</file>
+            <file>qt3drenderer-simple-qml-main-qml.html</file>
+            <file>qt3drenderer-materials-cpp-rotatingtrefoilknot-cpp.html</file>
+            <file>qml-qt3d-renderer-framegraphnode-members.html</file>
+            <file>qt3drenderer-shadow-map-qml-main-qml.html</file>
+            <file>qt3drenderer-materials-trefoilknot-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/earthcloudmapcolortrans.png</file>
+            <file>qt3drenderer-playground-qml-complextechnique-qml.html</file>
+            <file>qt3drenderer-wave-waveeffect-qml.html</file>
+            <file>qt3drenderer-tessellation-modes-main-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-gbuffer-qml.html</file>
+            <file>qt3drenderer-cylinder-cpp-main-cpp.html</file>
+            <file>qt3drenderer-planets-qml-shaders-gl3-planetdb-vert.html</file>
+            <file>qt3drenderer-tessellation-modes-shaders-passthru-vert.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-deferred-renderer-cpp-pro.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellatedquadmesh-h.html</file>
+            <file>qt3drenderer-materials-materials-qrc.html</file>
+            <file>qt3drenderer-planets-qml-planetbutton-qml.html</file>
+            <file>qt3drenderer-planets-qml-solarsystem-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-example.html</file>
+            <file>qt3drenderer-planets-qml-shaders-es2-planetd-vert.html</file>
+            <file>qt3drenderer-shadow-map-qml-shaders-es3-shadowmap-vert.html</file>
+            <file>qt3drenderer-planets-qml-planetsmain-qml.html</file>
+            <file>qt3d-renderer-qmlmodule.html</file>
+            <file>qt3drenderer-planets-qml-example.html</file>
+            <file>qt3drenderer-shadow-map-qml-shadow-map-qml-pro.html</file>
+            <file>images/used-in-examples/planets-qml/images/uranusringcolortrans.png</file>
+            <file>images/planets-qml-example.jpg</file>
+            <file>qt3drenderer-deferred-renderer-cpp-final-gl2-vert.html</file>
+            <file>qt3drenderer-scene3d-example.html</file>
+            <file>qt3drenderer-shadow-map-qml-adseffect-qml.html</file>
+            <file>qml-qt3d-renderer-spotlight.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-forwardrenderer-h.html</file>
+            <file>qml-qabstractlight-members.html</file>
+            <file>qt3drenderer-materials-materials-pro.html</file>
+            <file>qt3drenderer-playground-qml-playground-qml-pro.html</file>
+            <file>qt3drenderer-wave-wavematerial-qml.html</file>
+            <file>qt3drenderer-materials-cpp-example.html</file>
+            <file>qt3drenderer-wireframe-main-qml.html</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qt3drenderer-enabled-qml-enabled-qml-pro.html</file>
+            <file>style/offline.css</file>
+            <file>qt3drenderer-shadow-map-qml-toyplane-qml.html</file>
+            <file>qt3drenderer-tessellation-modes-tessellatedwireframematerial-qml.html</file>
+            <file>images/bullet_sq.png</file>
+            <file>qt3drenderer-scene3d-main-qml.html</file>
+            <file>qt3drenderer-skybox-skybox-pro.html</file>
+            <file>qt3drenderer-enabled-qml-main-cpp.html</file>
+            <file>qt3drenderer-planets-qml-planets-qml-qrc.html</file>
+            <file>qt3drenderer-bigmodel-qml-main-cpp.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-geometry-gl3-vert.html</file>
+            <file>images/used-in-examples/planets-qml/images/uranusmap.jpg</file>
+            <file>qt3drenderer-multiviewport-main-cpp.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-geometry-gl2-vert.html</file>
+            <file>images/used-in-examples/planets-qml/images/jupiter.png</file>
+            <file>qt3drenderer-simple-qml-simple-qml-qrc.html</file>
+            <file>qt3drenderer-materials-cpp-renderableentity-h.html</file>
+            <file>qt3drenderer-materials-cpp-barrel-cpp.html</file>
+            <file>qt3drenderer-planets-qml-main-cpp.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-finaleffect-qml.html</file>
+            <file>qt3drenderer-playground-qml-main-qml.html</file>
+            <file>qt3drenderer-materials-planeentity-qml.html</file>
+            <file>qt3drenderer-tessellation-modes-example.html</file>
+            <file>qml-qt3d-renderer-parametermapping-members.html</file>
+            <file>qt3drenderer-basicshapes-cpp-example.html</file>
+            <file>qt3drenderer-keyboardinput-qml-main-qml.html</file>
+            <file>qt3drenderer-wireframe-trefoilknot-qml.html</file>
+            <file>qt3drenderer-torus-qml-torus-qml-qrc.html</file>
+            <file>qml-qt3d-renderer-textureimage-members.html</file>
+            <file>qt3drenderer-materials-example.html</file>
+            <file>qt3drenderer-torus-qml-torus-qml-pro.html</file>
+            <file>images/multiviewport-1.png</file>
+            <file>qt3drenderer-deferred-renderer-qml-main-cpp.html</file>
+            <file>qt3drenderer-gltf-main-cpp.html</file>
+            <file>qt3drenderer-multiviewport-example.html</file>
+            <file>images/used-in-examples/planets-qml/images/neptunemap.jpg</file>
+            <file>qml-qt3d-renderer-pointlight.html</file>
+            <file>qt3drenderer-materials-cpp-main-cpp.html</file>
+            <file>qt3drenderer-wireframe-basiccamera-qml.html</file>
+            <file>images/logo.png</file>
+            <file>images/qt3d-wireframe-rendering.png</file>
+            <file>qt3drenderer-materials-sortedforwardrenderer-qml.html</file>
+            <file>qt3drenderer-wave-background-qml.html</file>
+            <file>qt3drenderer-gltf-example.html</file>
+            <file>qt3drenderer-materials-cpp-trefoilknot-cpp.html</file>
+            <file>qt3drenderer-playground-qml-renderableentity-qml.html</file>
+            <file>qt3drenderer-dynamicscene-cpp-boxentity-cpp.html</file>
+            <file>qt3drenderer-playground-qml-main-cpp.html</file>
+            <file>qt3drenderer-wave-shaders-ribbon-vert.html</file>
+            <file>images/deferred-framegraph.png</file>
+            <file>qt3drenderer-wave-main-cpp.html</file>
+            <file>images/used-in-examples/planets-qml/images/moonmap1k.jpg</file>
+            <file>qt3drenderer-wireframe-wireframe-qrc.html</file>
+            <file>images/multiviewport.png</file>
+            <file>images/used-in-examples/planets-qml/images/neptune.png</file>
+            <file>qt3drenderer-planets-qml-android-androidmanifest-xml.html</file>
+            <file>qt3drenderer-planets-qml-cloudeffectds-qml.html</file>
+            <file>qt3drenderer-scene3d-main-cpp.html</file>
+            <file>qml-qt3d-renderer-textureimage.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-deferredrenderer-qml.html</file>
+            <file>qml-qt3d-renderer-spotlight-members.html</file>
+            <file>qt3drenderer-materials-main-qml.html</file>
+            <file>qt3drenderer-loader-qml-example.html</file>
+            <file>qt3drenderer-wave-wave-qrc.html</file>
+            <file>qt3drenderer-gltf-wine-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/earth.png</file>
+            <file>qt3drenderer-deferred-renderer-cpp-finaleffect-h.html</file>
+            <file>qt3drenderer-bigmodel-qml-main-qml.html</file>
+            <file>qt3drenderer-shadow-map-qml-shadowmapframegraph-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/marsnormal1k.jpg</file>
+            <file>qt3drenderer-cpp-example-cpp-example-pro.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-finaleffect-cpp.html</file>
+            <file>qt3drenderer-cylinder-cpp-cylinder-cpp-pro.html</file>
+            <file>qt3drenderer-materials-main-cpp.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-sceneeffect-qml.html</file>
+            <file>qt3drenderer-materials-chest-qml.html</file>
+            <file>qt3drenderer-wave-main-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/mars.png</file>
+            <file>qt3drenderer-wireframe-main-cpp.html</file>
+            <file>qml-qt3d-renderer-framegraphnode.html</file>
+            <file>qml-qt3d-renderer-framegraph-members.html</file>
+            <file>images/arrow_bc.png</file>
+            <file>qt3drenderer-loader-qml-main-qml.html</file>
+            <file>qt3drenderer-loader-qml-loader-qml-qrc.html</file>
+            <file>qt3drenderer-multiviewport-multiviewport-pro.html</file>
+            <file>qml-qt3d-renderer-layer.html</file>
+            <file>qt3drenderer-deferred-renderer-qml-example.html</file>
+            <file>qt3drenderer-wave-backgroundeffect-qml.html</file>
+            <file>qt3drenderer-bigmodel-qml-myentity-qml.html</file>
+            <file>qt3drenderer-loader-qml-sphereentity-qml.html</file>
+            <file>qt3drenderer-scene3d-scene3d-pro.html</file>
+            <file>qt3drenderer-skybox-main-qml.html</file>
+            <file>images/used-in-examples/planets-qml/images/saturnringcolortrans.png</file>
+            <file>images/home.png</file>
+            <file>qt3drenderer-bigscene-cpp-bigscene-cpp-pro.html</file>
+            <file>qt3drenderer-playground-qml-example.html</file>
+            <file>qt3drenderer-wireframe-example.html</file>
+            <file>qt3drenderer-keyboardinput-qml-example.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-final-gl3-vert.html</file>
+            <file>images/used-in-examples/planets-qml/images/earthcloudmapspec.jpg</file>
+            <file>qt3drenderer-deferred-renderer-cpp-pointlightblock-cpp.html</file>
+            <file>qt3drenderer-planets-qml-planetshadoweffectd-qml.html</file>
+            <file>qml-qt3d-renderer-annotation-members.html</file>
+            <file>qt3drenderer-materials-cpp-planeentity-h.html</file>
+            <file>images/used-in-examples/planets-qml/images/saturn.png</file>
+            <file>images/used-in-examples/planets-qml/images/marsmap1k.jpg</file>
+            <file>qt3drenderer-shadow-map-qml-main-cpp.html</file>
+            <file>qml-qt3d-renderer-framegraph.html</file>
+            <file>images/used-in-examples/planets-qml/images/galaxy_starfield.png</file>
+            <file>qt3drenderer-wave-waveforwardrenderer-qml.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-sceneeffect-cpp.html</file>
+            <file>qt3drenderer-materials-basiccamera-qml.html</file>
+            <file>qt3drenderer-wireframe-shaders-robustwireframe-geom.html</file>
+            <file>qt3drenderer-bigmodel-qml-example.html</file>
+            <file>qt3drenderer-simple-qml-simple-qml-pro.html</file>
+            <file>qt3drenderer-wave-example.html</file>
+            <file>qt3drenderer-materials-cpp-barrel-h.html</file>
+            <file>qt3drenderer-wave-shaders-robustwireframe-geom.html</file>
+            <file>qt3drenderer-basicshapes-cpp-main-cpp.html</file>
+            <file>qml-qt3d-renderer-blendstateseparate-members.html</file>
+            <file>qt3drenderer-planets-qml-shaders-gl3-planetd-vert.html</file>
+            <file>qt3drenderer-torus-qml-example.html</file>
+            <file>qt3drenderer-module.html</file>
+            <file>qml-qt3d-renderer-abstracttextureimage-members.html</file>
+            <file>qt3drenderer-bigmodel-qml-bigmodel-qml-pro.html</file>
+            <file>qt3drenderer-shadow-map-qml-shaders-ads-vert.html</file>
+            <file>qt3drenderer-wave-wave-qml.html</file>
+            <file>images/shadowmapping-qt3d.png</file>
+            <file>qml-qabstractlight.html</file>
+            <file>qt3drenderer-keyboardinput-qml-main-cpp.html</file>
+            <file>images/used-in-examples/planets-qml/images/venusnormal.jpg</file>
+            <file>qt3drenderer-shadow-map-qml-shaders-es3-ads-vert.html</file>
+            <file>qt3drenderer-deferred-renderer-cpp-deferredrenderer-cpp.html</file>
+            <file>qt3drenderer-basicshapes-cpp-scenemodifier-cpp.html</file>
+            <file>images/used-in-examples/planets-qml/images/earthmap1k.jpg</file>
+            <file>qt3drenderer-planets-qml-light-qml.html</file>
+            <file>qt3drenderer-bigscene-cpp-example.html</file>
+            <file>qt3drenderer-keyboardinput-qml-keyboardinput-qml-qrc.html</file>
+            <file>qt3drenderer-planets-qml-planets-qml-pro.html</file>
+            <file>qt3drenderer-shadow-map-qml-shaders-shadowmap-vert.html</file>
+            <file>qt3drenderer-torus-qml-main-cpp.html</file>
+            <file>qt3drenderer-planets-qml-planetmaterial-qml.html</file>
+            <file>images/bgrContent.png</file>
+            <file>images/used-in-examples/planets-qml/images/mercury.png</file>
+            <file>qml-qt3d-renderer-clipplane-members.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtWebEngineWidgets">
+    <examples>
+        <example name="WebEngine Fancy Browser Example" docUrl="qthelp://org.qt-project.qtwebenginewidgets.551/qtwebenginewidgets/qtwebenginewidgets-fancybrowser-example.html" projectPath="webenginewidgets/fancybrowser/fancybrowser.pro" imageUrl="qthelp://org.qt-project.qtwebenginewidgets.551/qtwebenginewidgets/images/fancybrowser-example.png">
+            <description><![CDATA[Demonstrates how to use browse web and manipulate content]]></description>
+            <tags>engine,fancy,widgets,web,browser,webengine</tags>
+            <fileToOpen mainFile="true">webenginewidgets/fancybrowser/main.cpp</fileToOpen>
+        </example>
+        <example name="WebEngine Tab Browser Example" docUrl="qthelp://org.qt-project.qtwebenginewidgets.551/qtwebenginewidgets/qtwebenginewidgets-browser-example.html" projectPath="webenginewidgets/browser/browser.pro" imageUrl="qthelp://org.qt-project.qtwebenginewidgets.551/qtwebenginewidgets/images/browser-demo.png">
+            <description><![CDATA[The QtWebKit browser example ported to use QtWebEngine]]></description>
+            <tags>engine,widgets,web,browser,tab,webengine</tags>
+            <fileToOpen mainFile="true">webenginewidgets/browser/main.cpp</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

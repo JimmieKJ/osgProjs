@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qt3dcore.551</namespace>
+    <virtualFolder>qt3dcore</virtualFolder>
+    <customFilter name="Qt3DCore 5.5.1">
+        <filterAttribute>qt3dcore</filterAttribute>
+        <filterAttribute>5.5.1</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>qt3dcore</filterAttribute>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <filterAttribute>5.5.1</filterAttribute>
+        <toc>
+            <section ref="qt3d-index.html" title="Qt3D Module">
+                <section ref="qt3dcore-module.html" title="C++ Classes"/>
+                <section ref="qt3d-qmlmodule.html" title="QML Types">
+                    <section ref="qml-qt3d-camera.html" title="Camera Type Reference">
+                        <section ref="qml-qt3d-camera-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-cameralens.html" title="CameraLens Type Reference">
+                        <section ref="qml-qt3d-cameralens-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-component3d.html" title="Component3D Type Reference">
+                        <section ref="qml-qt3d-component3d-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-configuration.html" title="Configuration Type Reference">
+                        <section ref="qml-qt3d-configuration-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-entity.html" title="Entity Type Reference">
+                        <section ref="qml-qt3d-entity-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-entityloader.html" title="EntityLoader Type Reference">
+                        <section ref="qml-qt3d-entityloader-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-input-keyevent.html" title="KeyEvent Type Reference">
+                        <section ref="qml-qt3d-input-keyevent-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-input-keyboardcontroller.html" title="KeyboardController Type Reference">
+                        <section ref="qml-qt3d-input-keyboardcontroller-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-input-keyboardinput.html" title="KeyboardInput Type Reference">
+                        <section ref="qml-qt3d-input-keyboardinput-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-matrixtransform.html" title="MatrixTransform Type Reference">
+                        <section ref="qml-qt3d-matrixtransform-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-node.html" title="Node Type Reference">
+                        <section ref="qml-qt3d-node-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-nodeinstantiator.html" title="NodeInstantiator Type Reference">
+                        <section ref="qml-qt3d-nodeinstantiator-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qml-qt3d-transform.html" title="Transform Type Reference">
+                        <section ref="qml-qt3d-transform-members.html" title="List of all members"/>
+                    </section>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Qt3D" id="Qt3D" ref="qt3d-qmlmodule.html"/>
+            <keyword name="Qt3D Module" id="Qt3D Module" ref="qt3d-index.html"/>
+            <keyword name="Qt3D Overview" id="Qt3D Overview" ref="qt3d-overview.html"/>
+            <keyword name="Camera" id="QML.Camera" ref="qml-qt3d-camera.html"/>
+            <keyword name="aspectRatio" id="Camera::aspectRatio" ref="qml-qt3d-camera.html#aspectRatio-prop"/>
+            <keyword name="bottom" id="Camera::bottom" ref="qml-qt3d-camera.html#bottom-prop"/>
+            <keyword name="farPlane" id="Camera::farPlane" ref="qml-qt3d-camera.html#farPlane-prop"/>
+            <keyword name="fieldOfView" id="Camera::fieldOfView" ref="qml-qt3d-camera.html#fieldOfView-prop"/>
+            <keyword name="left" id="Camera::left" ref="qml-qt3d-camera.html#left-prop"/>
+            <keyword name="matrix" id="Camera::matrix" ref="qml-qt3d-camera.html#matrix-prop"/>
+            <keyword name="nearPlane" id="Camera::nearPlane" ref="qml-qt3d-camera.html#nearPlane-prop"/>
+            <keyword name="position" id="Camera::position" ref="qml-qt3d-camera.html#position-prop"/>
+            <keyword name="projectionMatrix" id="Camera::projectionMatrix" ref="qml-qt3d-camera.html#projectionMatrix-prop"/>
+            <keyword name="projectionType" id="Camera::projectionType" ref="qml-qt3d-camera.html#projectionType-prop"/>
+            <keyword name="right" id="Camera::right" ref="qml-qt3d-camera.html#right-prop"/>
+            <keyword name="top" id="Camera::top" ref="qml-qt3d-camera.html#top-prop"/>
+            <keyword name="upVector" id="Camera::upVector" ref="qml-qt3d-camera.html#upVector-prop"/>
+            <keyword name="viewCenter" id="Camera::viewCenter" ref="qml-qt3d-camera.html#viewCenter-prop"/>
+            <keyword name="CameraLens" id="QML.CameraLens" ref="qml-qt3d-cameralens.html"/>
+            <keyword name="aspectRatio" id="CameraLens::aspectRatio" ref="qml-qt3d-cameralens.html#aspectRatio-prop"/>
+            <keyword name="bottom" id="CameraLens::bottom" ref="qml-qt3d-cameralens.html#bottom-prop"/>
+            <keyword name="farPlane" id="CameraLens::farPlane" ref="qml-qt3d-cameralens.html#farPlane-prop"/>
+            <keyword name="fieldOfView" id="CameraLens::fieldOfView" ref="qml-qt3d-cameralens.html#fieldOfView-prop"/>
+            <keyword name="left" id="CameraLens::left" ref="qml-qt3d-cameralens.html#left-prop"/>
+            <keyword name="nearPlane" id="CameraLens::nearPlane" ref="qml-qt3d-cameralens.html#nearPlane-prop"/>
+            <keyword name="projectionMatrix" id="CameraLens::projectionMatrix" ref="qml-qt3d-cameralens.html#projectionMatrix-prop"/>
+            <keyword name="projectionType" id="CameraLens::projectionType" ref="qml-qt3d-cameralens.html#projectionType-prop"/>
+            <keyword name="right" id="CameraLens::right" ref="qml-qt3d-cameralens.html#right-prop"/>
+            <keyword name="top" id="CameraLens::top" ref="qml-qt3d-cameralens.html#top-prop"/>
+            <keyword name="Component3D" id="QML.Component3D" ref="qml-qt3d-component3d.html"/>
+            <keyword name="enabled" id="Component3D::enabled" ref="qml-qt3d-component3d.html#enabled-prop"/>
+            <keyword name="shareable" id="Component3D::shareable" ref="qml-qt3d-component3d.html#shareable-prop"/>
+            <keyword name="Configuration" id="QML.Configuration" ref="qml-qt3d-configuration.html"/>
+            <keyword name="controlledCamera" id="Configuration::controlledCamera" ref="qml-qt3d-configuration.html#controlledCamera-prop"/>
+            <keyword name="Entity" id="QML.Entity" ref="qml-qt3d-entity.html"/>
+            <keyword name="components" id="Entity::components" ref="qml-qt3d-entity.html#components-prop"/>
+            <keyword name="EntityLoader" id="QML.EntityLoader" ref="qml-qt3d-entityloader.html"/>
+            <keyword name="entity" id="EntityLoader::entity" ref="qml-qt3d-entityloader.html#entity-prop"/>
+            <keyword name="source" id="EntityLoader::source" ref="qml-qt3d-entityloader.html#source-prop"/>
+            <keyword name="Qt3D.Input" id="Qt3D.Input" ref="qt3d-input-qmlmodule.html"/>
+            <keyword name="KeyEvent" id="QML.KeyEvent" ref="qml-qt3d-input-keyevent.html"/>
+            <keyword name="accepted" id="KeyEvent::accepted" ref="qml-qt3d-input-keyevent.html#accepted-prop"/>
+            <keyword name="count" id="KeyEvent::count" ref="qml-qt3d-input-keyevent.html#count-prop"/>
+            <keyword name="isAutoRepeat" id="KeyEvent::isAutoRepeat" ref="qml-qt3d-input-keyevent.html#isAutoRepeat-prop"/>
+            <keyword name="key" id="KeyEvent::key" ref="qml-qt3d-input-keyevent.html#key-prop"/>
+            <keyword name="matches" id="KeyEvent::matches" ref="qml-qt3d-input-keyevent.html#matches-method"/>
+            <keyword name="modifiers" id="KeyEvent::modifiers" ref="qml-qt3d-input-keyevent.html#modifiers-prop"/>
+            <keyword name="nativeScanCodei" id="KeyEvent::nativeScanCodei" ref="qml-qt3d-input-keyevent.html#nativeScanCodei-prop"/>
+            <keyword name="text" id="KeyEvent::text" ref="qml-qt3d-input-keyevent.html#text-prop"/>
+            <keyword name="KeyboardController" id="QML.KeyboardController" ref="qml-qt3d-input-keyboardcontroller.html"/>
+            <keyword name="activeInput" id="KeyboardController::activeInput" ref="qml-qt3d-input-keyboardcontroller.html#activeInput-prop"/>
+            <keyword name="KeyboardInput" id="QML.KeyboardInput" ref="qml-qt3d-input-keyboardinput.html"/>
+            <keyword name="asteriskPressed" id="KeyboardInput::asteriskPressed" ref="qml-qt3d-input-keyboardinput.html#asteriskPressed-signal"/>
+            <keyword name="backtabPressed" id="KeyboardInput::backtabPressed" ref="qml-qt3d-input-keyboardinput.html#backtabPressed-signal"/>
+            <keyword name="controller" id="KeyboardInput::controller" ref="qml-qt3d-input-keyboardinput.html#controller-prop"/>
+            <keyword name="digit0Pressed" id="KeyboardInput::digit0Pressed" ref="qml-qt3d-input-keyboardinput.html#digit0Pressed-signal"/>
+            <keyword name="digit1Pressed" id="KeyboardInput::digit1Pressed" ref="qml-qt3d-input-keyboardinput.html#digit1Pressed-signal"/>
+            <keyword name="digit2Pressed" id="KeyboardInput::digit2Pressed" ref="qml-qt3d-input-keyboardinput.html#digit2Pressed-signal"/>
+            <keyword name="digit3Pressed" id="KeyboardInput::digit3Pressed" ref="qml-qt3d-input-keyboardinput.html#digit3Pressed-signal"/>
+            <keyword name="digit4Pressed" id="KeyboardInput::digit4Pressed" ref="qml-qt3d-input-keyboardinput.html#digit4Pressed-signal"/>
+            <keyword name="digit5Pressed" id="KeyboardInput::digit5Pressed" ref="qml-qt3d-input-keyboardinput.html#digit5Pressed-signal"/>
+            <keyword name="digit6Pressed" id="KeyboardInput::digit6Pressed" ref="qml-qt3d-input-keyboardinput.html#digit6Pressed-signal"/>
+            <keyword name="digit7Pressed" id="KeyboardInput::digit7Pressed" ref="qml-qt3d-input-keyboardinput.html#digit7Pressed-signal"/>
+            <keyword name="digit8Pressed" id="KeyboardInput::digit8Pressed" ref="qml-qt3d-input-keyboardinput.html#digit8Pressed-signal"/>
+            <keyword name="digit9Pressed" id="KeyboardInput::digit9Pressed" ref="qml-qt3d-input-keyboardinput.html#digit9Pressed-signal"/>
+            <keyword name="downPressed" id="KeyboardInput::downPressed" ref="qml-qt3d-input-keyboardinput.html#downPressed-signal"/>
+            <keyword name="focus" id="KeyboardInput::focus" ref="qml-qt3d-input-keyboardinput.html#focus-prop"/>
+            <keyword name="leftPressed" id="KeyboardInput::leftPressed" ref="qml-qt3d-input-keyboardinput.html#leftPressed-signal"/>
+            <keyword name="numberSignPressed" id="KeyboardInput::numberSignPressed" ref="qml-qt3d-input-keyboardinput.html#numberSignPressed-signal"/>
+            <keyword name="rightPressed" id="KeyboardInput::rightPressed" ref="qml-qt3d-input-keyboardinput.html#rightPressed-signal"/>
+            <keyword name="tabPressed" id="KeyboardInput::tabPressed" ref="qml-qt3d-input-keyboardinput.html#tabPressed-signal"/>
+            <keyword name="upPressed" id="KeyboardInput::upPressed" ref="qml-qt3d-input-keyboardinput.html#upPressed-signal"/>
+            <keyword name="MatrixTransform" id="QML.MatrixTransform" ref="qml-qt3d-matrixtransform.html"/>
+            <keyword name="matrix" id="MatrixTransform::matrix" ref="qml-qt3d-matrixtransform.html#matrix-prop"/>
+            <keyword name="Node" id="QML.Node" ref="qml-qt3d-node.html"/>
+            <keyword name="childNodes" id="Node::childNodes" ref="qml-qt3d-node.html#childNodes-prop"/>
+            <keyword name="data" id="Node::data" ref="qml-qt3d-node.html#data-prop"/>
+            <keyword name="NodeInstantiator" id="QML.NodeInstantiator" ref="qml-qt3d-nodeinstantiator.html"/>
+            <keyword name="active" id="NodeInstantiator::active" ref="qml-qt3d-nodeinstantiator.html#active-prop"/>
+            <keyword name="asynchronous" id="NodeInstantiator::asynchronous" ref="qml-qt3d-nodeinstantiator.html#asynchronous-prop"/>
+            <keyword name="count" id="NodeInstantiator::count" ref="qml-qt3d-nodeinstantiator.html#count-prop"/>
+            <keyword name="delegate" id="NodeInstantiator::delegate" ref="qml-qt3d-nodeinstantiator.html#delegate-prop"/>
+            <keyword name="model" id="NodeInstantiator::model" ref="qml-qt3d-nodeinstantiator.html#model-prop"/>
+            <keyword name="object" id="NodeInstantiator::object" ref="qml-qt3d-nodeinstantiator.html#object-prop"/>
+            <keyword name="objectAdded" id="NodeInstantiator::objectAdded" ref="qml-qt3d-nodeinstantiator.html#objectAdded-signal"/>
+            <keyword name="objectRemoved" id="NodeInstantiator::objectRemoved" ref="qml-qt3d-nodeinstantiator.html#objectRemoved-signal"/>
+            <keyword name="Transform" id="QML.Transform" ref="qml-qt3d-transform.html"/>
+            <keyword name="matrix" id="Transform::matrix" ref="qml-qt3d-transform.html#matrix-prop"/>
+            <keyword name="transforms" id="Transform::transforms" ref="qml-qt3d-transform.html#transforms-prop"/>
+            <keyword name="Qt3DCore" id="Qt3DCore" ref="qt3dcore-module.html"/>
+            <keyword name="Qt3DInput" id="Qt3DInput" ref="qt3dinput-module.html"/>
+        </keywords>
+        <files>
+            <file>qt3d-qtranslatetransform.html</file>
+            <file>qt3d-nullsysteminformationservice-members.html</file>
+            <file>qt3d-qabstractpostman.html</file>
+            <file>qt3d-qaspectjobproviderinterface.html</file>
+            <file>qml-qt3d-cameralens-members.html</file>
+            <file>qt3d-quick-quick3dentity.html</file>
+            <file>qml-qt3d-input-keyboardinput.html</file>
+            <file>qt3d-quick-quick3dentity-members.html</file>
+            <file>qt3d-overview.html</file>
+            <file>qt3d-nonlockingpolicy-locker-members.html</file>
+            <file>qt3d-qfixedframeallocator-members.html</file>
+            <file>qt3d-qresourcemanager.html</file>
+            <file>qt3d-quick-quick3dentityloader-members.html</file>
+            <file>qt3d-qthreadpooler.html</file>
+            <file>qt3d-nullcollisionqueryservice.html</file>
+            <file>qt3d-qsceneobserverinterface.html</file>
+            <file>qt3d-quick-quick3dnodeinstantiator.html</file>
+            <file>qt3d-qnode.html</file>
+            <file>qt3d-qobservableinterface-members.html</file>
+            <file>qt3d-qcircularbuffer-iterator-members.html</file>
+            <file>qt3d-qmousecontroller-members.html</file>
+            <file>qt3d-qabstractattribute-members.html</file>
+            <file>qt3d-qboundedcircularbuffer.html</file>
+            <file>qt3d-quick-quick3dvector3dvaluetype-members.html</file>
+            <file>qt3d-qsceneobserverinterface-members.html</file>
+            <file>qt3d-input-keyboardinput-members.html</file>
+            <file>qt3d-assimphelper.html</file>
+            <file>images/btn_prev.png</file>
+            <file>qt3d-qlookattransform.html</file>
+            <file>qt3d-qinputaspect.html</file>
+            <file>qt3d-objectlevellockingpolicy-locker-members.html</file>
+            <file>qt3d-qobserverinterface-members.html</file>
+            <file>qt3d-quick-quick3dquaternionvaluetype-members.html</file>
+            <file>qt3d-qtickclock-members.html</file>
+            <file>qt3d-qabstractserviceprovider.html</file>
+            <file>qt3d-qaspectjob-members.html</file>
+            <file>qt3d-qentity-members.html</file>
+            <file>qt3d-qmatrixtransform-members.html</file>
+            <file>qt3d-input-keyboardcontroller-members.html</file>
+            <file>qt3d-quick-quick3dvector2dvaluetype.html</file>
+            <file>qt3d-qbackendnode.html</file>
+            <file>qt3d-qservicelocator-members.html</file>
+            <file>qt3d-qentity.html</file>
+            <file>qt3d-quick-quick3dcolorvaluetype.html</file>
+            <file>qt3d-typedcircularbufferdata-members.html</file>
+            <file>qt3d-nullopenglinformationservice.html</file>
+            <file>qml-qt3d-matrixtransform-members.html</file>
+            <file>qt3d-weaverjob.html</file>
+            <file>qml-qt3d-node-members.html</file>
+            <file>qml-qt3d-nodeinstantiator-members.html</file>
+            <file>qt3d-gltfparser.html</file>
+            <file>qt3d-input-inputhandler.html</file>
+            <file>qt3d-runnableinterface-members.html</file>
+            <file>qt3d-input-keyboardinputmanager-members.html</file>
+            <file>qml-qt3d-input-keyboardcontroller.html</file>
+            <file>qt3d-qfixedframeallocator.html</file>
+            <file>qt3d-qhandle-members.html</file>
+            <file>qt3d-qkeyboardinput.html</file>
+            <file>qt3d-input-mouseinputmanager.html</file>
+            <file>qt3d-qframechunk-members.html</file>
+            <file>qml-qt3d-entity.html</file>
+            <file>qt3d-qbackendnodefactory.html</file>
+            <file>qt3d-qresourceinfo.html</file>
+            <file>qt3d-qmousecontrollerprivate-members.html</file>
+            <file>qt3d-input-keyboardinputfunctor-members.html</file>
+            <file>qt3d-quick-quick3dnodeinstantiator-members.html</file>
+            <file>qt3d-quick-quick3dvector4dvaluetype-members.html</file>
+            <file>qt3d-nonlockingpolicy-members.html</file>
+            <file>images/ico_out.png</file>
+            <file>qt3d-qabstractcollisionqueryserviceprivate-members.html</file>
+            <file>qt3d-qframeallocator-members.html</file>
+            <file>qt3d-qabstracttransform-members.html</file>
+            <file>qt3d-listallocatingpolicy.html</file>
+            <file>qt3d-qcircularbuffer-members.html</file>
+            <file>qml-qt3d-camera-members.html</file>
+            <file>qt3d-qabstractarbiter.html</file>
+            <file>qt3d-input-keyboardcontrollerfunctor-members.html</file>
+            <file>qt3d-qnodevisitor.html</file>
+            <file>qt3d-input-keyboardinput.html</file>
+            <file>qml-qt3d-camera.html</file>
+            <file>qt3d-qaspectthread-members.html</file>
+            <file>qt3d-qlockableobserverinterface.html</file>
+            <file>qt3d-quick-qqmlaspectengine.html</file>
+            <file>images/ico_note_attention.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>qt3d-qabstractarbiter-members.html</file>
+            <file>qt3d-qcircularbuffer-iterator.html</file>
+            <file>qt3d-input-mousecontroller-members.html</file>
+            <file>qt3d-dependencyhandler-members.html</file>
+            <file>qt3d-input-mouseeventfilter-members.html</file>
+            <file>qt3d-qabstractbuffer-members.html</file>
+            <file>qt3d-input-keyboardcontrollermanager.html</file>
+            <file>qt3d-quick-quick3dentityloader.html</file>
+            <file>qt3d-input-mouseinputfunctor-members.html</file>
+            <file>qml-qt3d-transform-members.html</file>
+            <file>qt3d-arrayallocatingpolicy.html</file>
+            <file>qt3d-qtickclockservice.html</file>
+            <file>qt3d.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>qt3d-qresourcemanager-members.html</file>
+            <file>qt3d-weaverjob-members.html</file>
+            <file>qt3d-propertychangehandler-members.html</file>
+            <file>qt3d-qaxisalignedboundingbox.html</file>
+            <file>qt3d-qhandlemanager-members.html</file>
+            <file>qt3d-qtranslatetransform-members.html</file>
+            <file>qt3d-q3dmouseevent.html</file>
+            <file>qt3d-qobserverinterface.html</file>
+            <file>qt3d-qbackendnodefunctor-members.html</file>
+            <file>qt3d-qbackendscenepropertychange.html</file>
+            <file>qt3d-quick-quick3dquaternionvaluetype.html</file>
+            <file>qt3d-qcamera.html</file>
+            <file>qt3d-qabstractattribute.html</file>
+            <file>qt3d-input-mouseinputmanager-members.html</file>
+            <file>images/arrow_bc.png</file>
+            <file>qt3d-arrayallocatingpolicy-members.html</file>
+            <file>qt3d-runnableinterface.html</file>
+            <file>qt3d-qtransform-members.html</file>
+            <file>qt3d-input-assignkeyboardfocusjob-members.html</file>
+            <file>qt3dcore-module.html</file>
+            <file>qt3d-dependency.html</file>
+            <file>qt3d-qmlmodule.html</file>
+            <file>qt3d-qscene-members.html</file>
+            <file>qt3d-qmouseinputprivate.html</file>
+            <file>qt3d-qmouseinput.html</file>
+            <file>qml-qt3d-input-keyboardcontroller-members.html</file>
+            <file>qt3d-input-keyboardcontroller.html</file>
+            <file>qt3d-arraypreallocationpolicy-members.html</file>
+            <file>qml-qt3d-component3d-members.html</file>
+            <file>qt3d-qboundedcircularbuffer-members.html</file>
+            <file>qt3d-qsysteminformationservice.html</file>
+            <file>qml-qt3d-nodeinstantiator.html</file>
+            <file>qt3d-qopenglinformationservice.html</file>
+            <file>qt3d-q3dmouseevent-members.html</file>
+            <file>qt3d-qnode-members.html</file>
+            <file>qt3d-qmouseinputprivate-members.html</file>
+            <file>qt3d-nullcollisionqueryservice-members.html</file>
+            <file>qt3d-q3dkeyevent-members.html</file>
+            <file>qt3d-qboundingvolumeprovider-members.html</file>
+            <file>qt3d-qcollisionqueryresult.html</file>
+            <file>qt3d-qhandlemanager.html</file>
+            <file>qt3d-input-inputhandler-members.html</file>
+            <file>qt3d-input-mouseeventdispatcherjob.html</file>
+            <file>qt3d-quick-quick3dcolorvaluetype-members.html</file>
+            <file>qt3d-qaspectmanager-members.html</file>
+            <file>qt3d-qscene.html</file>
+            <file>qt3d-qcameralens-members.html</file>
+            <file>qt3d-qchangearbiter-members.html</file>
+            <file>qt3d-input-mousecontrollerfunctor-members.html</file>
+            <file>qt3d-quick.html</file>
+            <file>qt3d-quick-quick3dmatrix4x4valuetype-members.html</file>
+            <file>qml-qt3d-input-keyevent.html</file>
+            <file>qt3d-qabstractfunctor-members.html</file>
+            <file>qt3d-qkeyboardcontroller.html</file>
+            <file>qt3d-qmouseinput-members.html</file>
+            <file>qt3d-input-keyeventdispatcherjob.html</file>
+            <file>qt3d-qnodeid-members.html</file>
+            <file>qt3d-quick-quick3dvector2dvaluetype-members.html</file>
+            <file>qt3d-qaspectengine-members.html</file>
+            <file>qt3d-qservicelocator.html</file>
+            <file>qt3d-qobservableinterface.html</file>
+            <file>qt3d-input-mouseeventdispatcherjob-members.html</file>
+            <file>qml-qt3d-matrixtransform.html</file>
+            <file>qml-qt3d-node.html</file>
+            <file>images/btn_next.png</file>
+            <file>qt3d-qscenechange-members.html</file>
+            <file>qt3d-aspecttaskrunnable-members.html</file>
+            <file>qt3d-objectlevellockingpolicy-members.html</file>
+            <file>qt3d-qhandle.html</file>
+            <file>qt3d-qrotatetransform.html</file>
+            <file>qt3d-input-keyeventdispatcherjob-members.html</file>
+            <file>images/shadowmapping-depth.png</file>
+            <file>qml-qt3d-configuration-members.html</file>
+            <file>qt3d-qscenepropertychange.html</file>
+            <file>qt3d-q3dwheelevent-members.html</file>
+            <file>qt3d-qnodevisitor-members.html</file>
+            <file>qt3d-qabstracttransform.html</file>
+            <file>images/ecs-2.png</file>
+            <file>qt3d-qchangearbiter.html</file>
+            <file>qt3d-qabstractfunctor.html</file>
+            <file>qt3d-qcircularbuffer-const-iterator.html</file>
+            <file>qt3d-qlockableobserverinterface-members.html</file>
+            <file>qt3d-quick-quick3dvector3dvaluetype.html</file>
+            <file>qt3d-qabstractcollisionqueryserviceprivate.html</file>
+            <file>qt3d-input-keyboardinputmanager.html</file>
+            <file>qt3d-quick-qqmlaspectengine-members.html</file>
+            <file>qt3d-int2type.html</file>
+            <file>qt3d-quick-quick3dmatrix4x4valuetype.html</file>
+            <file>qt3d-input-keyboardeventfilter.html</file>
+            <file>qt3d-assimpparser.html</file>
+            <file>qt3d-qlookattransform-members.html</file>
+            <file>qt3d-nullopenglinformationservice-members.html</file>
+            <file>qt3d-input-cameracontroller-members.html</file>
+            <file>qt3d-input-keyboardcontrollerfunctor.html</file>
+            <file>qt3d-qtransform.html</file>
+            <file>qt3d-qscaletransform-members.html</file>
+            <file>qt3d-qaspectjobproviderinterface-members.html</file>
+            <file>qt3d-input-mousecontrollermanager.html</file>
+            <file>qt3d-nonlockingpolicy.html</file>
+            <file>qt3d-input-mousecontrollermanager-members.html</file>
+            <file>qt3d-qkeyboardinput-members.html</file>
+            <file>qt3d-quick-quick3dtransform.html</file>
+            <file>qt3d-qboundingvolume.html</file>
+            <file>qt3d-input-mouseeventfilter.html</file>
+            <file>qt3d-dependencyhandler.html</file>
+            <file>qt3d-qmatrixtransform.html</file>
+            <file>qt3d-qthreadpooler-members.html</file>
+            <file>qt3d-circularbufferdata-members.html</file>
+            <file>qt3d-input-mouseinput.html</file>
+            <file>images/bgrContent.png</file>
+            <file>qt3d-objectlevellockingpolicy-locker.html</file>
+            <file>qt3d-qopenglinformationservice-members.html</file>
+            <file>qt3d-input-mousecontroller.html</file>
+            <file>qt3d-qboundingsphere-members.html</file>
+            <file>qt3d-qray3d.html</file>
+            <file>qt3d-qresourceinfo-members.html</file>
+            <file>qml-qt3d-entityloader.html</file>
+            <file>qt3d-dependency-members.html</file>
+            <file>qt3d-qbackendscenepropertychange-members.html</file>
+            <file>qt3d-qaspectthread.html</file>
+            <file>qt3d-qmousecontroller.html</file>
+            <file>qt3dinput-module.html</file>
+            <file>qml-qt3d-cameralens.html</file>
+            <file>qt3d-qcircularbuffer.html</file>
+            <file>qt3d-input-cameracontroller.html</file>
+            <file>qt3d-quick-quick3dvaluetypes.html</file>
+            <file>qt3d-qcomponent.html</file>
+            <file>qt3d-qpostman-members.html</file>
+            <file>qt3d-qaxisalignedboundingbox-members.html</file>
+            <file>qt3d-input-mousecontrollerfunctor.html</file>
+            <file>qml-qt3d-configuration.html</file>
+            <file>qt3d-int2type-members.html</file>
+            <file>images/ico_note.png</file>
+            <file>qt3d-input-mouseinputfunctor.html</file>
+            <file>qt3d-qabstractframeadvanceservice.html</file>
+            <file>qt3d-qtickclock.html</file>
+            <file>qt3d-qrotatetransform-members.html</file>
+            <file>qt3d-qcollisionqueryresultprivate.html</file>
+            <file>images/shadowmapping-qt3d.png</file>
+            <file>qt3d-propertychangehandler.html</file>
+            <file>qt3d-qscenepropertychange-members.html</file>
+            <file>qt3d-qabstractframeadvanceservice-members.html</file>
+            <file>qt3d-qaspectmanager.html</file>
+            <file>qt3d-qpostman.html</file>
+            <file>qt3d-input-keyboardinputfunctor.html</file>
+            <file>qt3d-qabstractcollisionqueryservice-members.html</file>
+            <file>qt3d-index.html</file>
+            <file>qt3d-qscheduler.html</file>
+            <file>images/home.png</file>
+            <file>qt3d-qabstractbuffer.html</file>
+            <file>qt3d-synctaskrunnable.html</file>
+            <file>qt3d-qaspectjob.html</file>
+            <file>qt3d-objectlevellockingpolicy.html</file>
+            <file>qt3d-qcameralens.html</file>
+            <file>qt3d-quick-quick3dtransform-members.html</file>
+            <file>qt3d-quick-quick3dvector4dvaluetype.html</file>
+            <file>qt3d-synctaskrunnable-members.html</file>
+            <file>qt3d-circularbufferdata.html</file>
+            <file>qt3d-input-mouseinput-members.html</file>
+            <file>qt3d-qbackendnodefunctor.html</file>
+            <file>qt3d-nullsysteminformationservice.html</file>
+            <file>qt3d-qnodeid.html</file>
+            <file>qt3d-arraypreallocationpolicy.html</file>
+            <file>qt3d-qabstractserviceprovider-members.html</file>
+            <file>qt3d-qinputaspect-members.html</file>
+            <file>qt3d-qkeyboardcontroller-members.html</file>
+            <file>qt3d-qcollisionqueryresultprivate-members.html</file>
+            <file>images/ecs-1.png</file>
+            <file>qt3d-input-qmlmodule.html</file>
+            <file>qml-qt3d-component3d.html</file>
+            <file>qt3d-gltfparser-members.html</file>
+            <file>images/Space-invaders.jpg</file>
+            <file>qml-qt3d-entityloader-members.html</file>
+            <file>qt3d-quick-quick3dnode-members.html</file>
+            <file>qt3d-qbackendnode-members.html</file>
+            <file>qt3d-qurlhelper.html</file>
+            <file>qt3d-q3dkeyevent.html</file>
+            <file>images/circularbuffer-2.png</file>
+            <file>qt3d-listallocatingpolicy-members.html</file>
+            <file>qt3d-q3dwheelevent.html</file>
+            <file>qt3d-qabstractaspect.html</file>
+            <file>qt3d-qframeallocator.html</file>
+            <file>qt3d-qboundingvolume-members.html</file>
+            <file>qt3d-qaspectfactory-members.html</file>
+            <file>qml-qt3d-entity-members.html</file>
+            <file>qt3d-quick-quick3dnode.html</file>
+            <file>qt3d-qcircularbuffer-const-iterator-members.html</file>
+            <file>qt3d-qtickclockservice-members.html</file>
+            <file>qml-qt3d-transform.html</file>
+            <file>qt3d-aspecttaskrunnable.html</file>
+            <file>qt3d-qabstractcollisionqueryservice.html</file>
+            <file>qt3d-qboundingvolumeprovider.html</file>
+            <file>qml-qt3d-input-keyevent-members.html</file>
+            <file>qt3d-qabstractpostman-members.html</file>
+            <file>qt3d-qscaletransform.html</file>
+            <file>qt3d-qboundingsphere.html</file>
+            <file>qt3d-qcomponent-members.html</file>
+            <file>qt3d-nonlockingpolicy-locker.html</file>
+            <file>qt3d-qray3d-members.html</file>
+            <file>images/circularbuffer-3.png</file>
+            <file>qt3d-qabstractaspect-members.html</file>
+            <file>qt3d-functortype-members.html</file>
+            <file>qt3d-qcollisionqueryresult-members.html</file>
+            <file>qt3d-qurlhelper-members.html</file>
+            <file>qt3d-qaspectfactory.html</file>
+            <file>style/offline.css</file>
+            <file>qt3d-quick-quick3dconfiguration.html</file>
+            <file>qt3d-input-keyboardcontrollermanager-members.html</file>
+            <file>images/logo.png</file>
+            <file>qt3d-quick-quick3dconfiguration-members.html</file>
+            <file>qt3d-input-assignkeyboardfocusjob.html</file>
+            <file>qt3d-functortype.html</file>
+            <file>qt3d-input-keyboardeventfilter-members.html</file>
+            <file>qt3d-qbackendnodefactory-members.html</file>
+            <file>qt3d-input.html</file>
+            <file>qt3d-qmousecontrollerprivate.html</file>
+            <file>qt3d-qsysteminformationservice-members.html</file>
+            <file>qml-qt3d-input-keyboardinput-members.html</file>
+            <file>qt3d-qaspectengine.html</file>
+            <file>qt3d-qscheduler-members.html</file>
+            <file>qt3d-qframechunk.html</file>
+            <file>qt3d-qscenechange.html</file>
+            <file>qt3d-qcamera-members.html</file>
+            <file>qt3d-typedcircularbufferdata.html</file>
+            <file>qt3d-assimpparser-members.html</file>
+            <file>images/circularbuffer-1.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

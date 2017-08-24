@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8DD6902C-AFAE-3BC5-851C-D84D2CC25EA4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>osgParticle</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osgParticle.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osg141-osgParticled</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osgParticle.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osg141-osgParticle</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osgParticle.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osg141-osgParticles</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osgParticle.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osg141-osgParticlerd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="Debug";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"Debug\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\osgDBd.lib;opengl32.lib;..\..\lib\osgUtild.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;D:\PROJECT\3rdParty\lib\zlib.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/OpenSceneGraph-3.5.1/lib/osgParticled.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/OpenSceneGraph-3.5.1/bin/osg141-osgParticled.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="Release";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"Release\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\osgDB.lib;opengl32.lib;..\..\lib\osgUtil.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;D:\PROJECT\3rdParty\lib\zlib.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/OpenSceneGraph-3.5.1/lib/osgParticle.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/OpenSceneGraph-3.5.1/bin/osg141-osgParticle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="MinSizeRel";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\osgDBs.lib;opengl32.lib;..\..\lib\osgUtils.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;D:\PROJECT\3rdParty\lib\zlib.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/OpenSceneGraph-3.5.1/lib/osgParticles.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/OpenSceneGraph-3.5.1/bin/osg141-osgParticles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\osgDBrd.lib;opengl32.lib;..\..\lib\osgUtilrd.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;D:\PROJECT\3rdParty\lib\zlib.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/OpenSceneGraph-3.5.1/lib/osgParticlerd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/OpenSceneGraph-3.5.1/bin/osg141-osgParticlerd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\CMakeModules\ModuleInstall.cmake;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\CMakeModules\ModuleInstall.cmake;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\CMakeModules\ModuleInstall.cmake;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/OpenSceneGraph-3.5.1 -BD:/PROJECT/OpenSceneGraph-3.5.1 --check-stamp-file D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/OpenSceneGraph-3.5.1/src/osgParticle/CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;D:\PROJECT\OpenSceneGraph-3.5.1\CMakeModules\ModuleInstall.cmake;D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\OpenSceneGraph-3.5.1\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConnectedParticleSystem.cpp"  />
+    <ClCompile Include="Emitter.cpp"  />
+    <ClCompile Include="ExplosionDebrisEffect.cpp"  />
+    <ClCompile Include="ExplosionEffect.cpp"  />
+    <ClCompile Include="FireEffect.cpp"  />
+    <ClCompile Include="FluidFrictionOperator.cpp"  />
+    <ClCompile Include="FluidProgram.cpp"  />
+    <ClCompile Include="ModularEmitter.cpp"  />
+    <ClCompile Include="ModularProgram.cpp"  />
+    <ClCompile Include="MultiSegmentPlacer.cpp"  />
+    <ClCompile Include="Particle.cpp"  />
+    <ClCompile Include="ParticleEffect.cpp"  />
+    <ClCompile Include="ParticleProcessor.cpp"  />
+    <ClCompile Include="ParticleSystem.cpp"  />
+    <ClCompile Include="ParticleSystemUpdater.cpp"  />
+    <ClCompile Include="PrecipitationEffect.cpp"  />
+    <ClCompile Include="Program.cpp"  />
+    <ClCompile Include="SmokeEffect.cpp"  />
+    <ClCompile Include="SmokeTrailEffect.cpp"  />
+    <ClCompile Include="Version.cpp"  />
+    <ClCompile Include="DomainOperator.cpp"  />
+    <ClCompile Include="BounceOperator.cpp"  />
+    <ClCompile Include="SinkOperator.cpp"  />
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc"  />
+    <None Include="..\..\include\osgParticle\AccelOperator" />
+    <None Include="..\..\include\osgParticle\AngularAccelOperator" />
+    <None Include="..\..\include\osgParticle\BoxPlacer" />
+    <None Include="..\..\include\osgParticle\CenteredPlacer" />
+    <None Include="..\..\include\osgParticle\ConnectedParticleSystem" />
+    <None Include="..\..\include\osgParticle\ConstantRateCounter" />
+    <None Include="..\..\include\osgParticle\Counter" />
+    <None Include="..\..\include\osgParticle\Emitter" />
+    <None Include="..\..\include\osgParticle\ExplosionDebrisEffect" />
+    <None Include="..\..\include\osgParticle\ExplosionEffect" />
+    <None Include="..\..\include\osgParticle\Export" />
+    <None Include="..\..\include\osgParticle\FireEffect" />
+    <None Include="..\..\include\osgParticle\FluidFrictionOperator" />
+    <None Include="..\..\include\osgParticle\FluidProgram" />
+    <None Include="..\..\include\osgParticle\ForceOperator" />
+    <None Include="..\..\include\osgParticle\Interpolator" />
+    <None Include="..\..\include\osgParticle\LinearInterpolator" />
+    <None Include="..\..\include\osgParticle\ModularEmitter" />
+    <None Include="..\..\include\osgParticle\ModularProgram" />
+    <None Include="..\..\include\osgParticle\MultiSegmentPlacer" />
+    <None Include="..\..\include\osgParticle\Operator" />
+    <None Include="..\..\include\osgParticle\Particle" />
+    <None Include="..\..\include\osgParticle\ParticleEffect" />
+    <None Include="..\..\include\osgParticle\ParticleProcessor" />
+    <None Include="..\..\include\osgParticle\ParticleSystem" />
+    <None Include="..\..\include\osgParticle\ParticleSystemUpdater" />
+    <None Include="..\..\include\osgParticle\Placer" />
+    <None Include="..\..\include\osgParticle\PointPlacer" />
+    <None Include="..\..\include\osgParticle\PrecipitationEffect" />
+    <None Include="..\..\include\osgParticle\Program" />
+    <None Include="..\..\include\osgParticle\RadialShooter" />
+    <None Include="..\..\include\osgParticle\RandomRateCounter" />
+    <None Include="..\..\include\osgParticle\range" />
+    <None Include="..\..\include\osgParticle\SectorPlacer" />
+    <None Include="..\..\include\osgParticle\SegmentPlacer" />
+    <None Include="..\..\include\osgParticle\Shooter" />
+    <None Include="..\..\include\osgParticle\SmokeEffect" />
+    <None Include="..\..\include\osgParticle\SmokeTrailEffect" />
+    <None Include="..\..\include\osgParticle\VariableRateCounter" />
+    <None Include="..\..\include\osgParticle\Version" />
+    <None Include="..\..\include\osgParticle\CompositePlacer" />
+    <None Include="..\..\include\osgParticle\AngularDampingOperator" />
+    <None Include="..\..\include\osgParticle\DampingOperator" />
+    <None Include="..\..\include\osgParticle\ExplosionOperator" />
+    <None Include="..\..\include\osgParticle\OrbitOperator" />
+    <None Include="..\..\include\osgParticle\DomainOperator" />
+    <None Include="..\..\include\osgParticle\BounceOperator" />
+    <None Include="..\..\include\osgParticle\SinkOperator" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/ZERO_CHECK.vcxproj">
+      <Project>5EAE8DB1-6D10-3E4E-9AE2-3D5D83D0786F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/OpenThreads/win32/OpenThreads.vcxproj">
+      <Project>FC637CAD-C936-3BAF-8004-C3399034608A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osg/osg.vcxproj">
+      <Project>AF94488A-9A5E-3373-9B9F-0274960E9D14</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgDB/osgDB.vcxproj">
+      <Project>D4A57360-7BA1-39D8-A749-D12A71E9E179</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/OpenSceneGraph-3.5.1/src/osgUtil/osgUtil.vcxproj">
+      <Project>A5723FDA-12D8-3F14-82E6-2751CAE61F0D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

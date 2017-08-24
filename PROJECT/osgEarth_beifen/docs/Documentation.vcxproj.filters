@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\about.rst" />
+    <None Include="source\data.rst" />
+    <None Include="source\faq.rst" />
+    <None Include="source\howtos.rst" />
+    <None Include="source\index.rst" />
+    <None Include="source\install.rst" />
+    <None Include="source\ios.rst" />
+    <None Include="source\releasenotes.rst" />
+    <None Include="source\startup.rst" />
+    <None Include="source\developer\coordinate_systems.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\custom_driver.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\index.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\maps.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\qt_integration.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\shader_composition.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\developer\utilities.rst">
+      <Filter>Developer</Filter>
+    </None>
+    <None Include="source\references\colorfilters.rst">
+      <Filter>References</Filter>
+    </None>
+    <None Include="source\references\earthfile.rst">
+      <Filter>References</Filter>
+    </None>
+    <None Include="source\references\envvars.rst">
+      <Filter>References</Filter>
+    </None>
+    <None Include="source\references\index.rst">
+      <Filter>References</Filter>
+    </None>
+    <None Include="source\references\symbology.rst">
+      <Filter>References</Filter>
+    </None>
+    <None Include="source\references\drivers\feature\index.rst">
+      <Filter>References\Drivers\Feature</Filter>
+    </None>
+    <None Include="source\references\drivers\feature\ogr.rst">
+      <Filter>References\Drivers\Feature</Filter>
+    </None>
+    <None Include="source\references\drivers\feature\tfs.rst">
+      <Filter>References\Drivers\Feature</Filter>
+    </None>
+    <None Include="source\references\drivers\feature\wfs.rst">
+      <Filter>References\Drivers\Feature</Filter>
+    </None>
+    <None Include="source\references\drivers\loaders\index.rst">
+      <Filter>References\Drivers\Loaders</Filter>
+    </None>
+    <None Include="source\references\drivers\model\feature_geom.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\model\feature_model_shared_blocks.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\model\feature_model_shared_props.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\model\feature_stencil.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\model\index.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\model\simple.rst">
+      <Filter>References\Drivers\Model</Filter>
+    </None>
+    <None Include="source\references\drivers\terrain\index.rst">
+      <Filter>References\Drivers\Terrain</Filter>
+    </None>
+    <None Include="source\references\drivers\terrain\mp.rst">
+      <Filter>References\Drivers\Terrain</Filter>
+    </None>
+    <None Include="source\references\drivers\terrain\terrain_options_shared.rst">
+      <Filter>References\Drivers\Terrain</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\agglite.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\arcgis.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\debug.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\gdal.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\index.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\noise.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\osg.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\tilecache.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\tileservice.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\tms.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\vpb.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\wcs.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\wms.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\references\drivers\tile\xyz.rst">
+      <Filter>References\Drivers\Tile</Filter>
+    </None>
+    <None Include="source\user\annotations.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\caching.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\earthfiles.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\elevation.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\features.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\imagery.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\index.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\maps.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\profile.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\spatialreference.rst">
+      <Filter>User</Filter>
+    </None>
+    <None Include="source\user\tools.rst">
+      <Filter>User</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="References\Drivers\Feature">
+      <UniqueIdentifier>{AE143CEA-C761-3EDC-BC16-17A001F23902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References\Drivers\Loaders">
+      <UniqueIdentifier>{834FFDAC-AD12-3362-9D6A-BA9CADDCD675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References\Drivers\Model">
+      <UniqueIdentifier>{6EFF3F3F-878D-3B0B-A040-FAA1954A01FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References\Drivers\Terrain">
+      <UniqueIdentifier>{564750A1-4B7E-3B15-9325-E702A92D9B8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References\Drivers\Tile">
+      <UniqueIdentifier>{1F7EDEB2-15A4-39C9-ACC7-4CC70A6DE9F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References\Drivers">
+      <UniqueIdentifier>{28D4C57B-1187-3089-A79A-77828B455301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Developer">
+      <UniqueIdentifier>{7AF48622-EF5B-30F3-A510-ABF9E2372BD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="References">
+      <UniqueIdentifier>{4AF4219D-C887-32A1-8114-DB1F7E6B5EAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{D04CA09E-14ED-3F2C-AEA6-10B8FC0C4E43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

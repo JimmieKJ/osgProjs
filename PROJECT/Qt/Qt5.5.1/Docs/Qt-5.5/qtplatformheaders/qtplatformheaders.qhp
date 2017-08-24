@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtplatformheaders.551</namespace>
+    <virtualFolder>qtplatformheaders</virtualFolder>
+    <customFilter name="QtPlatformHeaders 5.5.1">
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qtplatformheaders</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>5.5.1</filterAttribute>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <filterAttribute>qtplatformheaders</filterAttribute>
+        <toc>
+            <section ref="qtplatformheaders-index.html" title="Qt Platform Headers">
+                <section ref="qtplatformheaders-module.html" title="C++ Classes">
+                    <section ref="qcocoanativecontext.html" title="QCocoaNativeContext Class Reference">
+                        <section ref="qcocoanativecontext-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qeglnativecontext.html" title="QEGLNativeContext Class Reference">
+                        <section ref="qeglnativecontext-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qeglfsfunctions.html" title="QEglFSFunctions Class Reference">
+                        <section ref="qeglfsfunctions-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qglxnativecontext.html" title="QGLXNativeContext Class Reference">
+                        <section ref="qglxnativecontext-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qwglnativecontext.html" title="QWGLNativeContext Class Reference">
+                        <section ref="qwglnativecontext-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qwindowswindowfunctions.html" title="QWindowsWindowFunctions Class Reference">
+                        <section ref="qwindowswindowfunctions-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qxcbwindowfunctions.html" title="QXcbWindowFunctions Class Reference">
+                        <section ref="qxcbwindowfunctions-members.html" title="List of all members"/>
+                    </section>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="QCocoaNativeContext" id="QCocoaNativeContext" ref="qcocoanativecontext.html"/>
+            <keyword name="context" id="QCocoaNativeContext::context" ref="qcocoanativecontext.html#context"/>
+            <keyword name="QEGLNativeContext" id="QEGLNativeContext" ref="qeglnativecontext.html"/>
+            <keyword name="context" id="QEGLNativeContext::context" ref="qeglnativecontext.html#context"/>
+            <keyword name="display" id="QEGLNativeContext::display" ref="qeglnativecontext.html#display"/>
+            <keyword name="QEglFSFunctions" id="QEglFSFunctions" ref="qeglfsfunctions.html"/>
+            <keyword name="QEglFSFunctions::LoadKeymapType" id="QEglFSFunctions::LoadKeymapType" ref="qeglfsfunctions.html#LoadKeymapType-typedef"/>
+            <keyword name="loadKeymap" id="QEglFSFunctions::loadKeymap" ref="qeglfsfunctions.html#loadKeymap"/>
+            <keyword name="loadKeymapTypeIdentifier" id="QEglFSFunctions::loadKeymapTypeIdentifier" ref="qeglfsfunctions.html#loadKeymapTypeIdentifier"/>
+            <keyword name="QGLXNativeContext" id="QGLXNativeContext" ref="qglxnativecontext.html"/>
+            <keyword name="context" id="QGLXNativeContext::context" ref="qglxnativecontext.html#context"/>
+            <keyword name="display" id="QGLXNativeContext::display" ref="qglxnativecontext.html#display"/>
+            <keyword name="visualId" id="QGLXNativeContext::visualId" ref="qglxnativecontext.html#visualId"/>
+            <keyword name="window" id="QGLXNativeContext::window" ref="qglxnativecontext.html#window"/>
+            <keyword name="QWGLNativeContext" id="QWGLNativeContext" ref="qwglnativecontext.html"/>
+            <keyword name="context" id="QWGLNativeContext::context" ref="qwglnativecontext.html#context"/>
+            <keyword name="window" id="QWGLNativeContext::window" ref="qwglnativecontext.html#window"/>
+            <keyword name="QWindowsWindowFunctions" id="QWindowsWindowFunctions" ref="qwindowswindowfunctions.html"/>
+            <keyword name="QWindowsWindowFunctions::SetTouchWindowTouchType" id="QWindowsWindowFunctions::SetTouchWindowTouchType" ref="qwindowswindowfunctions.html#SetTouchWindowTouchType-typedef"/>
+            <keyword name="QWindowsWindowFunctions::TouchWindowTouchType" id="QWindowsWindowFunctions::TouchWindowTouchType" ref="qwindowswindowfunctions.html#TouchWindowTouchType-enum"/>
+            <keyword name="QWindowsWindowFunctions::NormalTouch" id="QWindowsWindowFunctions::NormalTouch" ref="qwindowswindowfunctions.html#TouchWindowTouchType-enum"/>
+            <keyword name="QWindowsWindowFunctions::FineTouch" id="QWindowsWindowFunctions::FineTouch" ref="qwindowswindowfunctions.html#TouchWindowTouchType-enum"/>
+            <keyword name="QWindowsWindowFunctions::WantPalmTouch" id="QWindowsWindowFunctions::WantPalmTouch" ref="qwindowswindowfunctions.html#TouchWindowTouchType-enum"/>
+            <keyword name="QWindowsWindowFunctions::TouchWindowTouchTypes" id="QWindowsWindowFunctions::TouchWindowTouchTypes" ref="qwindowswindowfunctions.html#TouchWindowTouchType-enum"/>
+            <keyword name="setTouchWindowTouchType" id="QWindowsWindowFunctions::setTouchWindowTouchType" ref="qwindowswindowfunctions.html#setTouchWindowTouchType"/>
+            <keyword name="setTouchWindowTouchTypeIdentifier" id="QWindowsWindowFunctions::setTouchWindowTouchTypeIdentifier" ref="qwindowswindowfunctions.html#setTouchWindowTouchTypeIdentifier"/>
+            <keyword name="QXcbWindowFunctions" id="QXcbWindowFunctions" ref="qxcbwindowfunctions.html"/>
+            <keyword name="QXcbWindowFunctions::SetWmWindowType" id="QXcbWindowFunctions::SetWmWindowType" ref="qxcbwindowfunctions.html#SetWmWindowType-typedef"/>
+            <keyword name="QXcbWindowFunctions::VisualId" id="QXcbWindowFunctions::VisualId" ref="qxcbwindowfunctions.html#VisualId-typedef"/>
+            <keyword name="QXcbWindowFunctions::WmWindowType" id="QXcbWindowFunctions::WmWindowType" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Normal" id="QXcbWindowFunctions::Normal" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Desktop" id="QXcbWindowFunctions::Desktop" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Dock" id="QXcbWindowFunctions::Dock" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Toolbar" id="QXcbWindowFunctions::Toolbar" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Menu" id="QXcbWindowFunctions::Menu" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Utility" id="QXcbWindowFunctions::Utility" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Splash" id="QXcbWindowFunctions::Splash" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Dialog" id="QXcbWindowFunctions::Dialog" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::DropDownMenu" id="QXcbWindowFunctions::DropDownMenu" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::PopupMenu" id="QXcbWindowFunctions::PopupMenu" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Tooltip" id="QXcbWindowFunctions::Tooltip" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Notification" id="QXcbWindowFunctions::Notification" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Combo" id="QXcbWindowFunctions::Combo" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::Dnd" id="QXcbWindowFunctions::Dnd" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::KdeOverride" id="QXcbWindowFunctions::KdeOverride" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="QXcbWindowFunctions::WmWindowTypes" id="QXcbWindowFunctions::WmWindowTypes" ref="qxcbwindowfunctions.html#WmWindowType-enum"/>
+            <keyword name="setWmWindowType" id="QXcbWindowFunctions::setWmWindowType" ref="qxcbwindowfunctions.html#setWmWindowType"/>
+            <keyword name="setWmWindowTypeIdentifier" id="QXcbWindowFunctions::setWmWindowTypeIdentifier" ref="qxcbwindowfunctions.html#setWmWindowTypeIdentifier"/>
+            <keyword name="visualId" id="QXcbWindowFunctions::visualId" ref="qxcbwindowfunctions.html#visualId"/>
+            <keyword name="visualIdIdentifier" id="QXcbWindowFunctions::visualIdIdentifier" ref="qxcbwindowfunctions.html#visualIdIdentifier"/>
+            <keyword name="Qt Platform Headers" id="Qt Platform Headers" ref="qtplatformheaders-index.html"/>
+            <keyword name="QtPlatformHeaders" id="QtPlatformHeaders" ref="qtplatformheaders-module.html"/>
+        </keywords>
+        <files>
+            <file>qwindowswindowfunctions.html</file>
+            <file>style/offline.css</file>
+            <file>images/bgrContent.png</file>
+            <file>qtplatformheaders-module.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>images/arrow_bc.png</file>
+            <file>images/btn_next.png</file>
+            <file>qwglnativecontext.html</file>
+            <file>qxcbwindowfunctions-members.html</file>
+            <file>qeglnativecontext-members.html</file>
+            <file>images/home.png</file>
+            <file>qtplatformheaders-index.html</file>
+            <file>images/logo.png</file>
+            <file>qeglfsfunctions.html</file>
+            <file>qeglnativecontext.html</file>
+            <file>qcocoanativecontext-members.html</file>
+            <file>images/ico_out.png</file>
+            <file>qcocoanativecontext.html</file>
+            <file>qxcbwindowfunctions.html</file>
+            <file>images/ico_note.png</file>
+            <file>images/btn_prev.png</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qglxnativecontext.html</file>
+            <file>qwindowswindowfunctions-members.html</file>
+            <file>qeglfsfunctions-members.html</file>
+            <file>qwglnativecontext-members.html</file>
+            <file>qglxnativecontext-members.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

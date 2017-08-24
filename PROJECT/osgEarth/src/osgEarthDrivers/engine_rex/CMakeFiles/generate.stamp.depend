@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/PROJECT/osgEarth/src/osgEarthDrivers/engine_rex/CMakeLists.txt
+D:/PROJECT/osgEarth/CMakeModules/ConfigureShaders.cmake.in
+D:/PROJECT/osgEarth/CMakeModules/ModuleInstallOsgEarthDriverIncludes.cmake

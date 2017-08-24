@@ -1,0 +1,544 @@
+<Packages>
+    <ApplicationName>Qt 5.5.1</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt.tools</Name>
+        <Pixmap></Pixmap>
+        <Title>Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.8-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src</Name>
+        <Pixmap></Pixmap>
+        <Title>Source Components</Title>
+        <Description>Qt 5.5.1 Source Components</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtquick1</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Quick 1</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Prebuilt Components for gcc 64-bit</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtscript</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Script</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Prebuilt Components for gcc 64-bit</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtquickcontrols</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Quick Controls</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>The Qt Quick Controls module provides a set of controls that can be used to build complete interfaces in Qt Quick.</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons</Name>
+        <Pixmap></Pixmap>
+        <Title>Add-Ons</Title>
+        <Description>Qt 5.5.1 Add-Ons Source Components</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.essentials</Name>
+        <Pixmap></Pixmap>
+        <Title>Essentials</Title>
+        <Description>Qt 5.5.1 Essentials Source Components</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>623487440</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtscript</Name>
+        <Pixmap></Pixmap>
+        <Title>qtscript</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Script Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>23332290</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtquickcontrols</Name>
+        <Pixmap></Pixmap>
+        <Title>qtquickcontrols</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Web Engine Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>11476798</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtserialport</Name>
+        <Pixmap></Pixmap>
+        <Title>qtserialport</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Serial Port Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1256445</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtwinextras</Name>
+        <Pixmap></Pixmap>
+        <Title>qtwinextras</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Win Extras Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1785092</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtandroidextras</Name>
+        <Pixmap></Pixmap>
+        <Title>qtandroidextras</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Android Extras Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>365687</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtlocation</Name>
+        <Pixmap></Pixmap>
+        <Title>qtlocation</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Location Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>8970982</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtwebengine</Name>
+        <Pixmap></Pixmap>
+        <Title>qtwebengine</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Web Engine Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>846397416</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtactiveqt</Name>
+        <Pixmap></Pixmap>
+        <Title>qtactiveqt</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt ActiveQt Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1401007</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qt3d</Name>
+        <Pixmap></Pixmap>
+        <Title>qt3d</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt 3D Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>32312561</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtconnectivity</Name>
+        <Pixmap></Pixmap>
+        <Title>qtconnectivity</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Connectivity Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>6688737</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtwebchannel</Name>
+        <Pixmap></Pixmap>
+        <Title>qtwebchannel</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Web Channel Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>415736</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtenginio</Name>
+        <Pixmap></Pixmap>
+        <Title>qtenginio</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Enginio Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1473433</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtwebsockets</Name>
+        <Pixmap></Pixmap>
+        <Title>qtwebsockets</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Web Sockets Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>747082</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtsvg</Name>
+        <Pixmap></Pixmap>
+        <Title>qtsvg</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Svg Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>6749084</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtimageformats</Name>
+        <Pixmap></Pixmap>
+        <Title>qtimageformats</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Image Formats Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>12238934</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtsensors</Name>
+        <Pixmap></Pixmap>
+        <Title>qtsensors</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Sensors Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>5073989</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qttranslations</Name>
+        <Pixmap></Pixmap>
+        <Title>qttranslations</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Translations Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>19102349</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtquick1</Name>
+        <Pixmap></Pixmap>
+        <Title>qtquick1</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Quick 1 Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>39730573</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtgraphicaleffects</Name>
+        <Pixmap></Pixmap>
+        <Title>qtgraphicaleffects</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Graphical Effects Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>18405100</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtwayland</Name>
+        <Pixmap></Pixmap>
+        <Title>qtwayland</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Wayland Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1914617</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtmacextras</Name>
+        <Pixmap></Pixmap>
+        <Title>qtmacextras</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Mac Extras Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>250570</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtx11extras</Name>
+        <Pixmap></Pixmap>
+        <Title>qtx11extras</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt X11 Extras Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>145032</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.src.addons.qtcanvas3d</Name>
+        <Pixmap></Pixmap>
+        <Title>qtcanvas3d</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt 5.5.1 Add-Ons Qt Canvas 3D Source Component</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>13603859</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <Version>1.0.1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>23506</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt</Title>
+        <Description>Qt 5.5.1</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.doc</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.5 Documentation</Title>
+        <Description>Qt 5.5 documentation</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>222336347</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.examples</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.5 Examples</Title>
+        <Description>Qt 5.5 Examples</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>73801151</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.5</Title>
+        <Description>Qt 5.5.1</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.55.doc,qt.55.examples</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2013_x86</Name>
+        <Pixmap></Pixmap>
+        <Title>VCRedist for MSVC 2013 32bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2013 32 bit</Description>
+        <Version>2014-30-12</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>6504024</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Creator 3.5.1</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>3.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>236730754</Size>
+        <Dependencies>qt.tools.vcredist_msvc2013_x86</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.55.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>msvc2010 32-bit</Title>
+        <Description>License options: LGPLv3, LGPLv2.1, Commercial&lt;br>&lt;br>Qt 5.5.1 Prebuilt Components for msvc2010 32-bit</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>1298600380</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtcanvas3d</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Canvas 3D</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt Canvas 3D module provides a way to make OpenGL-like 3D drawing calls from Qt Quick JavaScript.</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.55.qtquickcontrols</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qt3d</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt3D</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>Qt3D provides functionality for near-realtime simulation systems with support for 2D and 3D rendering in both Qt C++ and Qt Quick applications.&lt;br>&lt;br>The release of this API with Qt 5.5 is a Technology Preview.</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.55.qtquickcontrols</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtlocation</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Location</Title>
+        <Description>License options: LGPLv3, GPLv2.0 or later, Commercial&lt;br>&lt;br>NOTE: Not licensed under LGPLv2.1&lt;br>&lt;br>The Qt Location API helps you create viable mapping solutions using the data available from some of the popular location services.&lt;br>&lt;br>The release of this API with Qt 5.5 is a Technology Preview.</Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.55.qtquickcontrols</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.55.qtquick1.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Quick 1 for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>56136001</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.qtscript.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Script for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>37231527</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.qtcanvas3d.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Canvas 3D for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>8045501</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.qt3d.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 3D for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>166685295</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.qtlocation.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Location for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>31053451</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.55.qtquickcontrols.win32_msvc2010</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Quick Controls for msvc2010 32-bit</Title>
+        <Description></Description>
+        <Version>5.5.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2016-04-06</InstallDate>
+        <Size>29276673</Size>
+        <Dependencies>qt.55.win32_msvc2010</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+</Packages>

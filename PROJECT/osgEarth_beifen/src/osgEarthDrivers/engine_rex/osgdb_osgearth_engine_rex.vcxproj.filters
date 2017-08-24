@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GeometryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RexTerrainEngineNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RexTerrainEngineDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTileData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNodeRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\..\CMakeFiles\bb75ce73b60371b56726fdf95b225964\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="GeometryPool">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Shaders">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="RexTerrainEngineNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="RexTerrainEngineOptions">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="LoadTileData">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MaskGenerator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="MPTexture">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="QuickReleaseGLObjects">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="RenderBindings">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="SurfaceNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileDrawable">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="EngineContext">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="TileNodeRegistry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Loader">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Unloader">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="SelectionInfo">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="RexEngine.vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.vert.view.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.tcs.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.tes.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.gs.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.NormalMap.vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.NormalMap.frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.Morphing.vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="RexEngine.SDK.vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BE15C700-A519-3E5E-98A9-B6B7D57C75F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{12D85F95-0BC2-3F72-8B67-A8463B4E2310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

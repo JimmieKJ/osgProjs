@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AnimationPathManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIEventAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeySwitchMatrixManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTouchTrackballManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeTrackerManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SphericalManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSetManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackballManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UFOManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraViewSwitchManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgGA\AnimationPathManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\CameraViewSwitchManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\DriveManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\Device">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\Event">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\EventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\EventQueue">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\EventVisitor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\FirstPersonManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\FlightManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\GUIActionAdapter">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\GUIEventAdapter">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\GUIEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\KeySwitchMatrixManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\CameraManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\MultiTouchTrackballManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\NodeTrackerManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\OrbitManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\StandardManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\SphericalManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\StateSetManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\TerrainManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\TrackballManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\UFOManipulator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\Widget">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgGA\Version">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

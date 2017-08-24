@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ActivityMonitorTool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationEvents.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcGIS.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AtlasBuilder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoClipPlaneHandler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ClampCallback.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ContourMap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DataScanner.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthManipulator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ephemeris.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleResources.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureQueryTool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeodeticGraticule.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GraticuleExtension.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GraticuleTerrainEffect.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GraticuleNode.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HTM.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LatLongFormatter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearLineOfSight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LogarithmicDepthBuffer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LODBlending.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasureTool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MGRSFormatter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MGRSGraticule.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCoordsTool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLocator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyhedralLineOfSight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialLineOfSight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTPicker.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadowing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplePager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialData.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainProfile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TileIndex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TileIndexBuilder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TFS.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TFSPackager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TMS.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TMSBackFiller.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TMSPackager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMGraticule.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalScale.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WFS.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WMS.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessContrastColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CMYKColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="HSLColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ChromaKeyColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="NightColorFilter.cpp">
+      <Filter>Sources\ColorFilters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\629e00173d04fd22117b05229c6707f8\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActivityMonitorTool">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AnnotationEvents">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AutoClipPlaneHandler">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ArcGIS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="AtlasBuilder">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Controls">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ContourMap">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ClampCallback">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="DataScanner">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="EarthManipulator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Ephemeris">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ExampleResources">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Export">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureQueryTool">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Fog">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Formatter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeodeticGraticule">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GraticuleExtension">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GraticuleNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GraticuleOptions">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GraticuleTerrainEffect">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="HTM">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LatLongFormatter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LineOfSight">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LinearLineOfSight">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LODBlending">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LogarithmicDepthBuffer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MeasureTool">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MGRSFormatter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MGRSGraticule">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="MouseCoordsTool">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ObjectLocator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Ocean">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PolyhedralLineOfSight">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="RadialLineOfSight">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="RTTPicker">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Shaders">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Shadowing">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SimplexNoise">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SimplePager">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Sky">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SpatialData">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="StarData">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TerrainProfile">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileIndex">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TileIndexBuilder">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TFS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TFSPackager">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TMS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TMSBackFiller">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TMSPackager">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="UTMGraticule">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="VerticalScale">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="WFS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="WMS">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BrightnessContrastColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="CMYKColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="GammaColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="GLSLColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="HSLColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="RGBColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="ChromaKeyColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="NightColorFilter">
+      <Filter>Headers\ColorFilters</Filter>
+    </None>
+    <None Include="ContourMap.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ContourMap.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Fog.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Fog.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Graticule.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Graticule.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LogDepthBuffer.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LogDepthBuffer.VertOnly.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LogDepthBuffer.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers\ColorFilters">
+      <UniqueIdentifier>{2152BB32-D0FB-33CA-93FC-3A8C5BC6815C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1EDE62AF-A541-3C3F-ADB8-0608B6F92387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{BE0D1460-02A8-3B22-A2AD-A036F2D3FFBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ColorFilters">
+      <UniqueIdentifier>{CEE1BE57-7D47-335B-8FD0-3CC56AC57DC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

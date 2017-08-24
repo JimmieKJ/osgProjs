@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PushButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignmentSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgUI\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\ColorPalette">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Widget">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Label">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\LineEdit">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Dialog">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Popup">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\PushButton">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\ComboBox">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Callbacks">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Style">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\AlignmentSettings">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\FrameSettings">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\TabWidget">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\TextSettings">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgUI\Validator">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

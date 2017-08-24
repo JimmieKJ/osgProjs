@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BlinkSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DOFTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightAboveTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Impostor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpostorSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertImpostorsVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPointDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPointNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPointSpriteDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineOfSight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarsToColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibilityGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LightPointDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPointSpriteDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgSim\BlinkSequence">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ColorRange">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\DOFTransform">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ElevationSlice">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\HeightAboveTerrain">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\GeographicLocation">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\Impostor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ImpostorSprite">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\InsertImpostorsVisitor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\LightPoint">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\LightPointNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\LightPointSystem">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\LineOfSight">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\MultiSwitch">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\OverlayNode">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ObjectRecordData">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ScalarBar">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ScalarsToColors">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\Sector">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\ShapeAttribute">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\SphereSegment">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\Version">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgSim\VisibilityGroup">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

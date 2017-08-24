@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B1727C2F-CD0E-3DC3-8858-CF19025EF2B3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Plugin osgearth_tileindex</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\osgEarth\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osgdb_osgearth_tileindex.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osgdb_osgearth_tileindexd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\osgEarth\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osgdb_osgearth_tileindex.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osgdb_osgearth_tileindex</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\osgEarth\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osgdb_osgearth_tileindex.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osgdb_osgearth_tileindexs</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\osgEarth\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osgdb_osgearth_tileindex.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osgdb_osgearth_tileindexrd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\osgEarthUtild.lib;..\..\..\lib\Debug\osgEarthAnnotationd.lib;..\..\..\lib\Debug\osgEarthFeaturesd.lib;..\..\..\lib\Debug\osgEarthSymbologyd.lib;..\..\..\lib\Debug\osgEarthd.lib;psapi.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgShadowd.lib;D:\PROJECT\3rdParty\lib\libcurl_imp.lib;D:\PROJECT\3rdParty\lib\zlib.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgWidgetd.lib;D:\PROJECT\3rdParty\lib\geosd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgUtild.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgSimd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgTerraind.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgDBd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgFXd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgViewerd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgTextd.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgGAd.lib;D:\PROJECT\3rdParty\lib\gdal_i.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgManipulatord.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreadsd.lib;glu32.lib;opengl32.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreadsd.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/osgEarth/lib;D:/PROJECT/osgEarth/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/osgEarth/lib/Debug/osgdb_osgearth_tileindexd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/osgEarth/lib/Debug/osgdb_osgearth_tileindexd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\osgEarthUtil.lib;..\..\..\lib\Release\osgEarthAnnotation.lib;..\..\..\lib\Release\osgEarthFeatures.lib;..\..\..\lib\Release\osgEarthSymbology.lib;..\..\..\lib\Release\osgEarth.lib;psapi.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgShadow.lib;D:\PROJECT\3rdParty\lib\libcurl_imp.lib;D:\PROJECT\3rdParty\lib\zlib.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgWidget.lib;D:\PROJECT\3rdParty\lib\geos.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osg.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgUtil.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgSim.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgTerrain.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgDB.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgFX.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgViewer.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgText.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgGA.lib;D:\PROJECT\3rdParty\lib\gdal_i.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgManipulator.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/osgEarth/lib;D:/PROJECT/osgEarth/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/osgEarth/lib/Release/osgdb_osgearth_tileindex.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/osgEarth/lib/Release/osgdb_osgearth_tileindex.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\osgEarthUtils.lib;..\..\..\lib\MinSizeRel\osgEarthAnnotations.lib;..\..\..\lib\MinSizeRel\osgEarthFeaturess.lib;..\..\..\lib\MinSizeRel\osgEarthSymbologys.lib;..\..\..\lib\MinSizeRel\osgEarths.lib;psapi.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgShadow.lib;D:\PROJECT\3rdParty\lib\libcurl_imp.lib;D:\PROJECT\3rdParty\lib\zlib.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgWidget.lib;D:\PROJECT\3rdParty\lib\geos.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osg.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgUtil.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgSim.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgTerrain.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgDB.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgFX.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgViewer.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgText.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgGA.lib;D:\PROJECT\3rdParty\lib\gdal_i.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgManipulator.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/osgEarth/lib;D:/PROJECT/osgEarth/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/osgEarth/lib/MinSizeRel/osgdb_osgearth_tileindexs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/osgEarth/lib/MinSizeRel/osgdb_osgearth_tileindexs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";osgdb_osgearth_tileindex_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\osgEarth\src;D:\PROJECT\OpenSceneGraph-3.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\osgEarthUtilrd.lib;..\..\..\lib\RelWithDebInfo\osgEarthAnnotationrd.lib;..\..\..\lib\RelWithDebInfo\osgEarthFeaturesrd.lib;..\..\..\lib\RelWithDebInfo\osgEarthSymbologyrd.lib;..\..\..\lib\RelWithDebInfo\osgEarthrd.lib;psapi.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgShadow.lib;D:\PROJECT\3rdParty\lib\libcurl_imp.lib;D:\PROJECT\3rdParty\lib\zlib.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgWidget.lib;D:\PROJECT\3rdParty\lib\geos.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osg.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgUtil.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgSim.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgTerrain.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgDB.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgFX.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgViewer.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgText.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgGA.lib;D:\PROJECT\3rdParty\lib\gdal_i.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\osgManipulator.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib;D:\PROJECT\OpenSceneGraph-3.5.1\lib\OpenThreads.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/osgEarth/lib;D:/PROJECT/osgEarth/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/osgEarth/lib/RelWithDebInfo/osgdb_osgearth_tileindexrd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/osgEarth/lib/RelWithDebInfo/osgdb_osgearth_tileindexrd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeModules\ModuleInstallOsgEarthDriverIncludes.cmake;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeModules\ModuleInstallOsgEarthDriverIncludes.cmake;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeModules\ModuleInstallOsgEarthDriverIncludes.cmake;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/osgEarth -BD:/PROJECT/osgEarth --check-stamp-file D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/osgEarth/src/osgEarthDrivers/tileindex/CMakeLists.txt;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;D:\PROJECT\osgEarth\CMakeModules\ModuleInstallOsgEarthDriverIncludes.cmake;D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\osgEarth\src\osgEarthDrivers\tileindex\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReaderWriterTileIndex.cpp"  />
+    <None Include="TileIndexOptions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/osgEarth/ZERO_CHECK.vcxproj">
+      <Project>2C021F33-37F8-31A7-85FA-48FB2F4BDFB0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarth/osgEarth.vcxproj">
+      <Project>907A1861-EF0A-3B0A-A1C4-FB88CD587692</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthAnnotation/osgEarthAnnotation.vcxproj">
+      <Project>8700FDCC-E30E-3A50-AE89-0BBC8776F219</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthFeatures/osgEarthFeatures.vcxproj">
+      <Project>2C359AD6-DC44-35BA-8025-10E4F95E4EFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthSymbology/osgEarthSymbology.vcxproj">
+      <Project>B55E87F9-9B6F-3DBD-9F6F-45F1C20A5736</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/osgEarth/src/osgEarthUtil/osgEarthUtil.vcxproj">
+      <Project>07232FA1-89EF-3265-9975-723ED647E9EF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

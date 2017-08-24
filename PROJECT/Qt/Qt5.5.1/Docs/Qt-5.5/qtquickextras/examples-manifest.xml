@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtQuickExtras">
+    <examples>
+        <example name="Qt Quick Extras - Dashboard" docUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/qtquickextras-dashboard-example.html" projectPath="quick/extras/dashboard/dashboard.pro" imageUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/images/qtquickextras-example-dashboard.png" isHighlighted="true">
+            <description><![CDATA[A car dashboard created using several CircularGauge controls.]]></description>
+            <tags>dashboard,quick,extras</tags>
+            <fileToOpen>quick/extras/dashboard/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">quick/extras/dashboard/qml/dashboard.qml</fileToOpen>
+        </example>
+        <example name="Qt Quick Extras - Flat" docUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/qtquickextras-flat-example.html" projectPath="quick/extras/flat/flat.pro" imageUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/images/qtquickextras-example-flat.png">
+            <description><![CDATA[An interactive showcase of the flat style.]]></description>
+            <tags>flat,quick,extras</tags>
+            <fileToOpen>quick/extras/flat/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">quick/extras/flat/main.qml</fileToOpen>
+        </example>
+        <example name="Qt Quick Extras - Gallery" docUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/qtquickextras-gallery-example.html" projectPath="quick/extras/gallery/gallery.pro" imageUrl="qthelp://org.qt-project.qtquickextras.551/qtquickextras/images/qtquickextras-example-gallery.png" isHighlighted="true">
+            <description><![CDATA[An interactive showcase of the various controls.]]></description>
+            <tags>gallery,quick,extras</tags>
+            <fileToOpen>quick/extras/gallery/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">quick/extras/gallery/qml/gallery.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AltitudeFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildGeometryFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTextFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentroidFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertTypeFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CropFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtrudeGeometryFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureDisplayLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureDrawSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureListSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureModelGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureModelSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureSourceIndexNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureTileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OgrUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizerHints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonizeLines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResampleFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScatterFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubstituteModelFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellateOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSymbolizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFeatureSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AltitudeFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BufferFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BuildGeometryFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="BuildTextFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CentroidFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ConvertTypeFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="CropFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ExtrudeGeometryFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Feature">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureCursor">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureDisplayLayout">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureDrawSet">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureIndex">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureListSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureModelGraph">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureModelSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureSourceIndexNode">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FeatureTileSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Filter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="FilterContext">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeometryCompiler">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="GeometryUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="LabelSource">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="OgrUtils">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="OptimizerHints">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="PolygonizeLines">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ResampleFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ScaleFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Session">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ScatterFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Script">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="ScriptEngine">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="SubstituteModelFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TessellateOperator">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TextSymbolizer">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="TransformFilter">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="VirtualFeatureSource">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3B2D5A06-FB3E-3652-9359-E9A3F54490F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

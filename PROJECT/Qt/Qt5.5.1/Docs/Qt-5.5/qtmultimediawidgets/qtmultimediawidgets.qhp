@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtmultimediawidgets.551</namespace>
+    <virtualFolder>qtmultimediawidgets</virtualFolder>
+    <filterSection>
+        <toc>
+            <section ref="qtmultimediawidgets-index.html" title="Qt Multimedia Widgets">
+                <section ref="qtmultimediawidgets-module.html" title="C++ Classes">
+                    <section ref="qcameraviewfinder.html" title="QCameraViewfinder Class Reference">
+                        <section ref="qcameraviewfinder-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qgraphicsvideoitem.html" title="QGraphicsVideoItem Class Reference">
+                        <section ref="qgraphicsvideoitem-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qvideowidget.html" title="QVideoWidget Class Reference">
+                        <section ref="qvideowidget-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qvideowidgetcontrol.html" title="QVideoWidgetControl Class Reference">
+                        <section ref="qvideowidgetcontrol-members.html" title="List of all members"/>
+                    </section>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Camera Example" id="Camera Example" ref="qtmultimediawidgets-camera-example.html"/>
+            <keyword name="Media Player Example" id="Media Player Example" ref="qtmultimediawidgets-player-example.html"/>
+            <keyword name="QCameraViewfinder" id="QCameraViewfinder" ref="qcameraviewfinder.html"/>
+            <keyword name="mediaObject" id="QCameraViewfinder::mediaObject" ref="qcameraviewfinder.html#mediaObject"/>
+            <keyword name="setMediaObject" id="QCameraViewfinder::setMediaObject" ref="qcameraviewfinder.html#setMediaObject"/>
+            <keyword name="~QCameraViewfinder" id="QCameraViewfinder::~QCameraViewfinder" ref="qcameraviewfinder.html#dtor.QCameraViewfinder"/>
+            <keyword name="QGraphicsVideoItem" id="QGraphicsVideoItem" ref="qgraphicsvideoitem.html"/>
+            <keyword name="aspectRatioMode" id="QGraphicsVideoItem::aspectRatioMode" ref="qgraphicsvideoitem.html#aspectRatioMode-prop"/>
+            <keyword name="boundingRect" id="QGraphicsVideoItem::boundingRect" ref="qgraphicsvideoitem.html#boundingRect"/>
+            <keyword name="d_ptr" id="QGraphicsVideoItem::d_ptr" ref="qgraphicsvideoitem.html#d_ptr-var"/>
+            <keyword name="mediaObject" id="QGraphicsVideoItem::mediaObject" ref="qgraphicsvideoitem.html#mediaObject-prop"/>
+            <keyword name="nativeSize" id="QGraphicsVideoItem::nativeSize" ref="qgraphicsvideoitem.html#nativeSize-prop"/>
+            <keyword name="nativeSizeChanged" id="QGraphicsVideoItem::nativeSizeChanged" ref="qgraphicsvideoitem.html#nativeSize-prop"/>
+            <keyword name="offset" id="QGraphicsVideoItem::offset" ref="qgraphicsvideoitem.html#offset-prop"/>
+            <keyword name="paint" id="QGraphicsVideoItem::paint" ref="qgraphicsvideoitem.html#paint"/>
+            <keyword name="setAspectRatioMode" id="QGraphicsVideoItem::setAspectRatioMode" ref="qgraphicsvideoitem.html#aspectRatioMode-prop"/>
+            <keyword name="setOffset" id="QGraphicsVideoItem::setOffset" ref="qgraphicsvideoitem.html#offset-prop"/>
+            <keyword name="setSize" id="QGraphicsVideoItem::setSize" ref="qgraphicsvideoitem.html#size-prop"/>
+            <keyword name="size" id="QGraphicsVideoItem::size" ref="qgraphicsvideoitem.html#size-prop"/>
+            <keyword name="~QGraphicsVideoItem" id="QGraphicsVideoItem::~QGraphicsVideoItem" ref="qgraphicsvideoitem.html#dtor.QGraphicsVideoItem"/>
+            <keyword name="QVideoWidget" id="QVideoWidget" ref="qvideowidget.html"/>
+            <keyword name="aspectRatioMode" id="QVideoWidget::aspectRatioMode" ref="qvideowidget.html#aspectRatioMode-prop"/>
+            <keyword name="brightness" id="QVideoWidget::brightness" ref="qvideowidget.html#brightness-prop"/>
+            <keyword name="brightnessChanged" id="QVideoWidget::brightnessChanged" ref="qvideowidget.html#brightness-prop"/>
+            <keyword name="contrast" id="QVideoWidget::contrast" ref="qvideowidget.html#contrast-prop"/>
+            <keyword name="contrastChanged" id="QVideoWidget::contrastChanged" ref="qvideowidget.html#contrast-prop"/>
+            <keyword name="d_ptr" id="QVideoWidget::d_ptr" ref="qvideowidget.html#d_ptr-var"/>
+            <keyword name="event" id="QVideoWidget::event" ref="qvideowidget.html#event"/>
+            <keyword name="fullScreen" id="QVideoWidget::fullScreen" ref="qvideowidget.html#fullScreen-prop"/>
+            <keyword name="fullScreenChanged" id="QVideoWidget::fullScreenChanged" ref="qvideowidget.html#fullScreen-prop"/>
+            <keyword name="hideEvent" id="QVideoWidget::hideEvent" ref="qvideowidget.html#hideEvent"/>
+            <keyword name="hue" id="QVideoWidget::hue" ref="qvideowidget.html#hue-prop"/>
+            <keyword name="hueChanged" id="QVideoWidget::hueChanged" ref="qvideowidget.html#hue-prop"/>
+            <keyword name="isFullScreen" id="QVideoWidget::isFullScreen" ref="qvideowidget.html#fullScreen-prop"/>
+            <keyword name="mediaObject" id="QVideoWidget::mediaObject" ref="qvideowidget.html#mediaObject-prop"/>
+            <keyword name="moveEvent" id="QVideoWidget::moveEvent" ref="qvideowidget.html#moveEvent"/>
+            <keyword name="paintEvent" id="QVideoWidget::paintEvent" ref="qvideowidget.html#paintEvent"/>
+            <keyword name="resizeEvent" id="QVideoWidget::resizeEvent" ref="qvideowidget.html#resizeEvent"/>
+            <keyword name="saturation" id="QVideoWidget::saturation" ref="qvideowidget.html#saturation-prop"/>
+            <keyword name="saturationChanged" id="QVideoWidget::saturationChanged" ref="qvideowidget.html#saturation-prop"/>
+            <keyword name="setAspectRatioMode" id="QVideoWidget::setAspectRatioMode" ref="qvideowidget.html#aspectRatioMode-prop"/>
+            <keyword name="setBrightness" id="QVideoWidget::setBrightness" ref="qvideowidget.html#brightness-prop"/>
+            <keyword name="setContrast" id="QVideoWidget::setContrast" ref="qvideowidget.html#contrast-prop"/>
+            <keyword name="setFullScreen" id="QVideoWidget::setFullScreen" ref="qvideowidget.html#fullScreen-prop"/>
+            <keyword name="setHue" id="QVideoWidget::setHue" ref="qvideowidget.html#hue-prop"/>
+            <keyword name="setSaturation" id="QVideoWidget::setSaturation" ref="qvideowidget.html#saturation-prop"/>
+            <keyword name="showEvent" id="QVideoWidget::showEvent" ref="qvideowidget.html#showEvent"/>
+            <keyword name="sizeHint" id="QVideoWidget::sizeHint" ref="qvideowidget.html#sizeHint"/>
+            <keyword name="~QVideoWidget" id="QVideoWidget::~QVideoWidget" ref="qvideowidget.html#dtor.QVideoWidget"/>
+            <keyword name="QVideoWidgetControl" id="QVideoWidgetControl" ref="qvideowidgetcontrol.html"/>
+            <keyword name="aspectRatioMode" id="QVideoWidgetControl::aspectRatioMode" ref="qvideowidgetcontrol.html#aspectRatioMode"/>
+            <keyword name="brightness" id="QVideoWidgetControl::brightness" ref="qvideowidgetcontrol.html#brightness"/>
+            <keyword name="brightnessChanged" id="QVideoWidgetControl::brightnessChanged" ref="qvideowidgetcontrol.html#brightnessChanged"/>
+            <keyword name="contrast" id="QVideoWidgetControl::contrast" ref="qvideowidgetcontrol.html#contrast"/>
+            <keyword name="contrastChanged" id="QVideoWidgetControl::contrastChanged" ref="qvideowidgetcontrol.html#contrastChanged"/>
+            <keyword name="fullScreenChanged" id="QVideoWidgetControl::fullScreenChanged" ref="qvideowidgetcontrol.html#fullScreenChanged"/>
+            <keyword name="hue" id="QVideoWidgetControl::hue" ref="qvideowidgetcontrol.html#hue"/>
+            <keyword name="hueChanged" id="QVideoWidgetControl::hueChanged" ref="qvideowidgetcontrol.html#hueChanged"/>
+            <keyword name="isFullScreen" id="QVideoWidgetControl::isFullScreen" ref="qvideowidgetcontrol.html#isFullScreen"/>
+            <keyword name="saturation" id="QVideoWidgetControl::saturation" ref="qvideowidgetcontrol.html#saturation"/>
+            <keyword name="saturationChanged" id="QVideoWidgetControl::saturationChanged" ref="qvideowidgetcontrol.html#saturationChanged"/>
+            <keyword name="setAspectRatioMode" id="QVideoWidgetControl::setAspectRatioMode" ref="qvideowidgetcontrol.html#setAspectRatioMode"/>
+            <keyword name="setBrightness" id="QVideoWidgetControl::setBrightness" ref="qvideowidgetcontrol.html#setBrightness"/>
+            <keyword name="setContrast" id="QVideoWidgetControl::setContrast" ref="qvideowidgetcontrol.html#setContrast"/>
+            <keyword name="setFullScreen" id="QVideoWidgetControl::setFullScreen" ref="qvideowidgetcontrol.html#setFullScreen"/>
+            <keyword name="setHue" id="QVideoWidgetControl::setHue" ref="qvideowidgetcontrol.html#setHue"/>
+            <keyword name="setSaturation" id="QVideoWidgetControl::setSaturation" ref="qvideowidgetcontrol.html#setSaturation"/>
+            <keyword name="videoWidget" id="QVideoWidgetControl::videoWidget" ref="qvideowidgetcontrol.html#videoWidget"/>
+            <keyword name="~QVideoWidgetControl" id="QVideoWidgetControl::~QVideoWidgetControl" ref="qvideowidgetcontrol.html#dtor.QVideoWidgetControl"/>
+            <keyword name="QVideoWidgetControl_iid" id="QVideoWidgetControl_iid" ref="qvideowidgetcontrol.html#QVideoWidgetControl_iid"/>
+            <keyword name="Qt Multimedia Widgets" id="Qt Multimedia Widgets" ref="qtmultimediawidgets-index.html"/>
+            <keyword name="QtMultimediaWidgets" id="QtMultimediaWidgets" ref="qtmultimediawidgets-module.html"/>
+            <keyword name="Video Graphics Item Example" id="Video Graphics Item Example" ref="qtmultimediawidgets-videographicsitem-example.html"/>
+            <keyword name="Video Widget Example" id="Video Widget Example" ref="qtmultimediawidgets-videowidget-example.html"/>
+        </keywords>
+        <files>
+            <file>images/mediaplayerex.jpg</file>
+            <file>qtmultimediawidgets-player-player-cpp.html</file>
+            <file>qtmultimediawidgets-player-playlistmodel-h.html</file>
+            <file>qtmultimediawidgets-player-histogramwidget-h.html</file>
+            <file>images/camera-example.png</file>
+            <file>qtmultimediawidgets-videographicsitem-example.html</file>
+            <file>qtmultimediawidgets-camera-main-cpp.html</file>
+            <file>qtmultimediawidgets-player-playercontrols-h.html</file>
+            <file>qtmultimediawidgets-videowidget-videoplayer-h.html</file>
+            <file>images/video-videographicsitem.png</file>
+            <file>images/btn_prev.png</file>
+            <file>qtmultimediawidgets-camera-videosettings-cpp.html</file>
+            <file>qtmultimediawidgets-player-histogramwidget-cpp.html</file>
+            <file>images/ico_note.png</file>
+            <file>qtmultimediawidgets-camera-imagesettings-h.html</file>
+            <file>qtmultimediawidgets-videographicsitem-videographicsitem-pro.html</file>
+            <file>qtmultimediawidgets-camera-camera-ui.html</file>
+            <file>qtmultimediawidgets-videographicsitem-videoplayer-cpp.html</file>
+            <file>qtmultimediawidgets-videographicsitem-main-cpp.html</file>
+            <file>images/bgrContent.png</file>
+            <file>qtmultimediawidgets-camera-camera-pro.html</file>
+            <file>qtmultimediawidgets-videowidget-videowidget-pro.html</file>
+            <file>style/offline.css</file>
+            <file>qvideowidget.html</file>
+            <file>qtmultimediawidgets-player-main-cpp.html</file>
+            <file>qtmultimediawidgets-player-player-pro.html</file>
+            <file>images/home.png</file>
+            <file>images/arrow_bc.png</file>
+            <file>qtmultimediawidgets-videowidget-videoplayer-cpp.html</file>
+            <file>qtmultimediawidgets-index.html</file>
+            <file>qtmultimediawidgets-player-example.html</file>
+            <file>qtmultimediawidgets-camera-imagesettings-cpp.html</file>
+            <file>qtmultimediawidgets-camera-camera-h.html</file>
+            <file>qcameraviewfinder.html</file>
+            <file>qtmultimediawidgets-camera-imagesettings-ui.html</file>
+            <file>images/bullet_sq.png</file>
+            <file>qgraphicsvideoitem.html</file>
+            <file>qvideowidgetcontrol.html</file>
+            <file>qtmultimediawidgets-videowidget-main-cpp.html</file>
+            <file>qtmultimediawidgets-player-playlistmodel-cpp.html</file>
+            <file>qtmultimediawidgets-player-videowidget-cpp.html</file>
+            <file>qcameraviewfinder-members.html</file>
+            <file>qtmultimediawidgets-player-videowidget-h.html</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qvideowidget-members.html</file>
+            <file>qtmultimediawidgets-videographicsitem-videoplayer-h.html</file>
+            <file>qtmultimediawidgets-player-player-h.html</file>
+            <file>qtmultimediawidgets-camera-camera-cpp.html</file>
+            <file>qtmultimediawidgets-player-playercontrols-cpp.html</file>
+            <file>qgraphicsvideoitem-members.html</file>
+            <file>qtmultimediawidgets-camera-example.html</file>
+            <file>qvideowidgetcontrol-members.html</file>
+            <file>qtmultimediawidgets-module.html</file>
+            <file>images/logo.png</file>
+            <file>qtmultimediawidgets-camera-videosettings-h.html</file>
+            <file>qtmultimediawidgets-videowidget-example.html</file>
+            <file>images/video-videowidget.png</file>
+            <file>images/btn_next.png</file>
+            <file>images/bullet_dn.png</file>
+            <file>qtmultimediawidgets-camera-videosettings-ui.html</file>
+            <file>images/ico_out.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

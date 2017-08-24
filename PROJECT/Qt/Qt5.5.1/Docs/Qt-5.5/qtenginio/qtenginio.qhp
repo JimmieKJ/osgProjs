@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtenginio.121</namespace>
+    <virtualFolder>qtenginio</virtualFolder>
+    <customFilter name="Enginio 1.2.1">
+        <filterAttribute>1.2.1</filterAttribute>
+        <filterAttribute>qtenginio</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>1.2.1</filterAttribute>
+        <filterAttribute>qtenginio</filterAttribute>
+        <toc>
+            <section ref="enginio-cpp-classes-and-examples.html" title="Enginio C++ Classes and Examples">
+                <section ref="enginio-cpp-classes-and-examples.html" title="C++ Classes">
+                    <section ref="enginioclient.html" title="EnginioClient Class Reference">
+                        <section ref="enginioclient-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="enginioclientconnection.html" title="EnginioClientConnection Class Reference">
+                        <section ref="enginioclientconnection-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="enginioidentity.html" title="EnginioIdentity Class Reference">
+                        <section ref="enginioidentity-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="enginiomodel.html" title="EnginioModel Class Reference">
+                        <section ref="enginiomodel-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="enginiooauth2authentication.html" title="EnginioOAuth2Authentication Class Reference">
+                        <section ref="enginiooauth2authentication-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="enginioreply.html" title="EnginioReply Class Reference">
+                        <section ref="enginioreply-members.html" title="List of all members"/>
+                    </section>
+                </section>
+                <section ref="enginio-cpp-classes-and-examples.html" title="Examples">
+                    <section ref="enginio-qt-cloudaddressbook-example.html" title="Enginio C++ Examples - Cloud Address Book"/>
+                    <section ref="enginio-qt-image-gallery-cpp-example.html" title="Enginio C++ Examples - Image Gallery"/>
+                    <section ref="enginio-qt-todos-cpp-example.html" title="Enginio C++ Examples - Todos"/>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Enginio" id="Enginio" ref="enginio.html"/>
+            <keyword name="Enginio::AuthenticationState" id="Enginio::AuthenticationState" ref="enginio.html#AuthenticationState-enum"/>
+            <keyword name="Enginio::NotAuthenticated" id="Enginio::NotAuthenticated" ref="enginio.html#AuthenticationState-enum"/>
+            <keyword name="Enginio::Authenticating" id="Enginio::Authenticating" ref="enginio.html#AuthenticationState-enum"/>
+            <keyword name="Enginio::Authenticated" id="Enginio::Authenticated" ref="enginio.html#AuthenticationState-enum"/>
+            <keyword name="Enginio::AuthenticationFailure" id="Enginio::AuthenticationFailure" ref="enginio.html#AuthenticationState-enum"/>
+            <keyword name="Enginio::ErrorType" id="Enginio::ErrorType" ref="enginio.html#ErrorType-enum"/>
+            <keyword name="Enginio::NoError" id="Enginio::NoError" ref="enginio.html#ErrorType-enum"/>
+            <keyword name="Enginio::NetworkError" id="Enginio::NetworkError" ref="enginio.html#ErrorType-enum"/>
+            <keyword name="Enginio::BackendError" id="Enginio::BackendError" ref="enginio.html#ErrorType-enum"/>
+            <keyword name="Enginio::Operation" id="Enginio::Operation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::ObjectOperation" id="Enginio::ObjectOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::AccessControlOperation" id="Enginio::AccessControlOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::UserOperation" id="Enginio::UserOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::UsergroupOperation" id="Enginio::UsergroupOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::UsergroupMembersOperation" id="Enginio::UsergroupMembersOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::FileOperation" id="Enginio::FileOperation" ref="enginio.html#Operation-enum"/>
+            <keyword name="Enginio::Role" id="Enginio::Role" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::SyncedRole" id="Enginio::SyncedRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::CreatedAtRole" id="Enginio::CreatedAtRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::UpdatedAtRole" id="Enginio::UpdatedAtRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::IdRole" id="Enginio::IdRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::ObjectTypeRole" id="Enginio::ObjectTypeRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::JsonObjectRole" id="Enginio::JsonObjectRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio::CustomPropertyRole" id="Enginio::CustomPropertyRole" ref="enginio.html#Role-enum"/>
+            <keyword name="Enginio C++ Classes and Examples" id="Enginio C++ Classes and Examples" ref="enginio-cpp-classes-and-examples.html"/>
+            <keyword name="Enginio C++ Examples - Cloud Address Book" id="Enginio C++ Examples - Cloud Address Book" ref="enginio-qt-cloudaddressbook-example.html"/>
+            <keyword name="Enginio C++ Examples - Image Gallery" id="Enginio C++ Examples - Image Gallery" ref="enginio-qt-image-gallery-cpp-example.html"/>
+            <keyword name="Enginio C++ Examples - Todos" id="Enginio C++ Examples - Todos" ref="enginio-qt-todos-cpp-example.html"/>
+            <keyword name="EnginioClient" id="EnginioClient" ref="enginioclient.html"/>
+            <keyword name="create" id="EnginioClient::create" ref="enginioclient.html#create"/>
+            <keyword name="downloadUrl" id="EnginioClient::downloadUrl" ref="enginioclient.html#downloadUrl"/>
+            <keyword name="error" id="EnginioClient::error" ref="enginioclient.html#error"/>
+            <keyword name="finished" id="EnginioClient::finished" ref="enginioclient.html#finished"/>
+            <keyword name="fullTextSearch" id="EnginioClient::fullTextSearch" ref="enginioclient.html#fullTextSearch"/>
+            <keyword name="query" id="EnginioClient::query" ref="enginioclient.html#query"/>
+            <keyword name="remove" id="EnginioClient::remove" ref="enginioclient.html#remove"/>
+            <keyword name="sessionAuthenticated" id="EnginioClient::sessionAuthenticated" ref="enginioclient.html#sessionAuthenticated"/>
+            <keyword name="sessionAuthenticationError" id="EnginioClient::sessionAuthenticationError" ref="enginioclient.html#sessionAuthenticationError"/>
+            <keyword name="sessionTerminated" id="EnginioClient::sessionTerminated" ref="enginioclient.html#sessionTerminated"/>
+            <keyword name="update" id="EnginioClient::update" ref="enginioclient.html#update"/>
+            <keyword name="uploadFile" id="EnginioClient::uploadFile" ref="enginioclient.html#uploadFile"/>
+            <keyword name="~EnginioClient" id="EnginioClient::~EnginioClient" ref="enginioclient.html#dtor.EnginioClient"/>
+            <keyword name="EnginioClientConnection" id="EnginioClientConnection" ref="enginioclientconnection.html"/>
+            <keyword name="authenticationState" id="EnginioClientConnection::authenticationState" ref="enginioclientconnection.html#authenticationState-prop"/>
+            <keyword name="authenticationStateChanged" id="EnginioClientConnection::authenticationStateChanged" ref="enginioclientconnection.html#authenticationState-prop"/>
+            <keyword name="backendId" id="EnginioClientConnection::backendId" ref="enginioclientconnection.html#backendId-prop"/>
+            <keyword name="backendIdChanged" id="EnginioClientConnection::backendIdChanged" ref="enginioclientconnection.html#backendId-prop"/>
+            <keyword name="identity" id="EnginioClientConnection::identity" ref="enginioclientconnection.html#identity-prop"/>
+            <keyword name="identityChanged" id="EnginioClientConnection::identityChanged" ref="enginioclientconnection.html#identity-prop"/>
+            <keyword name="networkManager" id="EnginioClientConnection::networkManager" ref="enginioclientconnection.html#networkManager"/>
+            <keyword name="serviceUrl" id="EnginioClientConnection::serviceUrl" ref="enginioclientconnection.html#serviceUrl-prop"/>
+            <keyword name="serviceUrlChanged" id="EnginioClientConnection::serviceUrlChanged" ref="enginioclientconnection.html#serviceUrl-prop"/>
+            <keyword name="setBackendId" id="EnginioClientConnection::setBackendId" ref="enginioclientconnection.html#backendId-prop"/>
+            <keyword name="setIdentity" id="EnginioClientConnection::setIdentity" ref="enginioclientconnection.html#identity-prop"/>
+            <keyword name="setServiceUrl" id="EnginioClientConnection::setServiceUrl" ref="enginioclientconnection.html#serviceUrl-prop"/>
+            <keyword name="~EnginioClientConnection" id="EnginioClientConnection::~EnginioClientConnection" ref="enginioclientconnection.html#dtor.EnginioClientConnection"/>
+            <keyword name="EnginioIdentity" id="EnginioIdentity" ref="enginioidentity.html"/>
+            <keyword name="EnginioModel" id="EnginioModel" ref="enginiomodel.html"/>
+            <keyword name="append" id="EnginioModel::append" ref="enginiomodel.html#append"/>
+            <keyword name="client" id="EnginioModel::client" ref="enginiomodel.html#client-prop"/>
+            <keyword name="clientChanged" id="EnginioModel::clientChanged" ref="enginiomodel.html#client-prop"/>
+            <keyword name="operation" id="EnginioModel::operation" ref="enginiomodel.html#operation-prop"/>
+            <keyword name="operationChanged" id="EnginioModel::operationChanged" ref="enginiomodel.html#operation-prop"/>
+            <keyword name="query" id="EnginioModel::query" ref="enginiomodel.html#query-prop"/>
+            <keyword name="queryChanged" id="EnginioModel::queryChanged" ref="enginiomodel.html#query-prop"/>
+            <keyword name="reload" id="EnginioModel::reload" ref="enginiomodel.html#reload"/>
+            <keyword name="remove" id="EnginioModel::remove" ref="enginiomodel.html#remove"/>
+            <keyword name="setClient" id="EnginioModel::setClient" ref="enginiomodel.html#client-prop"/>
+            <keyword name="setData" id="EnginioModel::setData" ref="enginiomodel.html#setData"/>
+            <keyword name="setOperation" id="EnginioModel::setOperation" ref="enginiomodel.html#operation-prop"/>
+            <keyword name="setQuery" id="EnginioModel::setQuery" ref="enginiomodel.html#query-prop"/>
+            <keyword name="~EnginioModel" id="EnginioModel::~EnginioModel" ref="enginiomodel.html#dtor.EnginioModel"/>
+            <keyword name="EnginioOAuth2Authentication" id="EnginioOAuth2Authentication" ref="enginiooauth2authentication.html"/>
+            <keyword name="password" id="EnginioOAuth2Authentication::password" ref="enginiooauth2authentication.html#password-prop"/>
+            <keyword name="passwordChanged" id="EnginioOAuth2Authentication::passwordChanged" ref="enginiooauth2authentication.html#password-prop"/>
+            <keyword name="setPassword" id="EnginioOAuth2Authentication::setPassword" ref="enginiooauth2authentication.html#password-prop"/>
+            <keyword name="setUser" id="EnginioOAuth2Authentication::setUser" ref="enginiooauth2authentication.html#user-prop"/>
+            <keyword name="user" id="EnginioOAuth2Authentication::user" ref="enginiooauth2authentication.html#user-prop"/>
+            <keyword name="userChanged" id="EnginioOAuth2Authentication::userChanged" ref="enginiooauth2authentication.html#user-prop"/>
+            <keyword name="~EnginioOAuth2Authentication" id="EnginioOAuth2Authentication::~EnginioOAuth2Authentication" ref="enginiooauth2authentication.html#dtor.EnginioOAuth2Authentication"/>
+            <keyword name="EnginioReply" id="EnginioReply" ref="enginioreply.html"/>
+            <keyword name="backendStatus" id="EnginioReply::backendStatus" ref="enginioreply.html#backendStatus-prop"/>
+            <keyword name="data" id="EnginioReply::data" ref="enginioreply.html#data-prop"/>
+            <keyword name="dataChanged" id="EnginioReply::dataChanged" ref="enginioreply.html#errorString-prop"/>
+            <keyword name="errorString" id="EnginioReply::errorString" ref="enginioreply.html#errorString-prop"/>
+            <keyword name="errorType" id="EnginioReply::errorType" ref="enginioreply.html#errorType-prop"/>
+            <keyword name="finished" id="EnginioReply::finished" ref="enginioreply.html#finished"/>
+            <keyword name="isError" id="EnginioReply::isError" ref="enginioreply.html#isError"/>
+            <keyword name="isFinished" id="EnginioReply::isFinished" ref="enginioreply.html#isFinished"/>
+            <keyword name="networkError" id="EnginioReply::networkError" ref="enginioreply.html#networkError-prop"/>
+            <keyword name="progress" id="EnginioReply::progress" ref="enginioreply.html#progress"/>
+            <keyword name="~EnginioReply" id="EnginioReply::~EnginioReply" ref="enginioreply.html#dtor.EnginioReply"/>
+            <keyword name="enginio-client" id="enginio-client" ref="enginio-client-module.html"/>
+        </keywords>
+        <files>
+            <file>enginiooauth2authentication-members.html</file>
+            <file>qtenginio-cloudaddressbook-main-cpp.html</file>
+            <file>enginio-qt-cloudaddressbook-example.html</file>
+            <file>images/btn_prev.png</file>
+            <file>images/ico_note.png</file>
+            <file>qtenginio-image-gallery-cpp-mainwindow-h.html</file>
+            <file>qtenginio-cloudaddressbook-mainwindow-h.html</file>
+            <file>qtenginio-image-gallery-cpp-main-cpp.html</file>
+            <file>enginio-qt-todos-cpp-example.html</file>
+            <file>style/offline.css</file>
+            <file>qtenginio-cloudaddressbook-addressbookmodel-cpp.html</file>
+            <file>qtenginio-todos-cpp-todosmodel-h.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>qtenginio-image-gallery-cpp-imageobject-cpp.html</file>
+            <file>enginioreply.html</file>
+            <file>images/todo-example.png</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qtenginio-todos-cpp-mainwindow-h.html</file>
+            <file>images/ico_out.png</file>
+            <file>qtenginio-cloudaddressbook-cloudaddressbook-pro.html</file>
+            <file>enginioclientconnection.html</file>
+            <file>qtenginio-image-gallery-cpp-imagemodel-cpp.html</file>
+            <file>enginiomodel.html</file>
+            <file>qtenginio-todos-cpp-main-cpp.html</file>
+            <file>enginiomodel-members.html</file>
+            <file>qtenginio-image-gallery-cpp-mainwindow-cpp.html</file>
+            <file>enginioidentity-members.html</file>
+            <file>qtenginio-image-gallery-cpp-imageobject-h.html</file>
+            <file>enginioclientconnection-members.html</file>
+            <file>enginiooauth2authentication.html</file>
+            <file>images/gallery-example.png</file>
+            <file>qtenginio-cloudaddressbook-mainwindow-ui.html</file>
+            <file>enginio-cpp-classes-and-examples.html</file>
+            <file>images/logo.png</file>
+            <file>enginioreply-members.html</file>
+            <file>qtenginio-cloudaddressbook-mainwindow-cpp.html</file>
+            <file>enginio-client-module.html</file>
+            <file>enginioidentity.html</file>
+            <file>enginioclient.html</file>
+            <file>qtenginio-todos-cpp-todosmodel-cpp.html</file>
+            <file>qtenginio-image-gallery-cpp-image-gallery-cpp-pro.html</file>
+            <file>images/cloudaddressbook-example.png</file>
+            <file>images/btn_next.png</file>
+            <file>images/home.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>qtenginio-image-gallery-cpp-imagemodel-h.html</file>
+            <file>images/arrow_bc.png</file>
+            <file>qtenginio-todos-cpp-mainwindow-cpp.html</file>
+            <file>qtenginio-cloudaddressbook-addressbookmodel-h.html</file>
+            <file>qtenginio-todos-cpp-todos-cpp-pro.html</file>
+            <file>enginio.html</file>
+            <file>enginio-qt-image-gallery-cpp-example.html</file>
+            <file>images/bgrContent.png</file>
+            <file>enginioclient-members.html</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

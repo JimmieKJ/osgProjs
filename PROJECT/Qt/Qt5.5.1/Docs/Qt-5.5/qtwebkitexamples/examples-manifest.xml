@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtWebKitExamples">
+    <examples>
+        <example name="DOM Traversal Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-domtraversal-example.html" projectPath="webkitwidgets/domtraversal/domtraversal.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/webkit-domtraversal.png">
+            <description><![CDATA[Demonstrates how to traverse the DOM tree]]></description>
+            <tags>webkit1,dom,kit,web,traversal</tags>
+            <fileToOpen mainFile="true">webkitwidgets/domtraversal/main.cpp</fileToOpen>
+        </example>
+        <example name="Fancy Browser Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-fancybrowser-example.html" projectPath="webkitwidgets/fancybrowser/fancybrowser.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/fancybrowser-example.png">
+            <description><![CDATA[Demonstrates how to use browse web and manipulate content]]></description>
+            <tags>webkit1,kit,web,browser,fancy</tags>
+            <fileToOpen mainFile="true">webkitwidgets/fancybrowser/main.cpp</fileToOpen>
+        </example>
+        <example name="Flickr View Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitqml-flickrview-example.html" projectPath="webkitqml/flickrview/flickrview.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/flickrview-example.png">
+            <description><![CDATA[Demonstrates how to embed a web view in a Qt Quick application]]></description>
+            <tags>kit,view,webkit2,web,flickr</tags>
+            <fileToOpen mainFile="true">webkitqml/flickrview/flickrview.qml</fileToOpen>
+        </example>
+        <example name="Form Extractor Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-formextractor-example.html" projectPath="webkitwidgets/formextractor/formextractor.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/formextractor-example.png">
+            <description><![CDATA[Demonstrates how to read form data using JavaScript]]></description>
+            <tags>webkit1,form,kit,web,extractor</tags>
+            <fileToOpen>webkitwidgets/formextractor/main.cpp</fileToOpen>
+            <fileToOpen>webkitwidgets/formextractor/formextractor.h</fileToOpen>
+            <fileToOpen mainFile="true">webkitwidgets/formextractor/formextractor.cpp</fileToOpen>
+        </example>
+        <example name="Previewer Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-previewer-example.html" projectPath="webkitwidgets/previewer/previewer.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/previewer-example.png">
+            <description><![CDATA[Demonstrates how to preview HTML data]]></description>
+            <tags>webkit1,kit,web,previewer</tags>
+            <fileToOpen>webkitwidgets/previewer/main.cpp</fileToOpen>
+            <fileToOpen>webkitwidgets/previewer/previewer.h</fileToOpen>
+            <fileToOpen mainFile="true">webkitwidgets/previewer/previewer.cpp</fileToOpen>
+        </example>
+        <example name="QObject XML Model Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-xmlpatterns-example.html" projectPath="webkitwidgets/xmlpatterns/xmlpatterns.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/qobjectxmlmodel-example.png">
+            <description><![CDATA[Demonstrates how to present XML-like data structure in the web view]]></description>
+            <tags>webkit1,kit,xml,web,model,qobject</tags>
+            <fileToOpen mainFile="true">webkitwidgets/xmlpatterns/qobjectxmlmodel/main.cpp</fileToOpen>
+        </example>
+        <example name="Simple Selector Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-simpleselector-example.html" projectPath="webkitwidgets/simpleselector/simpleselector.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/webkit-simpleselector.png">
+            <description><![CDATA[Demonstrates how to identify HTML elements in a web page]]></description>
+            <tags>webkit1,kit,web,selector,simple</tags>
+            <fileToOpen mainFile="true">webkitwidgets/simpleselector/main.cpp</fileToOpen>
+        </example>
+        <example name="Tab Browser" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-browser-example.html" projectPath="webkitwidgets/browser/browser.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/browser-demo.png">
+            <description><![CDATA[Demonstrates a complete web browsing experience]]></description>
+            <tags>webkit1,kit,web,browser,tab</tags>
+            <fileToOpen mainFile="true">webkitwidgets/browser/main.cpp</fileToOpen>
+        </example>
+        <example name="The Webkit Bridge Tutorial - Hybrid Client Application" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-imageanalyzer-example.html" projectPath="webkitwidgets/imageanalyzer/imageanalyzer.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/webkit-imageanalyzer-screenshot.png">
+            <description><![CDATA[Demonstrates how to integrate web functionality with other core functionality.]]></description>
+            <tags>webkit1,kit,webkit,hybrid,web,bridge,tutorial,client,application</tags>
+            <fileToOpen>webkitwidgets/imageanalyzer/main.cpp</fileToOpen>
+            <fileToOpen>webkitwidgets/imageanalyzer/imageanalyzer.h</fileToOpen>
+            <fileToOpen mainFile="true">webkitwidgets/imageanalyzer/imageanalyzer.cpp</fileToOpen>
+        </example>
+        <example name="WebKit Frame Capture Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-framecapture-example.html" projectPath="webkitwidgets/framecapture/framecapture.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/framecapture-example.png">
+            <description><![CDATA[Demonstrates how to capture frame in the web page]]></description>
+            <tags>webkit1,capture,kit,webkit,web,frame</tags>
+            <fileToOpen>webkitwidgets/framecapture/main.cpp</fileToOpen>
+            <fileToOpen>webkitwidgets/framecapture/framecapture.h</fileToOpen>
+            <fileToOpen mainFile="true">webkitwidgets/framecapture/framecapture.cpp</fileToOpen>
+        </example>
+        <example name="Wheel Scroller Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitwidgets-scroller-wheel-example.html" projectPath="webkitwidgets/scroller/wheel/wheel.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/wheel-example.png">
+            <description><![CDATA[Demonstrates how scrolling is handled in Qt.]]></description>
+            <tags>webkit1,wheel,scroller,kit,web</tags>
+            <fileToOpen mainFile="true">webkitwidgets/scroller/wheel/main.cpp</fileToOpen>
+        </example>
+        <example name="YouTube View Example" docUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/qtwebkitexamples-webkitqml-youtubeview-example.html" projectPath="webkitqml/youtubeview/youtubeview.pro" imageUrl="qthelp://org.qt-project.qtwebkitexamples.551/qtwebkitexamples/images/youtubeview-example.png">
+            <description><![CDATA[Demonstrates how to embed a web view in a Qt Quick application]]></description>
+            <tags>kit,view,webkit2,web,youtube</tags>
+            <fileToOpen mainFile="true">webkitqml/youtubeview/youtubeview.qml</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrafficData3D", "TrafficData3D\TrafficData3D.vcxproj", "{E6261ACA-167E-44DA-9FD5-07A6C62B0555}"
+	ProjectSection(ProjectDependencies) = postProject
+		{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88} = {487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}
+		{114530ED-A7BD-43BF-A4DB-3598144546B4} = {114530ED-A7BD-43BF-A4DB-3598144546B4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDSceneTools", "TDSceneTools\TDSceneTools.vcxproj", "{114530ED-A7BD-43BF-A4DB-3598144546B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDRenderingExtensions", "TDRenderingExtensions\TDRenderingExtensions.vcxproj", "{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6261ACA-167E-44DA-9FD5-07A6C62B0555}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6261ACA-167E-44DA-9FD5-07A6C62B0555}.Debug|Win32.Build.0 = Debug|Win32
+		{E6261ACA-167E-44DA-9FD5-07A6C62B0555}.Release|Win32.ActiveCfg = Release|Win32
+		{E6261ACA-167E-44DA-9FD5-07A6C62B0555}.Release|Win32.Build.0 = Release|Win32
+		{114530ED-A7BD-43BF-A4DB-3598144546B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{114530ED-A7BD-43BF-A4DB-3598144546B4}.Debug|Win32.Build.0 = Debug|Win32
+		{114530ED-A7BD-43BF-A4DB-3598144546B4}.Release|Win32.ActiveCfg = Release|Win32
+		{114530ED-A7BD-43BF-A4DB-3598144546B4}.Release|Win32.Build.0 = Release|Win32
+		{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}.Debug|Win32.Build.0 = Debug|Win32
+		{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}.Release|Win32.ActiveCfg = Release|Win32
+		{487B6F44-3AB7-4E0B-9FFF-AA2A8F514F88}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/PROJECT/OpenSceneGraph-3.5.1/src/OpenThreads/CMakeLists.txt
+D:/PROJECT/OpenSceneGraph-3.5.1/CMakeModules/CheckAtomicOps.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckCXXSourceRuns.cmake
+D:/PROJECT/OpenSceneGraph-3.5.1/src/OpenThreads/common/Config.in
+D:/PROJECT/OpenSceneGraph-3.5.1/src/OpenThreads/common/Version.in
+D:/PROJECT/OpenSceneGraph-3.5.1/PlatformSpecifics/Windows/OpenThreadsVersionInfo.rc.in
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/PROJECT/OpenSceneGraph-3.5.1/packaging/pkgconfig/openthreads.pc.in

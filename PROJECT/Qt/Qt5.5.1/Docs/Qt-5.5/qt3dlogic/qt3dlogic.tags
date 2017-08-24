@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagfile>
+    <compound kind="class">
+        <name>KeyEvent</name>
+        <filename>qml-keyevent.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>KeyboardController</name>
+        <filename>qml-keyboardcontroller.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>KeyboardInput</name>
+        <filename>qml-keyboardinput.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>LogicComponent</name>
+        <filename>qml-logiccomponent.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Configuration</name>
+        <filename>qml-configuration.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Entity</name>
+        <filename>qml-entity.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>EntityLoader</name>
+        <filename>qml-entityloader.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Node</name>
+        <filename>qml-node.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>NodeInstantiator</name>
+        <filename>qml-nodeinstantiator.html</filename>
+    </compound>
+    <compound kind="class">
+        <name>Transform</name>
+        <filename>qml-transform.html</filename>
+    </compound>
+</tagfile>

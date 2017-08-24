@@ -1,0 +1,343 @@
+/*  Copyright 2006, 2007, 2008 Juan Pablo Reyes Altamirano,
+ *  Renato Leriche Vázquez, Dirección General de Servicios de
+ *  Cómputo Académico de la Universidad Autónoma Nacional de México
+
+ *  This file is part of osgODE.
+
+ *  osgODE is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Lesser General Public License as
+ *  published by the Free Software Foundation, either version 3 of
+ *  the License, or (at your option) any later version.
+
+ *  osgODE is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Lesser General Public License for more details.
+
+ *  You should have received a copy of the GNU Lesser General
+ *  Public License along with osgODE.  If not, see
+ *  <http://www.gnu.org/licenses/>. */
+
+#ifndef _OSGODE_JOINT_
+#define _OSGODE_JOINT_
+
+#include <osg/Referenced>
+#include <osgOde/Body>
+#include <ode/ode.h>
+
+namespace osgOde{
+
+    class Joint : public osg::Referenced
+    {
+        public:
+
+            // Union
+            dJointID ode_joint;
+            // Constructor
+            Joint() {;}
+            // Destruye la Union
+            void destroy();
+            // Establece/regresa datos almcenados en la Union
+            void setData(void*);
+
+            void* getData() const;
+
+            // Une dos Cuerpos mediante esta Union
+            void attach(Body*, Body*);
+
+            // Regresa el primer (index = 0) o el segundo (index = 1) cuerpo asociados
+            // por esta Union
+            //dBodyID dJointGetBody (ode_joint, int index);
+
+            // Regresa el tipo de Union. Los tipo posibles son:
+            // dJointTypeBall	: Bola - Socket
+            // dJointTypeHinge : Bisagra
+            // dJointTypeSlider : Piston
+            // dJointTypeContact : Contacto
+            // dJointTypeUniversal : Universal (doble bisagra)
+            // dJointTypeHinge2 : Bisagra 2
+            // dJointTypeFixed : Fija
+            // dJointTypeAMotor : Motor con tres angulos de libertad
+            int getType() const;
+
+            // Regresa si dos cuerpos estan unidos
+            bool areConnected(Body*, Body*) const;
+
+            // Regresa si dos cuerpos estan unidos, excepto si estan asociados por una Union
+            // de un tipo particular.
+            bool areConnectedExcluding(Body*, Body*, int) const;
+
+            // Las Uniones se pueden agrupar, por ejemplo para que ciertas uniones
+            // pertenezcan a algun objeto (por ejemplo un vehiculo) o para agruparlas por
+            // tipo (Unines tipo bisagra, universal, etc)...
+            // En este ejemplo no se utilizaran grupos para simplificar, pero doy una breve
+            // descripcion de los Grupos de Uniones:
+            // Crea un Grupo de Uniones. El parametro no se usa y debe ponerse 0.
+            //dJointGroupID dJointGroupCreate (int max_size);
+            // Destruye el Grupo de Uniones, y por lo tanto a todas la Uniones en el.
+            //void dJointGroupDestroy (dJointGroupID);
+            // Destruye a todas la Uniones en este grupo, pero no al Grupo.
+            //void dJointGroupEmpty (dJointGroupID);
+
+            // Establece/regresa la fuerza y torcion que aplica la Union a cada uno de los
+            // dos cuerpos que asocia.
+            //void dJointSetFeedback(ode_joint, dJointFeedback *);
+            //dJointFeedback *dJointGetFeedback (ode_joint);
+            // donde:
+            //typedef struct dJointFeedback {
+            // Vector de fuerza que la union aplica al cuerpo 1
+            //  dVector3 f1;
+            // Vector de torcion que la union aplica al cuerpo 1
+            //  dVector3 t1;
+            // Vector de fuerza que la union aplica al cuerpo 2
+            //  dVector3 f2;
+            // Vector de torcion que la union aplica al cuerpo 2
+            //  dVector3 t2;
+            //} dJointFeedback;
+
+    };
+
+    class BallJoint : public Joint
+    {
+        public:
+            // Constructor
+            BallJoint(World*);
+
+            // Establece el pivote de la Union (en coordenadas globales)
+            void setAnchor(double, double, double);
+
+            // Regresa el pivote de la Union (en coordenadas globales)
+            // void dJointGetBallAnchor (ode_joint, dVector3 result);
+            // Regresa el pivote de la Union (en coordenadas globales), puede ser distinto
+            // al anterior en caso de que la Union no este correcta.
+            // void dJointGetBallAnchor2 (ode_joint, dVector3 result);
+
+    };
+
+
+    class HingeJoint : public Joint
+    {
+        public:
+            // Constructor
+            HingeJoint(World*);
+
+            // Establece el pivote de la Union (en coordenadas globales)
+            void setAnchor(double, double, double);
+            // Establece el eje de la Union (en coordenadas globales)
+            void setAxis(double, double, double);
+            // Regresa el pivote de la Union (en coordenadas globales)
+            //void dJointGetHingeAnchor (ode_joint, dVector3 result);
+            //void dJointGetHingeAnchor2 (ode_joint, dVector3 result);
+            // Regresa el eje de la Union
+            //void dJointGetHingeAxis (ode_joint, dVector3 result);
+
+            // Regresa el angulo entre los cuerpos y el tiempo derivado.
+            //dReal dJointGetHingeAngle (ode_joint);
+            //dReal dJointGetHingeAngleRate (ode_joint);
+
+            // Cada Union (excepto Ball, Fixed, Contact y AMotor) tiene una funcion
+            // "dJointSet[Union]Param(ode_joint, param, value)" para establecer ciertos
+            // parametros de la Union. "param" puede ser:
+            // 1) dParamLoStop : Minimo angulo o posicion para restringir el movimiento de
+            // 		la Union. El default es -dInfinity. Para movientos angulares el minimo
+            //		posible es -PI.
+            // 2) dParamHiStop : Maximo angulo o posicion para restringir el movimiento de
+            // 		la Union. El default es dInfinity. Para movientos angulares el maximo
+            //		posible es PI.
+            // 3) dParamVel : Velocidad angular o lineal (segun sea el caso) inicial. Solo
+            //		aplica a Angular Motor.
+            // 4) dParamFMax : Maxima fuerza  o torcion (segun sea el caso). Solo
+            //		aplica a Angular Motor.
+            // 5) dParamFudgeFactor : Parametro de correcion de error cuando un motor se
+            //		detiene.  Solo aplica a Angular Motor.
+            // 6) dParamBounce : La "rebotabilidad" de la Union, en el rango 0 (sin rebote)
+            //		.. 1 (maximo rebote).
+            // 7) dParamCFM : CFM general de la Union.
+            // 8) dParamStopERP : ERP usado cuando la Union se detiene.
+            // 9) dParamStopCFM : CFM usado cuando la Union se detiene.
+            // 10) dParamSuspensionERP : ERP para suspencion. Solo aplica a Hinge2.
+            // 11) dParamSuspensionCFM : ERP para suspencion. Solo aplica a Hinge2.
+            //
+            // El valor de estos parametros se puede recuperar con la funcion
+            // "dReal dJointGet[Union]Param(ode_joint, param)"
+
+
+
+            // Establece los limites minimo y maximo para restringir el moviemiento
+            void setLimits(double, double);
+            //dReal dJointGetHingeParam (ode_joint, int parameter);
+            // Establece la "rebotabilidad" de la Union
+            void setBounciness(double);
+            // Establece la CFM
+            void setCFM(double);
+            // Establece ERP y CFM para suavizar las restricciones de movimiento
+            void setSoftness(double, double);
+
+            // Establece una fuerza/torcion a los cuerpos asociados a la Union, usando
+            // el/los eje/ejes de la Union.
+            void setTorque(double);
+    };
+
+
+    class SliderJoint : public Joint
+    {
+        public:
+            // Constructor
+            SliderJoint(World*);
+            // Establece el eje de la Union (en coordenadas globales)
+            void setAxis(double, double, double);
+            // Regresa el eje de la Union
+            //void dJointGetSliderAxis (ode_joint, dVector3 result);
+
+            // Regresa el angulo entre los cuerpos y el tiempo derivado.
+            //dReal dJointGetSliderPosition (ode_joint);
+            //dReal dJointGetSliderPositionRate (ode_joint);
+
+            // Establece los limites minimo y maximo para restringir el moviemiento
+            void setLimits(double, double);
+            //dReal dJointGetHingeParam (ode_joint, int parameter);
+            // Establece la "rebotabilidad" de la Union
+            void setBounciness(double);
+            // Establece la CFM
+            void setCFM(double);
+            // Establece ERP y CFM para suavizar las restricciones de movimiento
+            void setSoftness(double, double);
+            // Establece una fuerza/torcion a los cuerpos asociados a la Union, usando
+            // el/los eje/ejes de la Union.
+            void setForce(double);
+    };
+
+    class UniversalJoint : public Joint
+    {
+        public:
+            // Constructor
+            UniversalJoint(World*);
+            // Establece el pivote de la Union (en coordenadas globales)
+            void setAnchor(double, double, double);
+            // Establece los ejes de la Union (en coordenadas globales)
+            void setAxis1(double, double, double);
+
+            void setAxis2(double, double, double);
+
+            // Regresa los pivotes/ejes de la Union (en coordenadas globales)
+            //void dJointGetUniversalAnchor (ode_joint, dVector3 result);
+            //void dJointGetUniversalAnchor2 (ode_joint, dVector3 result);
+            //void dJointGetUniversalAxis1 (ode_joint, dVector3 result);
+            //void dJointGetUniversalAxis2 (ode_joint, dVector3 result);
+
+            // Regresa el angulo entre los cuerpos y el tiempo derivado.
+            //dReal dJointGetUniversalAngle1 (ode_joint);
+            //dReal dJointGetUniversalAngle2 (ode_joint);
+            //dReal dJointGetUniversalAngle1Rate (ode_joint);
+            //dReal dJointGetUniversalAngle2Rate (ode_joint);
+
+
+            // Establece los limites minimo y maximo para restringir el moviemiento
+            void setLimits(double, double, double, double);
+
+            //dReal dJointGetHingeParam (ode_joint, int parameter);
+            // Establece la "rebotabilidad" de la Union
+            void setBounciness(double, double);
+            // Establece la CFM
+            void setCFM(double, double);
+            // Establece ERP y CFM para suavizar las restricciones de movimiento
+            void setSoftness(double, double, double, double);
+            // Establece una fuerza/torcion a los cuerpos asociados a la Union, usando
+            // el/los eje/ejes de la Union.
+            void setTorque(double, double);
+    };
+
+    class Hinge2Joint : public Joint
+    {
+        public:
+            // Constructor
+            Hinge2Joint(World*);
+            // Establece el pivote de la Union (en coordenadas globales)
+            void setAnchor(double, double, double);
+            // Establece el primer eje de la Union (con respecto al Cuerpo 1)
+            void setAxis1(double, double, double);
+            // Establece el segundo eje de la Union (con respecto al Cuerpo 2)
+            void setAxis2(double, double, double);
+            // Regresa los pivotes/ejes de la Union (en coordenadas globales)
+            //void dJointGetHinge2Anchor (ode_joint, dVector3 result);
+            //void dJointGetHinge2Anchor2 (ode_joint, dVector3 result);
+            //void dJointGetHinge2Axis1 (ode_joint, dVector3 result);
+            //void dJointGetHinge2Axis2 (ode_joint, dVector3 result);
+
+            // Regresa el angulo entre los cuerpos y el tiempo derivado.
+            //dReal dJointGetHinge2Angle1 (ode_joint);
+            //dReal dJointGetHinge2Angle2 (ode_joint);
+            //dReal dJointGetHinge2Angle1Rate (ode_joint);
+            //dReal dJointGetHinge2Angle2Rate (ode_joint);
+            // Establece los limites minimo y maximo para restringir el moviemiento
+            void setLimits(double lo, double hi, double lo2 = -dInfinity, double hi2 = dInfinity);
+            //dReal dJointGetHingeParam (ode_joint, int parameter);
+            // Establece la "rebotabilidad" de la Union
+            void setBounciness(double, double);
+            // Establece la CFM
+            void setCFM(double, double);
+            // Establece ERP y CFM para suavizar las restricciones de movimiento
+            void setSoftness(double, double, double, double);
+            // Establece una fuerza/torcion a los cuerpos asociados a la Union, usando
+            // el/los eje/ejes de la Union.
+            void setTorque(double, double);
+            // Establece ERP y CFM para la suspencion
+            void setSuspension(double erp, double cfm);
+    };
+
+
+
+    class AMotorJoint : public Joint
+    {
+        public:
+            // Constructor
+            AMotorJoint(World*);
+            // Establece/regrea el numero de ejes del motor. Debe ser un numero entre
+            // 0 (desactiva el motor) y 3 (tres ejes).
+            void setNumAxes(int);
+            //int dJointGetAMotorNumAxes (ode_joint);
+            // Establece/regresa los ejes del motor (en coordenadas globales o relativas).
+            // El parametro "n" indica el indice del eje: 0, 1 o 2.
+            // El parametro "rel" indica que tipo de coordenadas se utilizaran: 0 (global),
+            // 1 (relativas al cuerpo 1) o 2 (relativas al cuerpo 2).
+            void setAxis(double, double, double, int, int);
+            //void dJointGetAMotorAxis (ode_joint, int anum, dVector3 result);
+            //int dJointGetAMotorAxisRel (ode_joint, int anum);
+
+            // Establece los angulos relativos asociados a los ejes
+            // void dJointSetAMotorAngle (ode_joint, int anum, dReal angle);
+            // Regresa el angulo y el tiempo...
+            //dReal dJointGetAMotorAngle (ode_joint, int anum);
+            //dReal dJointGetAMotorAngleRate (ode_joint, int anum);
+
+            // Establece regresa el modo del motor. El parametro mode puede ser:
+            // a) dAMotorUser : Controlado por el usuario. Modo default.
+            // b) dAMotorEuler : Calcula el eje 1 (dados el 0 y el 2) mediante angulos de
+            //		Euler.
+            //void dJointSetAMotorMode (ode_joint, int mode);
+            //int dJointGetAMotorMode (ode_joint);
+            // Establce la torcion para cada eje
+            void setTorque(double t1, double t2 = 0.0, double t3 = 0.0);
+            // Establece la velocidad
+            void setVelocity(double v, double v2 = 0.0, double v3 = 0.0);
+            // Establece la fuerza maxima
+            void setMaxForce(double f, double f2 = 0.0, double f3 = 0.0);
+            // "Fudge Factor"
+            void setFudge(double f, double f2 = 0.0, double f3 = 0.0);
+            // Tambien se le pueden poner todos los tipos de "setParameter" como en las
+            // Uniones anteriores...
+            //dReal dJointGetAMotorParam (ode_joint, int parameter);
+    };
+    // Ademas de los tipos de Uniones anteriores, existen los tipos "fixed"
+    // (permite unir dos cuerpos de tal manera que no se muevan uno con respecto al
+    // otro) y "contact" (se usa cuando dos objetos chocan). Las funciones
+    // relacionadas con estos tipos son:
+    // Crea una union del tipo corespondiente:
+    //ode_joint dJointCreateContact (w -> ode_world, dJointGroupID, const dContact *);
+    //ode_joint dJointCreateFixed (w -> ode_world, dJointGroupID);
+    // Convierte una Union en fija:
+    //void dJointSetFixed (ode_joint);
+
+}
+
+#endif

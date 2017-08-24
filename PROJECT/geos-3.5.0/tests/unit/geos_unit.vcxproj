@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CAF9BDE7-87E0-36A4-B62F-31141CD9D60B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>geos_unit</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\geos-3.5.0\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">geos_unit.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">geos_unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\geos-3.5.0\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">geos_unit.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">geos_unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\geos-3.5.0\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">geos_unit.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">geos_unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\geos-3.5.0\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">geos_unit.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">geos_unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\geos_c.lib;..\..\lib\Debug\geos.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/Debug/geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/Debug/geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\geos_c.lib;..\..\lib\Release\geos.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/Release/geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/Release/geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\geos_c.lib;..\..\lib\MinSizeRel\geos.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/MinSizeRel/geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/MinSizeRel/geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;GEOS_INLINE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\geos-3.5.0\include;D:\PROJECT\geos-3.5.0\capi;D:\PROJECT\geos-3.5.0\tests\unit\tut;D:\PROJECT\geos-3.5.0\tests\unit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\geos_c.lib;..\..\lib\RelWithDebInfo\geos.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/geos-3.5.0/lib/RelWithDebInfo/geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/geos-3.5.0/bin/RelWithDebInfo/geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/PROJECT/geos-3.5.0 -BD:/PROJECT/geos-3.5.0 --check-stamp-file D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/PROJECT/geos-3.5.0/tests/unit/CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;D:\PROJECT\geos-3.5.0\tests\unit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\geos-3.5.0\tests\unit\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algorithm\AngleTest.cpp"  />
+    <ClCompile Include="algorithm\CGAlgorithms\computeOrientationTest.cpp"  />
+    <ClCompile Include="algorithm\CGAlgorithms\isCCWTest.cpp"  />
+    <ClCompile Include="algorithm\CGAlgorithms\isPointInRingTest.cpp"  />
+    <ClCompile Include="algorithm\CGAlgorithms\signedAreaTest.cpp"  />
+    <ClCompile Include="algorithm\ConvexHullTest.cpp"  />
+    <ClCompile Include="algorithm\distance\DiscreteHausdorffDistanceTest.cpp"  />
+    <ClCompile Include="algorithm\InteriorPointAreaTest.cpp"  />
+    <ClCompile Include="algorithm\PointLocatorTest.cpp"  />
+    <ClCompile Include="algorithm\RobustLineIntersectionTest.cpp"  />
+    <ClCompile Include="algorithm\RobustLineIntersectorTest.cpp"  />
+    <ClCompile Include="capi\GEOSBufferTest.cpp"  />
+    <ClCompile Include="capi\GEOSClipByRectTest.cpp"  />
+    <ClCompile Include="capi\GEOSContainsTest.cpp"  />
+    <ClCompile Include="capi\GEOSConvexHullTest.cpp"  />
+    <ClCompile Include="capi\GEOSCoordSeqTest.cpp"  />
+    <ClCompile Include="capi\GEOSDelaunayTriangulationTest.cpp"  />
+    <ClCompile Include="capi\GEOSDistanceTest.cpp"  />
+    <ClCompile Include="capi\GEOSGeomFromWKBTest.cpp"  />
+    <ClCompile Include="capi\GEOSGeomToWKTTest.cpp"  />
+    <ClCompile Include="capi\GEOSGeom_create.cpp"  />
+    <ClCompile Include="capi\GEOSGeom_extractUniquePointsTest.cpp"  />
+    <ClCompile Include="capi\GEOSGetCentroidTest.cpp"  />
+    <ClCompile Include="capi\GEOSInterruptTest.cpp"  />
+    <ClCompile Include="capi\GEOSIntersectionTest.cpp"  />
+    <ClCompile Include="capi\GEOSIntersectsTest.cpp"  />
+    <ClCompile Include="capi\GEOSisClosedTest.cpp"  />
+    <ClCompile Include="capi\GEOSisValidDetailTest.cpp"  />
+    <ClCompile Include="capi\GEOSLineString_PointTest.cpp"  />
+    <ClCompile Include="capi\GEOSNearestPointsTest.cpp"  />
+    <ClCompile Include="capi\GEOSNodeTest.cpp"  />
+    <ClCompile Include="capi\GEOSOffsetCurveTest.cpp"  />
+    <ClCompile Include="capi\GEOSOrientationIndex.cpp"  />
+    <ClCompile Include="capi\GEOSPointOnSurfaceTest.cpp"  />
+    <ClCompile Include="capi\GEOSPolygonizer_getCutEdgesTest.cpp"  />
+    <ClCompile Include="capi\GEOSPreparedGeometryTest.cpp"  />
+    <ClCompile Include="capi\GEOSRelateBoundaryNodeRuleTest.cpp"  />
+    <ClCompile Include="capi\GEOSRelatePatternMatchTest.cpp"  />
+    <ClCompile Include="capi\GEOSSharedPathsTest.cpp"  />
+    <ClCompile Include="capi\GEOSSimplifyTest.cpp"  />
+    <ClCompile Include="capi\GEOSSnapTest.cpp"  />
+    <ClCompile Include="capi\GEOSUnaryUnionTest.cpp"  />
+    <ClCompile Include="capi\GEOSVoronoiDiagramTest.cpp"  />
+    <ClCompile Include="capi\GEOSWithinTest.cpp"  />
+    <ClCompile Include="geom\CoordinateArraySequenceFactoryTest.cpp"  />
+    <ClCompile Include="geom\CoordinateArraySequenceTest.cpp"  />
+    <ClCompile Include="geom\CoordinateListTest.cpp"  />
+    <ClCompile Include="geom\CoordinateTest.cpp"  />
+    <ClCompile Include="geom\DimensionTest.cpp"  />
+    <ClCompile Include="geom\EnvelopeTest.cpp"  />
+    <ClCompile Include="geom\Geometry\clone.cpp"  />
+    <ClCompile Include="geom\Geometry\coversTest.cpp"  />
+    <ClCompile Include="geom\Geometry\equalsTest.cpp"  />
+    <ClCompile Include="geom\Geometry\isRectangleTest.cpp"  />
+    <ClCompile Include="geom\Geometry\normalize.cpp"  />
+    <ClCompile Include="geom\GeometryFactoryTest.cpp"  />
+    <ClCompile Include="geom\IntersectionMatrixTest.cpp"  />
+    <ClCompile Include="geom\LinearRingTest.cpp"  />
+    <ClCompile Include="geom\LineSegmentTest.cpp"  />
+    <ClCompile Include="geom\LineStringTest.cpp"  />
+    <ClCompile Include="geom\LocationTest.cpp"  />
+    <ClCompile Include="geom\MultiLineStringTest.cpp"  />
+    <ClCompile Include="geom\MultiPointTest.cpp"  />
+    <ClCompile Include="geom\MultiPolygonTest.cpp"  />
+    <ClCompile Include="geom\PointTest.cpp"  />
+    <ClCompile Include="geom\PolygonTest.cpp"  />
+    <ClCompile Include="geom\PrecisionModelTest.cpp"  />
+    <ClCompile Include="geom\prep\PreparedGeometryFactoryTest.cpp"  />
+    <ClCompile Include="geom\TriangleTest.cpp"  />
+    <ClCompile Include="geom\util\GeometryExtracterTest.cpp"  />
+    <ClCompile Include="geos_unit.cpp"  />
+    <ClCompile Include="index\quadtree\DoubleBitsTest.cpp"  />
+    <ClCompile Include="io\ByteOrderValuesTest.cpp"  />
+    <ClCompile Include="io\WKBReaderTest.cpp"  />
+    <ClCompile Include="io\WKBWriterTest.cpp"  />
+    <ClCompile Include="io\WKTReaderTest.cpp"  />
+    <ClCompile Include="io\WKTWriterTest.cpp"  />
+    <ClCompile Include="io\WriterTest.cpp"  />
+    <ClCompile Include="linearref\LengthIndexedLineTest.cpp"  />
+    <ClCompile Include="noding\BasicSegmentStringTest.cpp"  />
+    <ClCompile Include="noding\NodedSegmentStringTest.cpp"  />
+    <ClCompile Include="noding\OrientedCoordinateArray.cpp"  />
+    <ClCompile Include="noding\SegmentNodeTest.cpp"  />
+    <ClCompile Include="noding\SegmentPointComparatorTest.cpp"  />
+    <ClCompile Include="noding\snapround\HotPixelTest.cpp"  />
+    <ClCompile Include="noding\snapround\MCIndexSnapRounderTest.cpp"  />
+    <ClCompile Include="operation\buffer\BufferBuilderTest.cpp"  />
+    <ClCompile Include="operation\buffer\BufferOpTest.cpp"  />
+    <ClCompile Include="operation\buffer\BufferParametersTest.cpp"  />
+    <ClCompile Include="operation\distance\DistanceOpTest.cpp"  />
+    <ClCompile Include="operation\intersection\RectangleIntersectionTest.cpp"  />
+    <ClCompile Include="operation\IsSimpleOpTest.cpp"  />
+    <ClCompile Include="operation\linemerge\LineMergerTest.cpp"  />
+    <ClCompile Include="operation\linemerge\LineSequencerTest.cpp"  />
+    <ClCompile Include="operation\overlay\snap\GeometrySnapperTest.cpp"  />
+    <ClCompile Include="operation\overlay\snap\LineStringSnapperTest.cpp"  />
+    <ClCompile Include="operation\overlay\validate\FuzzyPointLocatorTest.cpp"  />
+    <ClCompile Include="operation\overlay\validate\OffsetPointGeneratorTest.cpp"  />
+    <ClCompile Include="operation\overlay\validate\OverlayResultValidatorTest.cpp"  />
+    <ClCompile Include="operation\polygonize\PolygonizeTest.cpp"  />
+    <ClCompile Include="operation\sharedpaths\SharedPathsOpTest.cpp"  />
+    <ClCompile Include="operation\union\CascadedPolygonUnionTest.cpp"  />
+    <ClCompile Include="operation\union\UnaryUnionOpTest.cpp"  />
+    <ClCompile Include="operation\valid\IsValidTest.cpp"  />
+    <ClCompile Include="operation\valid\ValidClosedRingTest.cpp"  />
+    <ClCompile Include="operation\valid\ValidSelfTouchingRingFormingHoleTest.cpp"  />
+    <ClCompile Include="precision\GeometryPrecisionReducerTest.cpp"  />
+    <ClCompile Include="precision\SimpleGeometryPrecisionReducerTest.cpp"  />
+    <ClCompile Include="simplify\DouglasPeuckerSimplifierTest.cpp"  />
+    <ClCompile Include="simplify\TopologyPreservingSimplifierTest.cpp"  />
+    <ClCompile Include="triangulate\DelaunayTest.cpp"  />
+    <ClCompile Include="triangulate\quadedge\QuadEdgeSubdivisionTest.cpp"  />
+    <ClCompile Include="triangulate\quadedge\QuadEdgeTest.cpp"  />
+    <ClCompile Include="triangulate\quadedge\VertexTest.cpp"  />
+    <ClCompile Include="triangulate\VoronoiTest.cpp"  />
+    <ClCompile Include="util\UniqueCoordinateArrayFilterTest.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/PROJECT/geos-3.5.0/ZERO_CHECK.vcxproj">
+      <Project>B8B14953-D615-3E66-863E-CFDE5D5E89DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/geos-3.5.0/src/geos.vcxproj">
+      <Project>1F602F4D-D0B8-3ADB-89BF-A06A7557FE6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/PROJECT/geos-3.5.0/capi/geos_c.vcxproj">
+      <Project>0BE81167-3FC7-3D8B-AEED-831BC26439D7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

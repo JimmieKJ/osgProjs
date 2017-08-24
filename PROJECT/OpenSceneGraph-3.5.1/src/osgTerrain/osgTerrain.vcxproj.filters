@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DisplacementMappingTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\osgTerrain\DisplacementMappingTechnique">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\Locator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\Layer">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\TerrainTile">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\TerrainTechnique">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\Terrain">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\GeometryTechnique">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\GeometryPool">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\ValidDataOperator">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\include\osgTerrain\Version">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9DA6F235-65BB-369A-9644-DFFF842D4DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7C5A8E3A-D65C-3A16-B312-F83264D66A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

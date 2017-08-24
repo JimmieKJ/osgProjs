@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ReaderWriterKML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Folder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_GroundOverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_IconStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_LabelStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_LinearRing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_LineString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_LineStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_MultiGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_NetworkLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_NetworkLinkControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_PhotoOverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Placemark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_PolyStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_ScreenOverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KML_StyleMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMZArchive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rapidxml_ext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KML">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KMLOptions">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KMLReader">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Common">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Container">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Document">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Feature">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Folder">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Geometry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_GroundOverlay">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_IconStyle">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_LabelStyle">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_LinearRing">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_LineString">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_LineStyle">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Model">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_MultiGeometry">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_NetworkLink">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_NetworkLinkControl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Object">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Overlay">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Placemark">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_PhotoOverlay">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Point">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Polygon">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_PolyStyle">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Root">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Schema">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_ScreenOverlay">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_Style">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_StyleMap">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KML_StyleSelector">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="KMZArchive">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BE15C700-A519-3E5E-98A9-B6B7D57C75F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

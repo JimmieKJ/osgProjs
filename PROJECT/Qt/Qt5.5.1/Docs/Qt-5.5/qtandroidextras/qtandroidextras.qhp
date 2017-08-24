@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtandroidextras.551</namespace>
+    <virtualFolder>qtandroidextras</virtualFolder>
+    <customFilter name="QtAndroidExtras 5.5.1">
+        <filterAttribute>qtandroidextras</filterAttribute>
+        <filterAttribute>5.5.1</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>qtandroidextras</filterAttribute>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <filterAttribute>5.5.1</filterAttribute>
+        <toc>
+            <section ref="qtandroidextras-index.html" title="Qt Android Extras">
+                <section ref="qtandroidextras-module.html" title="C++ Classes and Namespaces">
+                    <section ref="qandroidactivityresultreceiver.html" title="QAndroidActivityResultReceiver Class Reference">
+                        <section ref="qandroidactivityresultreceiver-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qandroidjnienvironment.html" title="QAndroidJniEnvironment Class Reference">
+                        <section ref="qandroidjnienvironment-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qandroidjniobject.html" title="QAndroidJniObject Class Reference">
+                        <section ref="qandroidjniobject-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qtandroid.html" title="QtAndroid"/>
+                </section>
+                <section ref="examples-qtandroidextras.html" title="Examples">
+                    <section ref="qtandroidextras-notification-example.html" title="Qt Notifier"/>
+                </section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="QAndroidActivityResultReceiver" id="QAndroidActivityResultReceiver" ref="qandroidactivityresultreceiver.html"/>
+            <keyword name="handleActivityResult" id="QAndroidActivityResultReceiver::handleActivityResult" ref="qandroidactivityresultreceiver.html#handleActivityResult"/>
+            <keyword name="QAndroidJniEnvironment" id="QAndroidJniEnvironment" ref="qandroidjnienvironment.html"/>
+            <keyword name="javaVM" id="QAndroidJniEnvironment::javaVM" ref="qandroidjnienvironment.html#javaVM"/>
+            <keyword name="operator JNIEnv *" id="QAndroidJniEnvironment::operator JNIEnv *" ref="qandroidjnienvironment.html#operator-JNIEnv--2a"/>
+            <keyword name="operator-&gt;" id="QAndroidJniEnvironment::operator-&gt;" ref="qandroidjnienvironment.html#operator--gt"/>
+            <keyword name="~QAndroidJniEnvironment" id="QAndroidJniEnvironment::~QAndroidJniEnvironment" ref="qandroidjnienvironment.html#dtor.QAndroidJniEnvironment"/>
+            <keyword name="QAndroidJniObject" id="QAndroidJniObject" ref="qandroidjniobject.html"/>
+            <keyword name="callMethod" id="QAndroidJniObject::callMethod" ref="qandroidjniobject.html#callMethod"/>
+            <keyword name="callObjectMethod" id="QAndroidJniObject::callObjectMethod" ref="qandroidjniobject.html#callObjectMethod"/>
+            <keyword name="callStaticMethod" id="QAndroidJniObject::callStaticMethod" ref="qandroidjniobject.html#callStaticMethod"/>
+            <keyword name="callStaticObjectMethod" id="QAndroidJniObject::callStaticObjectMethod" ref="qandroidjniobject.html#callStaticObjectMethod"/>
+            <keyword name="fromString" id="QAndroidJniObject::fromString" ref="qandroidjniobject.html#fromString"/>
+            <keyword name="getField" id="QAndroidJniObject::getField" ref="qandroidjniobject.html#getField"/>
+            <keyword name="getObjectField" id="QAndroidJniObject::getObjectField" ref="qandroidjniobject.html#getObjectField"/>
+            <keyword name="getStaticField" id="QAndroidJniObject::getStaticField" ref="qandroidjniobject.html#getStaticField"/>
+            <keyword name="getStaticObjectField" id="QAndroidJniObject::getStaticObjectField" ref="qandroidjniobject.html#getStaticObjectField"/>
+            <keyword name="isClassAvailable" id="QAndroidJniObject::isClassAvailable" ref="qandroidjniobject.html#isClassAvailable"/>
+            <keyword name="isValid" id="QAndroidJniObject::isValid" ref="qandroidjniobject.html#isValid"/>
+            <keyword name="object" id="QAndroidJniObject::object" ref="qandroidjniobject.html#object"/>
+            <keyword name="operator=" id="QAndroidJniObject::operator=" ref="qandroidjniobject.html#operator-eq"/>
+            <keyword name="setField" id="QAndroidJniObject::setField" ref="qandroidjniobject.html#setField"/>
+            <keyword name="setStaticField" id="QAndroidJniObject::setStaticField" ref="qandroidjniobject.html#setStaticField"/>
+            <keyword name="toString" id="QAndroidJniObject::toString" ref="qandroidjniobject.html#toString"/>
+            <keyword name="~QAndroidJniObject" id="QAndroidJniObject::~QAndroidJniObject" ref="qandroidjniobject.html#dtor.QAndroidJniObject"/>
+            <keyword name="Qt Android Extras" id="Qt Android Extras" ref="qtandroidextras-index.html"/>
+            <keyword name="Qt Notifier" id="Qt Notifier" ref="qtandroidextras-notification-example.html"/>
+            <keyword name="QtAndroid" id="QtAndroid" ref="qtandroid.html"/>
+            <keyword name="androidActivity" id="QtAndroid::androidActivity" ref="qtandroid.html#androidActivity"/>
+            <keyword name="androidSdkVersion" id="QtAndroid::androidSdkVersion" ref="qtandroid.html#androidSdkVersion"/>
+            <keyword name="startActivity" id="QtAndroid::startActivity" ref="qtandroid.html#startActivity"/>
+            <keyword name="startIntentSender" id="QtAndroid::startIntentSender" ref="qtandroid.html#startIntentSender"/>
+            <keyword name="QtAndroidExtras" id="QtAndroidExtras" ref="qtandroidextras-module.html"/>
+            <keyword name="examples-qtandroidextras" id="examples-qtandroidextras" ref="examples-qtandroidextras.html"/>
+            <keyword name="operator!=" id="operator!=" ref="qandroidjniobject.html#operator-not-eq"/>
+            <keyword name="operator==" id="operator==" ref="qandroidjniobject.html#operator-eq-eq"/>
+        </keywords>
+        <files>
+            <file>style/offline.css</file>
+            <file>images/btn_next.png</file>
+            <file>images/arrow_bc.png</file>
+            <file>qtandroidextras-notification-example.html</file>
+            <file>images/notification.png</file>
+            <file>qtandroid.html</file>
+            <file>qandroidjnienvironment-members.html</file>
+            <file>qtandroidextras-notification-notificationclient-cpp.html</file>
+            <file>qtandroidextras-notification-main-cpp.html</file>
+            <file>qtandroidextras-module.html</file>
+            <file>images/logo.png</file>
+            <file>qtandroidextras-index.html</file>
+            <file>images/ico_note_attention.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>qandroidjniobject.html</file>
+            <file>qandroidjniobject-members.html</file>
+            <file>images/used-in-examples/notification/images/happy.png</file>
+            <file>qandroidjnienvironment.html</file>
+            <file>qtandroidextras-notification-android-sources-androidmanifest-xml.html</file>
+            <file>examples-qtandroidextras.html</file>
+            <file>qandroidactivityresultreceiver.html</file>
+            <file>images/bgrContent.png</file>
+            <file>images/home.png</file>
+            <file>qandroidactivityresultreceiver-members.html</file>
+            <file>qtandroidextras-notification-android-sources-src-org-qtproject-example-notification-notificationclient-java.html</file>
+            <file>qtandroidextras-notification-notification-pro.html</file>
+            <file>images/ico_note.png</file>
+            <file>qtandroidextras-notification-main-qrc.html</file>
+            <file>images/ico_out.png</file>
+            <file>qtandroidextras-notification-notificationclient-h.html</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/used-in-examples/notification/images/sad.png</file>
+            <file>qtandroidextras-notification-qml-main-qml.html</file>
+            <file>images/btn_prev.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

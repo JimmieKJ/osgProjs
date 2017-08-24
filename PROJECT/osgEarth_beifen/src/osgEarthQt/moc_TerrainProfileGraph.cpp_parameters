@@ -1,0 +1,10 @@
+-ID:/PROJECT/osgEarth/src
+-ID:/PROJECT/OpenSceneGraph-3.5.1/include
+-D_SCL_SECURE_NO_WARNINGS
+-D_CRT_SECURE_NO_DEPRECATE
+-DOSGEARTHQT_LIBRARY
+-DWIN32
+-fD:/PROJECT/osgEarth/src/osgEarthQt/TerrainProfileGraph
+-o
+D:/PROJECT/osgEarth/src/osgEarthQt/moc_TerrainProfileGraph.cpp
+D:/PROJECT/osgEarth/src/osgEarthQt/TerrainProfileGraph

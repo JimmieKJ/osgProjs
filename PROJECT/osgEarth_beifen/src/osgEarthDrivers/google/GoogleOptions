@@ -1,0 +1,66 @@
+#ifndef OSGEARTH_DRIVER_GOOGLE_DRIVEROPTIONS
+#define OSGEARTH_DRIVER_GOOGLE_DRIVEROPTIONS 1
+
+#include <osgEarth/Common>
+#include <osgEarth/TileSource>
+
+namespace osgEarth { namespace Drivers
+{
+    using namespace osgEarth;
+
+    class GoogleOptions : public TileSourceOptions // NO EXPORT; header only
+    {
+    public:
+        optional<std::string>& dataset() { return _dataset; }
+        const optional<std::string>& dataset() const { return _dataset; }
+
+		optional<std::string>& version() { return _version; }
+		const optional<std::string>& version() const { return _version; }
+
+		optional<std::string>& language() { return _language; }
+		const optional<std::string>& language() const { return _language; }
+
+    public:
+        GoogleOptions( const TileSourceOptions& opt =TileSourceOptions() ) : TileSourceOptions( opt )
+        {
+            setDriver( "google" );
+            fromConfig( _conf );
+        }
+
+        /** dtor */
+        virtual ~GoogleOptions() { }
+
+    public:
+        Config getConfig() const 
+		{
+            Config conf = TileSourceOptions::getConfig();
+            conf.updateIfSet("dataset", _dataset);
+			conf.updateIfSet("version", _version);
+			conf.updateIfSet("language", _language);
+            return conf;
+        }
+
+    protected:
+        void mergeConfig( const Config& conf ) 
+		{
+            TileSourceOptions::mergeConfig( conf );            
+            fromConfig( conf );
+        }
+
+    private:
+        void fromConfig( const Config& conf ) 
+		{
+            conf.getIfSet("dataset", _dataset );
+			conf.getIfSet("version", _version);
+			conf.getIfSet("language", _language);
+        }
+
+        optional<std::string> _dataset;
+		optional<std::string> _version;
+		optional<std::string> _language;
+    };
+
+} } // namespace osgEarth::Drivers
+
+#endif // OSGEARTH_DRIVER_GOOGLE_DRIVEROPTIONS
+

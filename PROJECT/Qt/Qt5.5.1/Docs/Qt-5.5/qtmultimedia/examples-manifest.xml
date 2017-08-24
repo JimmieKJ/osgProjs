@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtMultimedia">
+    <examples>
+        <example name="Audio Devices Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-audiodevices-example.html" projectPath="multimedia/audiodevices/audiodevices.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/audiodevices.png">
+            <description><![CDATA[Testing the available audio devices and their configuration.]]></description>
+            <tags>devices,multimedia,audio</tags>
+            <fileToOpen>multimedia/audiodevices/main.cpp</fileToOpen>
+            <fileToOpen>multimedia/audiodevices/audiodevices.h</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/audiodevices/audiodevices.cpp</fileToOpen>
+        </example>
+        <example name="Audio Input Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-audioinput-example.html" projectPath="multimedia/audioinput/audioinput.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/audioinput-example.png">
+            <description><![CDATA[Recording audio using the QAudioInput class]]></description>
+            <tags>multimedia,audio,input</tags>
+            <fileToOpen>multimedia/audioinput/main.cpp</fileToOpen>
+            <fileToOpen>multimedia/audioinput/audioinput.h</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/audioinput/audioinput.cpp</fileToOpen>
+        </example>
+        <example name="Audio Output Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-audiooutput-example.html" projectPath="multimedia/audiooutput/audiooutput.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/audiooutput-example.png">
+            <description><![CDATA[Enabling audio playback using the QAudioOutput class.]]></description>
+            <tags>output,multimedia,audio</tags>
+            <fileToOpen>multimedia/audiooutput/main.cpp</fileToOpen>
+            <fileToOpen>multimedia/audiooutput/audiooutput.h</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/audiooutput/audiooutput.cpp</fileToOpen>
+        </example>
+        <example name="Audio Recorder Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-audiorecorder-example.html" projectPath="multimedia/audiorecorder/audiorecorder.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/audiorecorder.png">
+            <description><![CDATA[Discovering the available devices and supported codecs.]]></description>
+            <tags>recorder,multimedia,audio</tags>
+            <fileToOpen>multimedia/audiorecorder/main.cpp</fileToOpen>
+            <fileToOpen>multimedia/audiorecorder/audiorecorder.h</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/audiorecorder/audiorecorder.cpp</fileToOpen>
+        </example>
+        <example name="AudioEngine Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-audioengine-example.html" projectPath="multimedia/audioengine/audioengine.pro" imageUrl="qthelp://org.qt-project.qtdoc.551/qtdoc/images/qt-codesample.png">
+            <description><![CDATA[Enabling 3D sound control using the Qt Audio Engine API.]]></description>
+            <tags>multimedia,audioengine</tags>
+            <fileToOpen mainFile="true">multimedia/audioengine/qml/audioengine.qml</fileToOpen>
+        </example>
+        <example name="Declarative Radio Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-declarative-radio-example.html" projectPath="multimedia/declarative-radio/declarative-radio.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/declarative-radio-example.png">
+            <description><![CDATA[Demonstrates using the Radio QML type from Qt Multimedia.]]></description>
+            <tags>multimedia,declarative,radio</tags>
+            <fileToOpen mainFile="true">multimedia/declarative-radio/main.cpp</fileToOpen>
+        </example>
+        <example name="QML Camera Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-declarative-camera-example.html" projectPath="multimedia/declarative-camera/declarative-camera.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/qml-camera.png">
+            <description><![CDATA[The Camera Example shows how to use the API to capture a still image or video.]]></description>
+            <tags>camera,android,multimedia,qml</tags>
+            <fileToOpen mainFile="true">multimedia/declarative-camera/declarative-camera.qml</fileToOpen>
+        </example>
+        <example name="QML Video Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-video-qmlvideo-example.html" projectPath="multimedia/video/qmlvideo/qmlvideo.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/qmlvideo-overlay.jpg">
+            <description><![CDATA[Transforming video and camera viewfinder content.]]></description>
+            <tags>android,multimedia,video,qml</tags>
+            <fileToOpen>multimedia/video/qmlvideo/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/video/qmlvideo/qml/qmlvideo/main.qml</fileToOpen>
+        </example>
+        <example name="QML Video Shader Effects Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-video-qmlvideofx-example.html" projectPath="multimedia/video/qmlvideofx/qmlvideofx.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/qmlvideofx-video-edgedetection.jpg" isHighlighted="true">
+            <description><![CDATA[Applying shader effects on video and camera viewfinder content.]]></description>
+            <tags>android,multimedia,video,shader,effects,qml</tags>
+            <fileToOpen>multimedia/video/qmlvideofx/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/video/qmlvideofx/qml/qmlvideofx/Main.qml</fileToOpen>
+        </example>
+        <example name="Spectrum Example" docUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/qtmultimedia-spectrum-example.html" projectPath="multimedia/spectrum/spectrum.pro" imageUrl="qthelp://org.qt-project.qtmultimedia.551/qtmultimedia/images/spectrum-demo.png">
+            <description><![CDATA[Analyzing a raw audio stream using the FFTReal library.]]></description>
+            <tags>multimedia,spectrum</tags>
+            <fileToOpen>multimedia/spectrum/app/main.cpp</fileToOpen>
+            <fileToOpen mainFile="true">multimedia/spectrum/app/spectrum.h</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

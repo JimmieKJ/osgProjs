@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instructionals module="QtWebEngine">
+    <examples>
+        <example name="WebEngine Quick Nano Browser" docUrl="qthelp://org.qt-project.qtwebengine.551/qtwebengine/qtwebengine-quicknanobrowser-example.html" projectPath="webengine/quicknanobrowser/quicknanobrowser.pro" imageUrl="qthelp://org.qt-project.qtwebengine.551/qtwebengine/images/quicknanobrowser-demo.jpg">
+            <description><![CDATA[A web browser implemented using the WebEngineView QML type.]]></description>
+            <tags>webengine,browser,nano,quick,web,engine</tags>
+            <fileToOpen mainFile="true">webengine/quicknanobrowser/main.cpp</fileToOpen>
+        </example>
+    </examples>
+</instructionals>

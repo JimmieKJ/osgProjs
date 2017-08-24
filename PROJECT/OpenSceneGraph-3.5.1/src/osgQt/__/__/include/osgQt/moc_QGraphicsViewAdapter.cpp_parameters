@@ -1,0 +1,10 @@
+-ID:/PROJECT/OpenSceneGraph-3.5.1/include
+-ID:/PROJECT/OpenSceneGraph-3.5.1/include
+-D_SCL_SECURE_NO_WARNINGS
+-D_CRT_SECURE_NO_DEPRECATE
+-DOSGQT_LIBRARY
+-DWIN32
+-fosgQt/QGraphicsViewAdapter
+-o
+D:/PROJECT/OpenSceneGraph-3.5.1/src/osgQt/__/__/include/osgQt/moc_QGraphicsViewAdapter.cpp
+D:/PROJECT/OpenSceneGraph-3.5.1/include/osgQt/QGraphicsViewAdapter

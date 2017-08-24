@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BumpMapExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BumpMapTerrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BumpMapShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="..\..\..\CMakeFiles\41c571518c9d799e7f3604c080f4f91d\AutoGenShaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BumpMapExtension">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="BumpMapOptions">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="BumpMapTerrainEffect">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="BumpMapShaders">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="BumpMap.vert.view.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="BumpMap.frag.simple.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="BumpMap.frag.progressive.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="BumpMap.frag.common.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF2C4C8E-55E9-39E1-A367-2C6978D359B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BE15C700-A519-3E5E-98A9-B6B7D57C75F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{378D8185-3855-3CC4-9372-6CCBE7CB634F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{12D85F95-0BC2-3F72-8B67-A8463B4E2310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5E5AD459-26B3-3B03-AD2F-1D66FCBA6F32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
